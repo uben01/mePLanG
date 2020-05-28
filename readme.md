@@ -53,7 +53,7 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
 | **Karakter** | 1 db karakter esetén az adott |
 || String esetén az első karaktere |
 || Számok esetén, ha 32 és 126 közé esik, az ASCII értéke, ha nem, akkor az első számjegy |
-| **Valós** | {számjegyek}.{számjegyek} |
+| **Valós** | {számjegyek}[.{számjegyek}] |
 || {számjegyek}[.{számjegyek}]E{számjegyek} |
 | **Egész** | {számjegyek} |
 |**Szöveg**| Az adott szöveg |
@@ -66,5 +66,5 @@ Exception esetén a *System.err*-en üzenet jelenik meg!
     SV = \n\r
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTk1MjA0OF19
+eyJoaXN0b3J5IjpbNDIxMjIzNTY0LDE3Njk5NTIwNDhdfQ==
 -->
