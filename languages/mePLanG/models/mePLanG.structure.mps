@@ -144,7 +144,7 @@
   </node>
   <node concept="1TIwiD" id="5cKufQpbIZR">
     <property role="EcuMT" value="5994424134622179319" />
-    <property role="TrG5h" value="Print" />
+    <property role="TrG5h" value="PrintStatement" />
     <property role="34LRSv" value="KI" />
     <property role="3GE5qa" value="IO" />
     <property role="R4oN_" value="Konzolra írás" />
@@ -159,7 +159,7 @@
   </node>
   <node concept="1TIwiD" id="6wWmvV1tQbs">
     <property role="EcuMT" value="7510977229249536732" />
-    <property role="TrG5h" value="Read" />
+    <property role="TrG5h" value="ReadStatement" />
     <property role="34LRSv" value="BE" />
     <property role="3GE5qa" value="IO" />
     <property role="R4oN_" value="Konzolról olvasás" />

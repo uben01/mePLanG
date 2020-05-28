@@ -232,7 +232,7 @@
       <ref role="3lhOvi" node="4oHat99s0R0" resolve="map_ProgramFile" />
     </node>
     <node concept="3aamgX" id="6wWmvV1tWh1" role="3acgRq">
-      <ref role="30HIoZ" to="b47h:6wWmvV1tQbs" resolve="Read" />
+      <ref role="30HIoZ" to="b47h:6wWmvV1tQbs" resolve="ReadStatement" />
       <node concept="j$656" id="6wWmvV1tWh7" role="1lVwrX">
         <ref role="v9R2y" node="6wWmvV1tWh5" resolve="reduce_Read" />
       </node>
@@ -324,7 +324,7 @@
   <node concept="13MO4I" id="6wWmvV1tWh5">
     <property role="TrG5h" value="reduce_Read" />
     <property role="3GE5qa" value="IO" />
-    <ref role="3gUMe" to="b47h:6wWmvV1tQbs" resolve="Read" />
+    <ref role="3gUMe" to="b47h:6wWmvV1tQbs" resolve="ReadStatement" />
     <node concept="9aQIb" id="6wWmvV1tWha" role="13RCb5">
       <node concept="3clFbS" id="6wWmvV1tWhb" role="9aQI4">
         <node concept="3clFbH" id="6HeF7OyEE4q" role="3cqZAp" />

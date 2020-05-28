@@ -110,7 +110,7 @@
   </registry>
   <node concept="WtQ9Q" id="6cBpNSZMAWZ">
     <property role="3GE5qa" value="IO" />
-    <ref role="WuzLi" to="b47h:5cKufQpbIZR" resolve="Print" />
+    <ref role="WuzLi" to="b47h:5cKufQpbIZR" resolve="PrintStatement" />
     <node concept="11bSqf" id="6cBpNSZMAX0" role="11c4hB">
       <node concept="3clFbS" id="6cBpNSZMAX1" role="2VODD2">
         <node concept="3clFbF" id="4oHat99ssKN" role="3cqZAp">

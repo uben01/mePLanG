@@ -135,7 +135,7 @@
   </node>
   <node concept="24kQdi" id="3jvjQJt$WrZ">
     <property role="3GE5qa" value="IO" />
-    <ref role="1XX52x" to="b47h:5cKufQpbIZR" resolve="Print" />
+    <ref role="1XX52x" to="b47h:5cKufQpbIZR" resolve="PrintStatement" />
     <node concept="3EZMnI" id="3jvjQJt_aIy" role="2wV5jI">
       <node concept="3F0ifn" id="3jvjQJt_aIU" role="3EZMnx">
         <property role="3F0ifm" value="KI:" />
@@ -156,7 +156,7 @@
   </node>
   <node concept="24kQdi" id="6wWmvV1tQcz">
     <property role="3GE5qa" value="IO" />
-    <ref role="1XX52x" to="b47h:6wWmvV1tQbs" resolve="Read" />
+    <ref role="1XX52x" to="b47h:6wWmvV1tQbs" resolve="ReadStatement" />
     <node concept="3EZMnI" id="6wWmvV1tQcF" role="2wV5jI">
       <node concept="3F0ifn" id="6wWmvV1tQcM" role="3EZMnx">
         <property role="3F0ifm" value="BE:" />
