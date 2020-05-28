@@ -6,3 +6,4 @@ source_gen/
 classes_gen/
 *caches*
 .mps/
+/.mps/
