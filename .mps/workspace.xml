@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb3d0fb6-6386-416e-8c80-0eef581ad9a8" name="Default Changelist" comment="" />
+    <list default="true" id="fb3d0fb6-6386-416e-8c80-0eef581ad9a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/mePLanG.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/mePLanG.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sandbox/models/sandbox.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sandbox/models/sandbox.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +21,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="34ef7111-d4ec-4abc-b98f-34abbe7da405/r:b9742f28-8c14-444b-b5f8-42aedaa6d6af(TempModule34ef7111-d4ec-4abc-b98f-34abbe7da405/ConsoleModel_713622521996700)">
+            <model ref="53fd2179-2b25-4787-95da-b95f6aa0cddc/r:de169a96-9a31-46d7-a693-a089e0bb7b3d(TempModule53fd2179-2b25-4787-95da-b95f6aa0cddc/ConsoleModel_801757873605200)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +41,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="28MzjYJx1jG">
-                <node concept="3balQm" id="28MzjYJx1jH" role="aymYE" />
-                <node concept="2Clz$F" id="28MzjYJx1jI" role="aymYO" />
-                <node concept="2_V_lH" id="28MzjYJx1jJ" role="1PhJh3">
-                  <ref role="2_V_lI" node="28MzjYJx1jI" resolve="CommandHolder" />
+              <node concept="aymSD" id="74PBwp7SLPi">
+                <node concept="3balQm" id="74PBwp7SLPj" role="aymYE" />
+                <node concept="2Clz$F" id="74PBwp7SLPk" role="aymYO" />
+                <node concept="2_V_lH" id="74PBwp7SLPl" role="1PhJh3">
+                  <ref role="2_V_lI" node="74PBwp7SLPk" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -58,6 +66,9 @@
         <flags show_one_result="true" new_tab="false" />
       </view>
     </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -94,6 +105,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1cQy77rGhRhRCOzlDqGifD8mEr3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
@@ -171,7 +183,45 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="r:d9172f76-cfed-4928-acc3-d1b74f7e643a(mePLanG.constraints) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/models/mePLanG.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/models/mePLanG.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/models/mePLanG.dataFlow.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -188,14 +238,6 @@
               <option name="myItemId" value="sandbox" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3b7df8d3-3f23-4a71-8884-a73dd7069dc4(sandbox.sandbox) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/solutions/sandbox/models/sandbox.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5056743939758969669" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,15 +249,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG#00" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e8ae889f-8439-4af1-9553-bece0e31f1b0(mePLanG.generator.generator@generator) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/generator/templates/mePLanG.generator.generator@generator.mps]" />
+              <option name="myItemId" value="r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/models/mePLanG.dataFlow.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -229,88 +263,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG#00" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e8ae889f-8439-4af1-9553-bece0e31f1b0(mePLanG.generator.generator@generator) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/generator/templates/mePLanG.generator.generator@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG#00" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/models/mePLanG.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -319,7 +271,23 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="type" />
+              <option name="myItemId" value="IO" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,20 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem) in IdeaFile[path: C:/Users/Bence/MPSProjects/mePLanG/languages/mePLanG/models/mePLanG.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG#00" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,22 +323,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -393,7 +331,16 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -405,7 +352,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2020.1/languagePatterns" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -487,14 +434,14 @@
     </default_view_options>
   </component>
   <component name="WindowStateProjectService">
-    <state x="669" y="73" key="#All_Tests_in_Project" timestamp="1590489600949">
+    <state x="669" y="73" key="#All_Tests_in_Project" timestamp="1590772741266">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="669" y="73" key="#All_Tests_in_Project/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590489600949" />
-    <state x="610" y="234" key="#MPSPropertiesConfigurable" timestamp="1590678861422">
+    <state x="669" y="73" key="#All_Tests_in_Project/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590772741266" />
+    <state x="610" y="234" key="#MPSPropertiesConfigurable" timestamp="1590737500803">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="610" y="234" key="#MPSPropertiesConfigurable/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590678861422" />
+    <state x="610" y="234" key="#MPSPropertiesConfigurable/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590737500803" />
     <state x="669" y="234" key="#Sandbox" timestamp="1590659232791">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -503,42 +450,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="669" y="73" key="#Tests_in_'sandbox.sandbox'/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590489609201" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590679811585">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590772780797">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590679811585" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590772780797" />
     <state x="640" y="279" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1590489939591">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="279" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590489939591" />
-    <state x="1078" y="156" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1590665977097">
+    <state x="1078" y="156" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1590693429610">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1078" y="156" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590665977097" />
+    <state x="1078" y="156" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590693429610" />
+    <state x="784" y="443" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1590736779554">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="784" y="443" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590736779554" />
     <state x="690" y="279" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1590665400368">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="279" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590665400368" />
-    <state x="743" y="279" key="FileChooserDialogImpl" timestamp="1590612396108">
+    <state x="743" y="279" key="FileChooserDialogImpl" timestamp="1590772763577">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="743" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590612396108" />
-    <state width="636" height="292" key="GridCell.Tab.0.bottom" timestamp="1590686244537">
+    <state x="743" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590772763577" />
+    <state width="1293" height="292" key="GridCell.Tab.0.bottom" timestamp="1590765795445">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="636" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590686244537" />
-    <state width="636" height="292" key="GridCell.Tab.0.center" timestamp="1590686244537">
+    <state width="1293" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590765795445" />
+    <state width="1293" height="292" key="GridCell.Tab.0.center" timestamp="1590765795445">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="636" height="292" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590686244537" />
-    <state width="636" height="292" key="GridCell.Tab.0.left" timestamp="1590686244537">
+    <state width="1293" height="292" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590765795445" />
+    <state width="1293" height="292" key="GridCell.Tab.0.left" timestamp="1590765795444">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="636" height="292" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590686244537" />
-    <state width="636" height="292" key="GridCell.Tab.0.right" timestamp="1590686244537">
+    <state width="1293" height="292" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590765795444" />
+    <state width="1293" height="292" key="GridCell.Tab.0.right" timestamp="1590765795445">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="636" height="292" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590686244537" />
+    <state width="1293" height="292" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590765795445" />
     <state width="636" height="292" key="GridCell.Tab.1.bottom" timestamp="1590686221990">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -555,34 +506,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="636" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590686221990" />
-    <state x="540" y="267" key="IDE.errors.dialog" timestamp="1590679521808">
+    <state x="540" y="267" key="IDE.errors.dialog" timestamp="1590738211125">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="540" y="267" key="IDE.errors.dialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590679521808" />
-    <state x="624" y="261" key="SettingsEditor" timestamp="1590680072736">
+    <state x="540" y="267" key="IDE.errors.dialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590738211125" />
+    <state x="624" y="261" key="SettingsEditor" timestamp="1590697889437">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="624" y="261" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590680072736" />
+    <state x="624" y="261" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590697889437" />
     <state x="681" y="266" width="540" height="524" key="StructurePopup" timestamp="1590668075364">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="681" y="266" width="540" height="524" key="StructurePopup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590668075364" />
-    <state x="565" y="204" key="jetbrains.mps.ide.blame.dialog.BlameDialog" timestamp="1590486663288">
+    <state x="565" y="204" key="jetbrains.mps.ide.blame.dialog.BlameDialog" timestamp="1590697444076">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="565" y="204" key="jetbrains.mps.ide.blame.dialog.BlameDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590486663288" />
-    <state x="836" y="397" key="jetbrains.mps.ide.editor.actions.HintsDialog" timestamp="1590680113696">
+    <state x="565" y="204" key="jetbrains.mps.ide.blame.dialog.BlameDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590697444076" />
+    <state x="836" y="397" key="jetbrains.mps.ide.editor.actions.HintsDialog" timestamp="1590738617361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="836" y="397" key="jetbrains.mps.ide.editor.actions.HintsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590680113696" />
+    <state x="836" y="397" key="jetbrains.mps.ide.editor.actions.HintsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590738617361" />
     <state x="734" y="418" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog" timestamp="1590488062222">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="734" y="418" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590488062222" />
-    <state x="776" y="346" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1590674408437">
+    <state x="776" y="346" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1590737176899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="776" y="346" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590674408437" />
+    <state x="776" y="346" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590737176899" />
     <state x="995" y="272" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1590657851985">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -591,9 +542,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="0" y="307" key="jetbrains.mps.typesystem.uiActions.SupertypesTree.MyBaseNodeDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590527917665" />
-    <state x="677" y="383" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1590569689108">
+    <state x="677" y="383" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1590737437519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="677" y="383" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590569689108" />
+    <state x="677" y="383" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590737437519" />
   </component>
 </project>
