@@ -26,7 +26,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -73,14 +75,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
+      <ref role="20lvS9" node="28MzjYJFPu_" resolve="StatementList" />
     </node>
   </node>
   <node concept="1TIwiD" id="3fj57vIOKxA">
     <property role="EcuMT" value="3734351021360744550" />
     <property role="TrG5h" value="PL_BooleanType" />
     <property role="34LRSv" value="Logikai" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="R4oN_" value="Logikai típus" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyi" id="2lyUNl9HXJz" role="1TKVEl">
@@ -94,7 +96,7 @@
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgk">
     <property role="EcuMT" value="3734351021360788500" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_IntegerType" />
     <property role="34LRSv" value="Egész" />
     <property role="R4oN_" value="Egész típus" />
@@ -111,7 +113,7 @@
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgl">
     <property role="EcuMT" value="3734351021360788501" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_CharacterType" />
     <property role="34LRSv" value="Karakter" />
     <property role="R4oN_" value="Karakter típus" />
@@ -122,7 +124,7 @@
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgm">
     <property role="EcuMT" value="3734351021360788502" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_StringType" />
     <property role="34LRSv" value="Szöveg" />
     <property role="R4oN_" value="Szöveg típus" />
@@ -133,7 +135,7 @@
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgn">
     <property role="EcuMT" value="3734351021360788503" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_DoubleType" />
     <property role="34LRSv" value="Valós" />
     <property role="R4oN_" value="Valós típus" />
@@ -177,12 +179,12 @@
     <property role="TrG5h" value="BreakLineExpression" />
     <property role="34LRSv" value="SV" />
     <property role="3GE5qa" value="IO" />
-    <property role="R4oN_" value="Sortörés" />
+    <property role="R4oN_" value="Sor vége" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="2lyUNl9Iirh">
     <property role="EcuMT" value="2693974141223642833" />
-    <property role="3GE5qa" value="constant" />
+    <property role="3GE5qa" value="variable.constant" />
     <property role="TrG5h" value="PL_Boolean_Constant" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -194,13 +196,13 @@
   </node>
   <node concept="Az7Fb" id="2lyUNl9J61y">
     <property role="3F6X1D" value="2693974141223854178" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_Boolean_DataType" />
     <property role="FLfZY" value="(IGAZ) | (HAMIS)" />
   </node>
   <node concept="1TIwiD" id="4P96S6qlY9g">
     <property role="EcuMT" value="5569012657674510928" />
-    <property role="3GE5qa" value="constant" />
+    <property role="3GE5qa" value="variable.constant" />
     <property role="TrG5h" value="PL_Boolean_Constant_True" />
     <property role="34LRSv" value="IGAZ" />
     <property role="R4oN_" value="Igaz logikai érték" />
@@ -208,7 +210,7 @@
   </node>
   <node concept="1TIwiD" id="4P96S6qm3qR">
     <property role="EcuMT" value="5569012657674532535" />
-    <property role="3GE5qa" value="constant" />
+    <property role="3GE5qa" value="variable.constant" />
     <property role="TrG5h" value="PL_Boolean_Constant_False" />
     <property role="34LRSv" value="HAMIS" />
     <property role="R4oN_" value="Hamis logikai érték" />
@@ -233,13 +235,13 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="trueBranch" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
+      <ref role="20lvS9" node="28MzjYJFPu_" resolve="StatementList" />
     </node>
     <node concept="1TJgyj" id="4P96S6qrrG2" role="1TKVEi">
       <property role="IQ2ns" value="5569012657675942658" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="falseBranch" />
-      <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
+      <ref role="20lvS9" node="28MzjYJFPu_" resolve="StatementList" />
     </node>
     <node concept="PrWs8" id="4P96S6qrrFP" role="PzmwI">
       <ref role="PrY4T" to="tpee:i0zv2NF" resolve="IContainsStatementList" />
@@ -250,12 +252,18 @@
   </node>
   <node concept="PlHQZ" id="36BJeIdlUTC">
     <property role="EcuMT" value="3578036148843818600" />
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="IPL_AllowedTypes" />
+    <node concept="PrWs8" id="6$khvH9k3PY" role="PrDN$">
+      <ref role="PrY4T" to="tpee:3zZky3wF74d" resolve="IGenericType" />
+    </node>
+    <node concept="PrWs8" id="6$khvH9k5By" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="28MzjYJFPu_">
     <property role="EcuMT" value="2464187250795042725" />
-    <property role="TrG5h" value="PL_StatementList" />
+    <property role="TrG5h" value="StatementList" />
     <ref role="1TJDcQ" to="tpee:fzclF80" resolve="StatementList" />
     <node concept="PrWs8" id="28MzjYJFPuA" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
@@ -266,6 +274,20 @@
     <property role="3GE5qa" value="control" />
     <property role="TrG5h" value="EmptyLineStatement" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+  </node>
+  <node concept="1TIwiD" id="48dMv$UJvYw">
+    <property role="EcuMT" value="4759682453470052256" />
+    <property role="3GE5qa" value="variable" />
+    <property role="TrG5h" value="VariableDeclarationStatement" />
+    <property role="34LRSv" value="asd" />
+    <ref role="1TJDcQ" to="tpee:fzcpWvK" resolve="LocalVariableDeclarationStatement" />
+  </node>
+  <node concept="1TIwiD" id="48dMv$UJvYW">
+    <property role="EcuMT" value="4759682453470052284" />
+    <property role="3GE5qa" value="variable" />
+    <property role="TrG5h" value="VariableDeclaration" />
+    <property role="34LRSv" value="&lt;név&gt;: &lt;típus&gt;" />
+    <ref role="1TJDcQ" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
   </node>
 </model>
 

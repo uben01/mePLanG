@@ -19,6 +19,15 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -31,6 +40,10 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
+      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
+        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
+      </concept>
+      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
@@ -82,6 +95,10 @@
       <concept id="1174663118805" name="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" flags="nn" index="1ZobV4" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
+      <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
+        <child id="1145567471833" name="createdType" index="2T96Bj" />
+      </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -99,6 +116,12 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
   </registry>
   <node concept="3qnSWH" id="3fj57vIOKD3">
@@ -198,7 +221,7 @@
   </node>
   <node concept="1YbPZF" id="2lyUNl9Iv4h">
     <property role="TrG5h" value="typeof_PL_BooleanConstant" />
-    <property role="3GE5qa" value="constant" />
+    <property role="3GE5qa" value="variable.constant" />
     <node concept="3clFbS" id="2lyUNl9Iv4i" role="18ibNy">
       <node concept="1Z5TYs" id="2lyUNl9Ivhw" role="3cqZAp">
         <node concept="mw_s8" id="2lyUNl9IvhO" role="1ZfhKB">
@@ -223,7 +246,7 @@
     </node>
   </node>
   <node concept="2sgARr" id="2lyUNl9INUh">
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_Boolean_subtypeOf_Type" />
     <node concept="3clFbS" id="2lyUNl9INUi" role="2sgrp5">
       <node concept="3cpWs6" id="2lyUNl9INW8" role="3cqZAp">
@@ -242,7 +265,7 @@
     </node>
   </node>
   <node concept="2sgARr" id="4P96S6qmReX">
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_Boolean_subtypeOf_Boolean" />
     <node concept="3clFbS" id="4P96S6qmReY" role="2sgrp5">
       <node concept="3cpWs6" id="4P96S6qmSuw" role="3cqZAp">
@@ -286,7 +309,7 @@
     </node>
   </node>
   <node concept="2sgARr" id="36BJeIdzr1C">
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_Character_subtypeOf_Integer" />
     <property role="2RFo0w" value="true" />
     <node concept="3clFbS" id="36BJeIdzr1D" role="2sgrp5">
@@ -306,7 +329,7 @@
     </node>
   </node>
   <node concept="3aFulz" id="36BJeIdBLE4">
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="compare_PL_Integer_to_Char" />
     <node concept="1YaCAy" id="36BJeIdBLJ7" role="3bfgSz">
       <property role="TrG5h" value="pL_CharacterType" />
@@ -322,6 +345,60 @@
     <node concept="1YaCAy" id="36BJeIdBLIu" role="1YuTPh">
       <property role="TrG5h" value="pL_IntegerType" />
       <ref role="1YaFvo" to="b47h:3fj57vIOVgk" resolve="PL_IntegerType" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="6$khvH9isfv">
+    <property role="3GE5qa" value="variable.type" />
+    <property role="TrG5h" value="IPL_AllowedTypes_subtypesOf_Type" />
+    <node concept="3clFbS" id="6$khvH9isfw" role="2sgrp5">
+      <node concept="3cpWs8" id="6$khvH9kxGd" role="3cqZAp">
+        <node concept="3cpWsn" id="6$khvH9kxGg" role="3cpWs9">
+          <property role="TrG5h" value="nlistNodes" />
+          <node concept="2I9FWS" id="6$khvH9kxGc" role="1tU5fm" />
+          <node concept="2ShNRf" id="6$khvH9kxGZ" role="33vP2m">
+            <node concept="2T8Vx0" id="6$khvH9kxGX" role="2ShVmc">
+              <node concept="2I9FWS" id="6$khvH9kxGY" role="2T96Bj" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="6$khvH9kxHA" role="3cqZAp">
+        <node concept="2OqwBi" id="6$khvH9ky_S" role="3clFbG">
+          <node concept="37vLTw" id="6$khvH9kxH$" role="2Oq$k0">
+            <ref role="3cqZAo" node="6$khvH9kxGg" resolve="nlistNodes" />
+          </node>
+          <node concept="TSZUe" id="6$khvH9kztt" role="2OqNvi">
+            <node concept="2pJPEk" id="6$khvH9kzAJ" role="25WWJ7">
+              <node concept="2pJPED" id="6$khvH9kzJk" role="2pJPEn">
+                <ref role="2pJxaS" to="tpee:gWaQbR$" resolve="PrimitiveType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="6$khvH9kzS2" role="3cqZAp">
+        <node concept="2OqwBi" id="6$khvH9kzS3" role="3clFbG">
+          <node concept="37vLTw" id="6$khvH9kzS4" role="2Oq$k0">
+            <ref role="3cqZAo" node="6$khvH9kxGg" resolve="nlistNodes" />
+          </node>
+          <node concept="TSZUe" id="6$khvH9kzS5" role="2OqNvi">
+            <node concept="2pJPEk" id="6$khvH9k$a9" role="25WWJ7">
+              <node concept="2pJPED" id="6$khvH9k$iQ" role="2pJPEn">
+                <ref role="2pJxaS" to="tpee:fz3vP1H" resolve="Type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs6" id="6$khvH9lKdO" role="3cqZAp">
+        <node concept="37vLTw" id="6$khvH9lKeD" role="3cqZAk">
+          <ref role="3cqZAo" node="6$khvH9kxGg" resolve="nlistNodes" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6$khvH9isfy" role="1YuTPh">
+      <property role="TrG5h" value="ipL_AllowedTypes" />
+      <ref role="1YaFvo" to="b47h:36BJeIdlUTC" resolve="IPL_AllowedTypes" />
     </node>
   </node>
 </model>

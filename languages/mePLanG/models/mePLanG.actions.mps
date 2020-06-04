@@ -59,7 +59,7 @@
     </language>
   </registry>
   <node concept="37WguZ" id="4P96S6qmbQO">
-    <property role="3GE5qa" value="constant" />
+    <property role="3GE5qa" value="variable.constant" />
     <property role="TrG5h" value="PL_Boolean_Constant_Factory" />
     <node concept="37WvkG" id="4P96S6qmbQQ" role="37WGs$">
       <ref role="37XkoT" to="b47h:4P96S6qm3qR" resolve="PL_Boolean_Constant_False" />

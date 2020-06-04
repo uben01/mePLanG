@@ -137,7 +137,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="4P96S6qmF4t">
-    <property role="3GE5qa" value="type" />
+    <property role="3GE5qa" value="variable.type" />
     <ref role="13h7C2" to="b47h:3fj57vIOKxA" resolve="PL_BooleanType" />
     <node concept="13hLZK" id="4P96S6qmF4u" role="13h7CW">
       <node concept="3clFbS" id="4P96S6qmF4v" role="2VODD2" />
@@ -335,6 +335,13 @@
       <node concept="3uibUv" id="36BJeIdhJUb" role="3clF45">
         <ref role="3uigEE" to="tpek:3F8BxGimGuN" resolve="NextProgramPoint" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6$khvH9rrOH">
+    <property role="3GE5qa" value="variable" />
+    <ref role="13h7C2" to="b47h:48dMv$UJvYW" resolve="VariableDeclaration" />
+    <node concept="13hLZK" id="6$khvH9rrOI" role="13h7CW">
+      <node concept="3clFbS" id="6$khvH9rrOJ" role="2VODD2" />
     </node>
   </node>
 </model>

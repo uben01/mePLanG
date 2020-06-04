@@ -81,7 +81,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="4P96S6qkeAo">
-    <property role="3GE5qa" value="constant" />
+    <property role="3GE5qa" value="variable.constant" />
     <property role="TrG5h" value="NegateBooleanConstant" />
     <ref role="2ZfgGC" to="b47h:2lyUNl9Iirh" resolve="PL_Boolean_Constant" />
     <node concept="2S6ZIM" id="4P96S6qkeAp" role="2ZfVej">
