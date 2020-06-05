@@ -7,8 +7,6 @@
   </languages>
   <imports>
     <import index="b47h" ref="r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -314,88 +312,6 @@
               </node>
             </node>
             <node concept="3x8VRR" id="36BJeIdiIWF" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="48dMv$UKjHt">
-    <property role="3GE5qa" value="variable" />
-    <ref role="WuzLi" to="b47h:48dMv$UJvYw" resolve="VariableDeclarationStatement" />
-    <node concept="11bSqf" id="48dMv$UKjHu" role="11c4hB">
-      <node concept="3clFbS" id="48dMv$UKjHv" role="2VODD2">
-        <node concept="lc7rE" id="48dMv$UKjHK" role="3cqZAp">
-          <node concept="l9hG8" id="48dMv$UKjJ7" role="lcghm">
-            <node concept="2OqwBi" id="48dMv$UKjUc" role="lb14g">
-              <node concept="117lpO" id="48dMv$UKjLA" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6$khvH9sfza" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:fzcpWvL" resolve="localVariableDeclaration" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="48dMv$UKko9">
-    <property role="3GE5qa" value="variable" />
-    <ref role="WuzLi" to="b47h:48dMv$UJvYW" resolve="VariableDeclaration" />
-    <node concept="11bSqf" id="48dMv$UKkoa" role="11c4hB">
-      <node concept="3clFbS" id="48dMv$UKkob" role="2VODD2">
-        <node concept="lc7rE" id="48dMv$UKKGC" role="3cqZAp">
-          <node concept="l8MVK" id="48dMv$UKKWz" role="lcghm" />
-        </node>
-        <node concept="1bpajm" id="48dMv$UKKCn" role="3cqZAp" />
-        <node concept="lc7rE" id="48dMv$UKkos" role="3cqZAp">
-          <node concept="l9hG8" id="48dMv$UKkoK" role="lcghm">
-            <node concept="2OqwBi" id="48dMv$UKkyR" role="lb14g">
-              <node concept="117lpO" id="48dMv$UKkpA" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6$khvH9qwzI" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" resolve="type" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="48dMv$UKkVi" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="48dMv$UKkWL" role="lcghm">
-            <node concept="2OqwBi" id="48dMv$UKl7k" role="lb14g">
-              <node concept="117lpO" id="48dMv$UKkY3" role="2Oq$k0" />
-              <node concept="3TrcHB" id="48dMv$UKlmY" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="48dMv$UKlxl" role="3cqZAp">
-          <node concept="3clFbS" id="48dMv$UKlxn" role="3clFbx">
-            <node concept="lc7rE" id="48dMv$UKmnv" role="3cqZAp">
-              <node concept="la8eA" id="48dMv$UKn3j" role="lcghm">
-                <property role="lacIc" value=" = " />
-              </node>
-              <node concept="l9hG8" id="48dMv$UKmnP" role="lcghm">
-                <node concept="2OqwBi" id="48dMv$UKmyy" role="lb14g">
-                  <node concept="117lpO" id="48dMv$UKmy4" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6$khvH9qxdT" role="2OqNvi">
-                    <ref role="3Tt5mk" to="tpee:fz3vP1I" resolve="initializer" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="48dMv$UKmaB" role="3clFbw">
-            <node concept="2OqwBi" id="48dMv$UKlKG" role="2Oq$k0">
-              <node concept="117lpO" id="48dMv$UKl_n" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6$khvH9qx5q" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:fz3vP1I" resolve="initializer" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="48dMv$UKmjw" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="48dMv$UKn4g" role="3cqZAp">
-          <node concept="la8eA" id="48dMv$UKn6r" role="lcghm">
-            <property role="lacIc" value=";" />
           </node>
         </node>
       </node>

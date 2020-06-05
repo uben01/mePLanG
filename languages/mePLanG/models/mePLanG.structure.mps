@@ -275,19 +275,5 @@
     <property role="TrG5h" value="EmptyLineStatement" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
   </node>
-  <node concept="1TIwiD" id="48dMv$UJvYw">
-    <property role="EcuMT" value="4759682453470052256" />
-    <property role="3GE5qa" value="variable" />
-    <property role="TrG5h" value="VariableDeclarationStatement" />
-    <property role="34LRSv" value="asd" />
-    <ref role="1TJDcQ" to="tpee:fzcpWvK" resolve="LocalVariableDeclarationStatement" />
-  </node>
-  <node concept="1TIwiD" id="48dMv$UJvYW">
-    <property role="EcuMT" value="4759682453470052284" />
-    <property role="3GE5qa" value="variable" />
-    <property role="TrG5h" value="VariableDeclaration" />
-    <property role="34LRSv" value="&lt;név&gt;: &lt;típus&gt;" />
-    <ref role="1TJDcQ" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
-  </node>
 </model>
 

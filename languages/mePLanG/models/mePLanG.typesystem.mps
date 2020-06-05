@@ -401,5 +401,24 @@
       <ref role="1YaFvo" to="b47h:36BJeIdlUTC" resolve="IPL_AllowedTypes" />
     </node>
   </node>
+  <node concept="2sgARr" id="3N82JC90sLw">
+    <property role="3GE5qa" value="variable.type" />
+    <property role="TrG5h" value="boolean_subtypeOf_PL_Boolean" />
+    <node concept="3clFbS" id="3N82JC90sLx" role="2sgrp5">
+      <node concept="3cpWs6" id="3N82JC90sN$" role="3cqZAp">
+        <node concept="2ShNRf" id="3N82JC90sNS" role="3cqZAk">
+          <node concept="3zrR0B" id="3N82JC90sUQ" role="2ShVmc">
+            <node concept="3Tqbb2" id="3N82JC90sUS" role="3zrR0E">
+              <ref role="ehGHo" to="b47h:3fj57vIOKxA" resolve="PL_BooleanType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3N82JC90sNb" role="1YuTPh">
+      <property role="TrG5h" value="booleanType" />
+      <ref role="1YaFvo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+    </node>
+  </node>
 </model>
 

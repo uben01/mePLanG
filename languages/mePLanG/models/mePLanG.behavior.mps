@@ -337,12 +337,5 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="6$khvH9rrOH">
-    <property role="3GE5qa" value="variable" />
-    <ref role="13h7C2" to="b47h:48dMv$UJvYW" resolve="VariableDeclaration" />
-    <node concept="13hLZK" id="6$khvH9rrOI" role="13h7CW">
-      <node concept="3clFbS" id="6$khvH9rrOJ" role="2VODD2" />
-    </node>
-  </node>
 </model>
 
