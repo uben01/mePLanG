@@ -356,6 +356,34 @@
                       <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
                     </node>
                   </node>
+                  <node concept="17Uvod" id="3YFFFw3cbJC" role="lGtFl">
+                    <property role="2qtEX9" value="name" />
+                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <node concept="3zFVjK" id="3YFFFw3cbJD" role="3zH0cK">
+                      <node concept="3clFbS" id="3YFFFw3cbJE" role="2VODD2">
+                        <node concept="3clFbF" id="3YFFFw3cbRO" role="3cqZAp">
+                          <node concept="2OqwBi" id="3YFFFw3cc5P" role="3clFbG">
+                            <node concept="1iwH7S" id="3YFFFw3cbRN" role="2Oq$k0" />
+                            <node concept="2piZGk" id="3YFFFw3ccjd" role="2OqNvi">
+                              <node concept="Xl_RD" id="3YFFFw3ccjk" role="2piZGb">
+                                <property role="Xl_RC" value="e" />
+                              </node>
+                              <node concept="2OqwBi" id="3YFFFw3cd3S" role="2pr8EU">
+                                <node concept="30H73N" id="3YFFFw3ccPr" role="2Oq$k0" />
+                                <node concept="2Xjw5R" id="3YFFFw3cdls" role="2OqNvi">
+                                  <node concept="1xMEDy" id="3YFFFw3cdlu" role="1xVPHs">
+                                    <node concept="chp4Y" id="3YFFFw3cdmB" role="ri$Ld">
+                                      <ref role="cht4Q" to="b47h:14GFSWjklLF" resolve="Program" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node concept="3clFbS" id="6wWmvV1u18a" role="1zc67A">
                   <node concept="3clFbF" id="6wWmvV1u1b_" role="3cqZAp">
@@ -367,7 +395,7 @@
                       <node concept="liA8E" id="6wWmvV1u1Sg" role="2OqNvi">
                         <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                         <node concept="Xl_RD" id="6wWmvV1u1Sv" role="37wK5m">
-                          <property role="Xl_RC" value="\n\rHiba történt az olvasás közben!" />
+                          <property role="Xl_RC" value="\nHiba történt az olvasás közben!" />
                         </node>
                       </node>
                     </node>
@@ -382,6 +410,34 @@
                       <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
                     </node>
                   </node>
+                  <node concept="17Uvod" id="3YFFFw3cdsD" role="lGtFl">
+                    <property role="2qtEX9" value="name" />
+                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <node concept="3zFVjK" id="3YFFFw3cdsE" role="3zH0cK">
+                      <node concept="3clFbS" id="3YFFFw3cdsF" role="2VODD2">
+                        <node concept="3clFbF" id="3YFFFw3cdxe" role="3cqZAp">
+                          <node concept="2OqwBi" id="3YFFFw3cdJi" role="3clFbG">
+                            <node concept="1iwH7S" id="3YFFFw3cdxd" role="2Oq$k0" />
+                            <node concept="2piZGk" id="3YFFFw3cdSK" role="2OqNvi">
+                              <node concept="Xl_RD" id="3YFFFw3cdTw" role="2piZGb">
+                                <property role="Xl_RC" value="e" />
+                              </node>
+                              <node concept="2OqwBi" id="3YFFFw3cedG" role="2pr8EU">
+                                <node concept="30H73N" id="3YFFFw3cdZf" role="2Oq$k0" />
+                                <node concept="2Xjw5R" id="3YFFFw3cer3" role="2OqNvi">
+                                  <node concept="1xMEDy" id="3YFFFw3cer5" role="1xVPHs">
+                                    <node concept="chp4Y" id="3YFFFw3cese" role="ri$Ld">
+                                      <ref role="cht4Q" to="b47h:14GFSWjklLF" resolve="Program" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node concept="3clFbS" id="36BJeIdvar6" role="1zc67A">
                   <node concept="3clFbF" id="36BJeIdvaFf" role="3cqZAp">
@@ -393,7 +449,7 @@
                       <node concept="liA8E" id="36BJeIdvbto" role="2OqNvi">
                         <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                         <node concept="Xl_RD" id="36BJeIdvb$0" role="37wK5m">
-                          <property role="Xl_RC" value="\n\rA megadott bemenet nem alaktithato erre a tipusra!" />
+                          <property role="Xl_RC" value="\nA megadott bemenet nem alaktithato erre a tipusra!" />
                         </node>
                       </node>
                     </node>
@@ -909,8 +965,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="36BJeIdzft4" role="3cqZAp" />
-                <node concept="3clFbH" id="36BJeIdzcPR" role="3cqZAp" />
               </node>
               <node concept="raruj" id="6wWmvV1umHj" role="lGtFl" />
             </node>
