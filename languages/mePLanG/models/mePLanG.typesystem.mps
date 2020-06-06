@@ -420,5 +420,34 @@
       <ref role="1YaFvo" to="tpee:f_0P_4Y" resolve="BooleanType" />
     </node>
   </node>
+  <node concept="1YbPZF" id="5AQOkzXitf6">
+    <property role="TrG5h" value="typeof_ElifClause" />
+    <property role="3GE5qa" value="control" />
+    <node concept="3clFbS" id="5AQOkzXitf7" role="18ibNy">
+      <node concept="1ZobV4" id="5AQOkzXitfd" role="3cqZAp">
+        <node concept="mw_s8" id="5AQOkzXitfn" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5AQOkzXitfj" role="mwGJk">
+            <node concept="2OqwBi" id="5AQOkzXitoD" role="1Z2MuG">
+              <node concept="1YBJjd" id="5AQOkzXitfC" role="2Oq$k0">
+                <ref role="1YBMHb" node="5AQOkzXitf9" resolve="elifClause" />
+              </node>
+              <node concept="3TrEf2" id="5AQOkzXitx0" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:5AQOkzXirtw" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="5AQOkzXit$m" role="1ZfhKB">
+          <node concept="2c44tf" id="5AQOkzXit$i" role="mwGJk">
+            <node concept="10P_77" id="5AQOkzXit_n" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5AQOkzXitf9" role="1YuTPh">
+      <property role="TrG5h" value="elifClause" />
+      <ref role="1YaFvo" to="b47h:5AQOkzXircj" resolve="PL_ElifClause" />
+    </node>
+  </node>
 </model>
 
