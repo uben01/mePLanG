@@ -43,6 +43,10 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
     CIKLUS
 	    Utasítások
     AMÍG {feltétel}
+    
+    ISMÉTLÉS {pozitív egész} ALKALOMMAL
+	    Utasítások
+    ISMÉTLÉS_VÉGE
 ### I/O
 #### Konzolról olvasás
 
@@ -66,5 +70,6 @@ Exception esetén a *System.err*-en üzenet jelenik meg!
     SV = \n\r
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMjIzNTY0LDE3Njk5NTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMTQ1NjI3OTIxMCw0MjEyMjM1NjQsMTc2OT
+k1MjA0OF19
 -->
