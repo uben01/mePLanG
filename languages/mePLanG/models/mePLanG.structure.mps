@@ -297,5 +297,49 @@
       <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1aEtu4Jvq4B">
+    <property role="EcuMT" value="1345017048748368167" />
+    <property role="3GE5qa" value="control" />
+    <property role="TrG5h" value="PL_WhileStatement" />
+    <property role="34LRSv" value="CIKLUS Elöl" />
+    <property role="R4oN_" value="Elöltesztelős ciklus" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="1aEtu4Jvq4C" role="1TKVEi">
+      <property role="IQ2ns" value="1345017048748368168" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1aEtu4Jvq4E" role="1TKVEi">
+      <property role="IQ2ns" value="1345017048748368170" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="trueBranch" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5sXW4ijsYwT">
+    <property role="EcuMT" value="6286444832201369657" />
+    <property role="3GE5qa" value="control" />
+    <property role="TrG5h" value="PL_DoWhileStatement" />
+    <property role="34LRSv" value="CIKLUS Hátul" />
+    <property role="R4oN_" value="Hátultesztelős ciklus" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="5sXW4ijsYwU" role="1TKVEi">
+      <property role="IQ2ns" value="6286444832201369658" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="5sXW4ijsYwV" role="1TKVEi">
+      <property role="IQ2ns" value="6286444832201369659" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="trueBranch" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
+    </node>
+  </node>
 </model>
 

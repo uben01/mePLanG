@@ -56,9 +56,18 @@
       <concept id="7510977229249536732" name="mePLanG.structure.ReadStatement" flags="ng" index="2DiNGy">
         <child id="7510977229249536760" name="into" index="2DiNG6" />
       </concept>
+      <concept id="1345017048748368167" name="mePLanG.structure.PL_WhileStatement" flags="ng" index="XPXj6">
+        <child id="1345017048748368168" name="condition" index="XPXj9" />
+        <child id="1345017048748368170" name="trueBranch" index="XPXjb" />
+      </concept>
+      <concept id="6286444832201369657" name="mePLanG.structure.PL_DoWhileStatement" flags="ng" index="34jxxX">
+        <child id="6286444832201369658" name="condition" index="34jxxY" />
+        <child id="6286444832201369659" name="trueBranch" index="34jxxZ" />
+      </concept>
       <concept id="5994424134622179319" name="mePLanG.structure.PrintStatement" flags="ng" index="3a7Dsa">
         <child id="5994424134622179367" name="content" index="3a7Czq" />
       </concept>
+      <concept id="5569012657674532535" name="mePLanG.structure.PL_Boolean_Constant_False" flags="ng" index="3n4iOQ" />
       <concept id="5569012657674510928" name="mePLanG.structure.PL_Boolean_Constant_True" flags="ng" index="3n7JBh" />
       <concept id="5569012657675270773" name="mePLanG.structure.PL_IfStatement" flags="ng" index="3naA7O">
         <child id="6464584426554241778" name="elifClauses" index="2$ZQeU" />
@@ -192,6 +201,39 @@
           <ref role="3cqZAo" node="3YFFFw37jwo" resolve="e" />
         </node>
       </node>
+      <node concept="3clFbH" id="1aEtu4JvPOY" role="3cqZAp" />
+      <node concept="XPXj6" id="1aEtu4JwgGC" role="3cqZAp">
+        <node concept="2dBtEq" id="1aEtu4JwgGG" role="XPXjb">
+          <node concept="3clFbF" id="1aEtu4JxYXd" role="3cqZAp">
+            <node concept="37vLTI" id="1aEtu4JxZ13" role="3clFbG">
+              <node concept="3n4iOQ" id="1aEtu4JxZ4W" role="37vLTx" />
+              <node concept="37vLTw" id="1aEtu4JxYXc" role="37vLTJ">
+                <ref role="3cqZAo" node="3YFFFw3a8LK" resolve="f" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="37vLTw" id="1aEtu4JwGDm" role="XPXj9">
+          <ref role="3cqZAo" node="3YFFFw3a8LK" resolve="f" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="5sXW4ijvdeB" role="3cqZAp" />
+      <node concept="34jxxX" id="5sXW4ijvddf" role="3cqZAp">
+        <node concept="37vLTw" id="5sXW4ijvdep" role="34jxxY">
+          <ref role="3cqZAo" node="3YFFFw3a8LK" resolve="f" />
+        </node>
+        <node concept="2dBtEq" id="5sXW4ijvddj" role="34jxxZ">
+          <node concept="3clFbF" id="5sXW4ijw6BI" role="3cqZAp">
+            <node concept="37vLTI" id="5sXW4ijw6Jc" role="3clFbG">
+              <node concept="3n4iOQ" id="5sXW4ijw6N5" role="37vLTx" />
+              <node concept="37vLTw" id="5sXW4ijw6BH" role="37vLTJ">
+                <ref role="3cqZAo" node="3YFFFw3a8LK" resolve="f" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5sXW4ijtTsY" role="3cqZAp" />
     </node>
   </node>
 </model>
