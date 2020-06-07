@@ -26,7 +26,6 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
 
 ### Vezérlő szerkezetek
 #### Elágazás
-
     HA {feltétel} AKKOR
 	    Utasítások
     [HANEM {feltétel} AKKOR
@@ -35,7 +34,6 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
 	    Utasítások]
     HA_VÉGE
 #### Ciklus
-
     CIKLUS AMÍG {feltétel}
 	    Utasítások
     CIKLUS_VÉGE
@@ -70,6 +68,6 @@ Exception esetén a *System.err*-en üzenet jelenik meg!
     SV = \n\r
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzEzOTk4MCwxNDU2Mjc5MjEwLDQyMT
+eyJoaXN0b3J5IjpbLTgzODY4NTA0NCwxNDU2Mjc5MjEwLDQyMT
 IyMzU2NCwxNzY5OTUyMDQ4XX0=
 -->
