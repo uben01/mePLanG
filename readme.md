@@ -57,7 +57,7 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
     FÜGGVÉNY_VÉGE
 ##### Függvény hívás
 
-    enter code here
+    [változó = ]{FV_NEVE}[: {paraméterek}(n+)]
 
 ### I/O
 #### Konzolról olvasás
@@ -82,6 +82,6 @@ Exception esetén a *System.err*-en üzenet jelenik meg!
     SV = \n\r
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTM4OTU5MCwtODM4Njg1MDQ0LDE0NT
-YyNzkyMTAsNDIxMjIzNTY0LDE3Njk5NTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMjYxNzk2Njc5LC04Mzg2ODUwNDQsMTQ1Nj
+I3OTIxMCw0MjEyMjM1NjQsMTc2OTk1MjA0OF19
 -->
