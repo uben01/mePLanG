@@ -45,6 +45,12 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
     ISMÉTLÉS {pozitív egész} ALKALOMMAL
 	    Utasítások
     ISMÉTLÉS_VÉGE
+#### Függvények
+
+    FÜGGVÉNY {Név}: {Típus}
+    Paraméterek:
+	    {} {Név}
+
 ### I/O
 #### Konzolról olvasás
 
@@ -68,6 +74,6 @@ Exception esetén a *System.err*-en üzenet jelenik meg!
     SV = \n\r
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODY4NTA0NCwxNDU2Mjc5MjEwLDQyMT
-IyMzU2NCwxNzY5OTUyMDQ4XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk1OTI1MDQsLTgzODY4NTA0NCwxND
+U2Mjc5MjEwLDQyMTIyMzU2NCwxNzY5OTUyMDQ4XX0=
 -->
