@@ -49,7 +49,11 @@ Látható, hogy a `String` kivételével a primitív típusokat használjuk. A J
 
     FÜGGVÉNY {Név}: {Típus}
     Paraméterek:
-	    {} {Név}
+	    [{Típus} {Név},](n*)
+    Törzs:
+	    Utasítások
+	    [VISSZATÉRÉS {kifejezés}]
+    FÜGGVÉNY_VÉGE
 
 ### I/O
 #### Konzolról olvasás
@@ -74,6 +78,6 @@ Exception esetén a *System.err*-en üzenet jelenik meg!
     SV = \n\r
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk1OTI1MDQsLTgzODY4NTA0NCwxND
-U2Mjc5MjEwLDQyMTIyMzU2NCwxNzY5OTUyMDQ4XX0=
+eyJoaXN0b3J5IjpbNzk0MjQ5OTAwLC04Mzg2ODUwNDQsMTQ1Nj
+I3OTIxMCw0MjEyMjM1NjQsMTc2OTk1MjA0OF19
 -->
