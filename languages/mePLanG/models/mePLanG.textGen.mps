@@ -512,5 +512,18 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="7xDa$MuJeBT">
+    <property role="3GE5qa" value="variable.type" />
+    <ref role="WuzLi" to="b47h:7xDa$MuJe77" resolve="PL_VoidType" />
+    <node concept="11bSqf" id="7xDa$MuJeBU" role="11c4hB">
+      <node concept="3clFbS" id="7xDa$MuJeBV" role="2VODD2">
+        <node concept="lc7rE" id="7xDa$MuJeDi" role="3cqZAp">
+          <node concept="la8eA" id="7xDa$MuJeFn" role="lcghm">
+            <property role="lacIc" value="void" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

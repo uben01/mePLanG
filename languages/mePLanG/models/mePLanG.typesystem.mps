@@ -348,7 +348,7 @@
     </node>
   </node>
   <node concept="2sgARr" id="6$khvH9isfv">
-    <property role="3GE5qa" value="variable.type" />
+    <property role="3GE5qa" value="variable.type.interface" />
     <property role="TrG5h" value="IPL_AllowedTypes_subtypesOf_Type" />
     <node concept="3clFbS" id="6$khvH9isfw" role="2sgrp5">
       <node concept="3cpWs8" id="6$khvH9kxGd" role="3cqZAp">
@@ -505,6 +505,25 @@
     <node concept="1YaCAy" id="5sXW4ijtSXn" role="1YuTPh">
       <property role="TrG5h" value="pL_DoWhileStatement" />
       <ref role="1YaFvo" to="b47h:5sXW4ijsYwT" resolve="PL_DoWhileStatement" />
+    </node>
+  </node>
+  <node concept="3qnSWH" id="5lud8J9VMrR">
+    <property role="TrG5h" value="substituteType_PL_Void" />
+    <property role="3GE5qa" value="type" />
+    <node concept="3clFbS" id="5lud8J9VMrS" role="3hT0BD">
+      <node concept="3cpWs6" id="5lud8J9VMrT" role="3cqZAp">
+        <node concept="2ShNRf" id="5lud8J9VMrU" role="3cqZAk">
+          <node concept="3zrR0B" id="5lud8J9VMrV" role="2ShVmc">
+            <node concept="3Tqbb2" id="5lud8J9VMrW" role="3zrR0E">
+              <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5lud8J9VMrX" role="1YuTPh">
+      <property role="TrG5h" value="pL_VoidType" />
+      <ref role="1YaFvo" to="b47h:7xDa$MuJe77" resolve="PL_VoidType" />
     </node>
   </node>
 </model>
