@@ -70,6 +70,9 @@
     <node concept="PrWs8" id="4oHat99tt0I" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
+    <node concept="PrWs8" id="7ZxCJZl6w5$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="14GFSWjklLI" role="1TKVEi">
       <property role="IQ2ns" value="1237557026659327086" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -214,7 +217,7 @@
     <property role="EcuMT" value="5569012657675270773" />
     <property role="TrG5h" value="PL_IfStatement" />
     <property role="34LRSv" value="HA" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.if" />
     <property role="R4oN_" value="Elágazás" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="4P96S6qrrFK" role="1TKVEi">
@@ -273,6 +276,9 @@
     <node concept="PrWs8" id="5lud8Jact5r" role="PzmwI">
       <ref role="PrY4T" to="tpee:h9ngReX" resolve="ClassifierMember" />
     </node>
+    <node concept="PrWs8" id="7ZxCJZl6w5P" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1yQXN$sIvhx">
     <property role="EcuMT" value="1780882527338755169" />
@@ -283,7 +289,7 @@
   <node concept="1TIwiD" id="5AQOkzXircj">
     <property role="TrG5h" value="PL_ElifClause" />
     <property role="EcuMT" value="6464584426554241811" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.if" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5AQOkzXirck" role="PzmwI">
       <ref role="PrY4T" to="tpee:3F8BxGibdn2" resolve="IConditional" />
@@ -305,7 +311,7 @@
   </node>
   <node concept="1TIwiD" id="1aEtu4Jvq4B">
     <property role="EcuMT" value="1345017048748368167" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.loop" />
     <property role="TrG5h" value="PL_WhileStatement" />
     <property role="34LRSv" value="CIKLUS Elöl" />
     <property role="R4oN_" value="Elöltesztelős ciklus" />
@@ -327,7 +333,7 @@
   </node>
   <node concept="1TIwiD" id="5sXW4ijsYwT">
     <property role="EcuMT" value="6286444832201369657" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.loop" />
     <property role="TrG5h" value="PL_DoWhileStatement" />
     <property role="34LRSv" value="CIKLUS Hátul" />
     <property role="R4oN_" value="Hátultesztelős ciklus" />
@@ -350,9 +356,13 @@
   <node concept="1TIwiD" id="3PH2i_W5ibX">
     <property role="EcuMT" value="4426204082555134717" />
     <property role="TrG5h" value="RoutineDefinition" />
+    <property role="R4oN_" value="Függvény definíció" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7xDa$MuJeJ8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="7ZxCJZl6w5G" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1TJgyj" id="7xDa$MuJePz" role="1TKVEi">
       <property role="IQ2ns" value="8676512665675033955" />
@@ -400,6 +410,26 @@
     </node>
     <node concept="PrWs8" id="5lud8J9VkpM" role="PrDN$">
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="43_52bOHq2M">
+    <property role="EcuMT" value="4676165928461115570" />
+    <property role="3GE5qa" value="control" />
+    <property role="TrG5h" value="RoutineCallStatement" />
+    <property role="R4oN_" value="Függvényhívás" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="43_52bOHq2N" role="1TKVEi">
+      <property role="IQ2ns" value="4676165928461115571" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="routine" />
+      <ref role="20lvS9" node="3PH2i_W5ibX" resolve="RoutineDefinition" />
+    </node>
+    <node concept="1TJgyj" id="43_52bOJ_xo" role="1TKVEi">
+      <property role="IQ2ns" value="4676165928461686872" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
 </model>

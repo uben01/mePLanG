@@ -67,6 +67,7 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
+      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
@@ -91,6 +92,9 @@
         <child id="3473224453637651919" name="placeInCell" index="CtIbM" />
       </concept>
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
@@ -98,7 +102,9 @@
         <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -346,7 +352,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="36BJeIdhUUy">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.if" />
     <ref role="1XX52x" to="b47h:4P96S6qoRDP" resolve="PL_IfStatement" />
     <node concept="3EZMnI" id="36BJeIdhUUD" role="2wV5jI">
       <node concept="3F0ifn" id="36BJeIdhUUK" role="3EZMnx">
@@ -478,6 +484,9 @@
         <node concept="3F0ifn" id="3YFFFw3dLbR" role="3EZMnx">
           <property role="3F0ifm" value="KÜLÖNBEN" />
           <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+          <node concept="A1WHu" id="43_52bOGKWm" role="3vIgyS">
+            <ref role="A1WHt" node="3YFFFw3flIx" resolve="PL_ifStatement" />
+          </node>
         </node>
         <node concept="3F1sOY" id="3YFFFw3dLcf" role="3EZMnx">
           <ref role="1NtTu8" to="b47h:4P96S6qrrG2" resolve="falseBranch" />
@@ -534,7 +543,7 @@
     </node>
   </node>
   <node concept="3ICUPy" id="3YFFFw3flIx">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.if" />
     <ref role="aqKnT" to="b47h:4P96S6qoRDP" resolve="PL_IfStatement" />
     <node concept="1Qtc8_" id="3YFFFw3flIB" role="IW6Ez">
       <node concept="aenpk" id="3YFFFw3flIN" role="1Qtc8A">
@@ -562,6 +571,9 @@
                     <node concept="17QB3L" id="3YFFFw3fo1w" role="HW$YZ" />
                     <node concept="Xl_RD" id="3YFFFw3fo8Z" role="HW$Y0">
                       <property role="Xl_RC" value="KÜLÖNBEN" />
+                    </node>
+                    <node concept="Xl_RD" id="43_52bOFLDp" role="HW$Y0">
+                      <property role="Xl_RC" value="különben" />
                     </node>
                   </node>
                 </node>
@@ -651,6 +663,9 @@
                   <node concept="Xl_RD" id="5AQOkzXAaPJ" role="HW$Y0">
                     <property role="Xl_RC" value="HANEM" />
                   </node>
+                  <node concept="Xl_RD" id="43_52bOFLIE" role="HW$Y0">
+                    <property role="Xl_RC" value="hanem" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -715,7 +730,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5AQOkzXirtZ">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.if" />
     <ref role="1XX52x" to="b47h:5AQOkzXircj" resolve="PL_ElifClause" />
     <node concept="3EZMnI" id="5AQOkzXirYF" role="2wV5jI">
       <node concept="3F0ifn" id="5AQOkzXirYM" role="3EZMnx">
@@ -813,7 +828,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1aEtu4Jvq57">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.loop" />
     <ref role="1XX52x" to="b47h:1aEtu4Jvq4B" resolve="PL_WhileStatement" />
     <node concept="3EZMnI" id="1aEtu4Jvq59" role="2wV5jI">
       <node concept="3F0ifn" id="1aEtu4Jvq5g" role="3EZMnx">
@@ -843,7 +858,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5sXW4ijsYyi">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.loop" />
     <ref role="1XX52x" to="b47h:5sXW4ijsYwT" resolve="PL_DoWhileStatement" />
     <node concept="3EZMnI" id="5sXW4ijsYyj" role="2wV5jI">
       <node concept="3F0ifn" id="5sXW4ijsYyk" role="3EZMnx">
@@ -918,6 +933,7 @@
       </node>
       <node concept="3F0A7n" id="7xDa$MuJfih" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" to="tpen:hshUnm6" resolve="StaticMethod" />
       </node>
       <node concept="3F0ifn" id="7xDa$MuJfjH" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -1086,6 +1102,42 @@
         </node>
       </node>
       <node concept="l2Vlx" id="7xDa$MuJfcf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="43_52bOHq3f">
+    <property role="3GE5qa" value="control" />
+    <ref role="1XX52x" to="b47h:43_52bOHq2M" resolve="RoutineCallStatement" />
+    <node concept="3EZMnI" id="43_52bOIK42" role="2wV5jI">
+      <node concept="PMmxH" id="43_52bP6s$l" role="3EZMnx">
+        <ref role="PMmxG" node="43_52bP6szZ" resolve="RoutinCallName" />
+        <ref role="1k5W1q" to="tpen:hshUnm6" resolve="StaticMethod" />
+      </node>
+      <node concept="3F0ifn" id="43_52bOIK4q" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="2gjEWGqqJF8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="43_52bOIK45" role="2iSdaV" />
+      <node concept="3F2HdR" id="43_52bOLnl4" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="b47h:43_52bOJ_xo" resolve="parameters" />
+        <node concept="l2Vlx" id="43_52bOLnl6" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="43_52bP6szZ">
+    <property role="3GE5qa" value="control" />
+    <property role="TrG5h" value="RoutinCallName" />
+    <ref role="1XX52x" to="b47h:43_52bOHq2M" resolve="RoutineCallStatement" />
+    <node concept="1iCGBv" id="43_52bP6s$1" role="2wV5jI">
+      <ref role="1NtTu8" to="b47h:43_52bOHq2N" resolve="routine" />
+      <node concept="1sVBvm" id="43_52bP6s$3" role="1sWHZn">
+        <node concept="3F0A7n" id="43_52bP6s$a" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
