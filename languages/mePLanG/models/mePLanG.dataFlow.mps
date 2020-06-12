@@ -527,7 +527,7 @@
   </node>
   <node concept="3_zdsH" id="4d737ORnVPx">
     <property role="3GE5qa" value="control" />
-    <ref role="3_znuS" to="b47h:43_52bOHq2M" resolve="RoutineCallStatement" />
+    <ref role="3_znuS" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
     <node concept="3__wT9" id="4d737ORnVPy" role="3_A6iZ">
       <node concept="3clFbS" id="4d737ORnVPz" role="2VODD2">
         <node concept="1Dw8fO" id="4d737ORpqXS" role="3cqZAp">

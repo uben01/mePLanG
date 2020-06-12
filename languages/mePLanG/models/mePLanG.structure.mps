@@ -369,7 +369,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="inputs" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpee:fzcpWvJ" resolve="LocalVariableDeclaration" />
+      <ref role="20lvS9" to="tpee:fz7vLUk" resolve="ParameterDeclaration" />
     </node>
     <node concept="1TJgyj" id="7xDa$MuJeWr" role="1TKVEi">
       <property role="IQ2ns" value="8676512665675034395" />
@@ -396,6 +396,7 @@
     <property role="3GE5qa" value="variable.type" />
     <property role="TrG5h" value="PL_VoidType" />
     <property role="34LRSv" value="Semmi" />
+    <property role="R4oN_" value="Üres típus" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="PrWs8" id="7xDa$MuJen2" role="PzmwI">
       <ref role="PrY4T" node="7xDa$MuJebg" resolve="IPL_ReturnTypes" />
@@ -415,9 +416,9 @@
   <node concept="1TIwiD" id="43_52bOHq2M">
     <property role="EcuMT" value="4676165928461115570" />
     <property role="3GE5qa" value="control" />
-    <property role="TrG5h" value="RoutineCallStatement" />
+    <property role="TrG5h" value="RoutineCallExpression" />
     <property role="R4oN_" value="Függvényhívás" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="43_52bOHq2N" role="1TKVEi">
       <property role="IQ2ns" value="4676165928461115571" />
       <property role="20lbJX" value="fLJekj4/_1" />

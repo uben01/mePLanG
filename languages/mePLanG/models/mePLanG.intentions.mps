@@ -8,6 +8,7 @@
   <imports>
     <import index="b47h" ref="r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="zct6" ref="r:e31e58c0-9d59-4d49-8169-517e0c66ef6d(mePLanG.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -146,6 +147,19 @@
             </node>
             <node concept="zfrQC" id="5lud8Ja0EMO" role="2OqNvi">
               <ref role="1A9B2P" to="b47h:7xDa$MuJe77" resolve="PL_VoidType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4dqKNVZcQJV" role="3cqZAp">
+          <node concept="37vLTI" id="4dqKNVZcRFc" role="3clFbG">
+            <node concept="Xl_RD" id="4dqKNVZcRL7" role="37vLTx">
+              <property role="Xl_RC" value="main" />
+            </node>
+            <node concept="2OqwBi" id="4dqKNVZcQXH" role="37vLTJ">
+              <node concept="2Sf5sV" id="4dqKNVZcQJU" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4dqKNVZcRbc" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
             </node>
           </node>
         </node>

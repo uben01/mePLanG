@@ -550,7 +550,7 @@
   </node>
   <node concept="WtQ9Q" id="43_52bOPWHG">
     <property role="3GE5qa" value="control" />
-    <ref role="WuzLi" to="b47h:43_52bOHq2M" resolve="RoutineCallStatement" />
+    <ref role="WuzLi" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
     <node concept="11bSqf" id="43_52bOPWHH" role="11c4hB">
       <node concept="3clFbS" id="43_52bOPWHI" role="2VODD2">
         <node concept="lc7rE" id="43_52bOQJmv" role="3cqZAp">
@@ -599,7 +599,7 @@
             </node>
           </node>
           <node concept="la8eA" id="43_52bOPYJn" role="lcghm">
-            <property role="lacIc" value=")" />
+            <property role="lacIc" value=");" />
           </node>
         </node>
       </node>
