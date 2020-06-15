@@ -251,6 +251,9 @@
     <node concept="PrWs8" id="4P96S6qrrFU" role="PzmwI">
       <ref role="PrY4T" to="tpee:3F8BxGibdn2" resolve="IConditional" />
     </node>
+    <node concept="PrWs8" id="6e665mWNY5O" role="PzmwI">
+      <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
   </node>
   <node concept="PlHQZ" id="36BJeIdlUTC">
     <property role="EcuMT" value="3578036148843818600" />
@@ -295,6 +298,9 @@
     <node concept="PrWs8" id="5AQOkzXirck" role="PzmwI">
       <ref role="PrY4T" to="tpee:3F8BxGibdn2" resolve="IConditional" />
     </node>
+    <node concept="PrWs8" id="6e665mWNY5H" role="PzmwI">
+      <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
     <node concept="1TJgyj" id="5AQOkzXirtw" role="1TKVEi">
       <property role="IQ2ns" value="6464584426554242912" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -331,6 +337,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
     </node>
+    <node concept="PrWs8" id="6e665mWNY5C" role="PzmwI">
+      <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5sXW4ijsYwT">
     <property role="EcuMT" value="6286444832201369657" />
@@ -353,11 +362,15 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="28MzjYJFPu_" resolve="PL_StatementList" />
     </node>
+    <node concept="PrWs8" id="6e665mWNY5A" role="PzmwI">
+      <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3PH2i_W5ibX">
     <property role="EcuMT" value="4426204082555134717" />
     <property role="TrG5h" value="RoutineDefinition" />
     <property role="R4oN_" value="Függvény definíció" />
+    <property role="3GE5qa" value="control" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2xEqTJCDELN" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
@@ -437,6 +450,19 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6e665mWJMu7">
+    <property role="EcuMT" value="7171446213152024455" />
+    <property role="3GE5qa" value="control" />
+    <property role="TrG5h" value="ReturnStatement" />
+    <property role="34LRSv" value="VISSZATÉRÉS" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="6e665mWJQok" role="1TKVEi">
+      <property role="IQ2ns" value="7171446213152040468" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="returnValue" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>

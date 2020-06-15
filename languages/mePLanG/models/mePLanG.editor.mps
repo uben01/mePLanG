@@ -893,9 +893,11 @@
     <ref role="1XX52x" to="b47h:7xDa$MuJe77" resolve="PL_VoidType" />
     <node concept="PMmxH" id="7xDa$MuJexs" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
     </node>
   </node>
   <node concept="24kQdi" id="7xDa$MuJfav">
+    <property role="3GE5qa" value="control" />
     <ref role="1XX52x" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="3EZMnI" id="7xDa$MuJfcc" role="2wV5jI">
       <node concept="35HoNQ" id="5lud8JaoidR" role="3EZMnx">
@@ -1195,6 +1197,20 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6e665mWJQo5">
+    <property role="3GE5qa" value="control" />
+    <ref role="1XX52x" to="b47h:6e665mWJMu7" resolve="ReturnStatement" />
+    <node concept="3EZMnI" id="6e665mWJQoa" role="2wV5jI">
+      <node concept="3F0ifn" id="6e665mWJQoc" role="3EZMnx">
+        <property role="3F0ifm" value="VISSZATÉRÉS:" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F1sOY" id="6e665mWJQoy" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:6e665mWJQok" resolve="returnValue" />
+      </node>
+      <node concept="l2Vlx" id="6e665mWJQod" role="2iSdaV" />
     </node>
   </node>
 </model>
