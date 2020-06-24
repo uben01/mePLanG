@@ -65,7 +65,22 @@
         <module reference="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" version="0" />
         <module reference="5e064988-f383-43f5-a89c-012975ac2996(mePLanG#00)" version="0" />
       </dependencyVersions>
-      <mapping-priorities />
+      <mapping-priorities>
+        <mapping-priority-rule kind="strictly_together">
+          <greater-priority-mapping>
+            <generator generatorUID="5e064988-f383-43f5-a89c-012975ac2996(mePLanG#00)" />
+            <external-mapping>
+              <mapping-node modelUID="r:e8ae889f-8439-4af1-9553-bece0e31f1b0(mePLanG.generator.generator@generator)" nodeID="5056743939758886333" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="5e064988-f383-43f5-a89c-012975ac2996(mePLanG#00)" />
+            <external-mapping>
+              <mapping-node modelUID="r:e8ae889f-8439-4af1-9553-bece0e31f1b0(mePLanG.generator.generator@generator)" nodeID="5056743939758886333" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <sourcePath />

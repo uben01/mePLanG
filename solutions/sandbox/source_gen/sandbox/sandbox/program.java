@@ -12,7 +12,7 @@ public class program {
       fg2();
       e = e + 1;
     } while (e < 10);
-    return fg(e);
+    fg(e);
   }
   public static int fg(int l) {
     System.out.print(l + " ");
