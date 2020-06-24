@@ -1,10 +1,4 @@
 *.class
-checkpoints
-generated
+*caches
 trace.info
-source_gen/
-classes_gen/
-*caches*
-.mps/
-/.mps/
-solutions/
+classes_gen
