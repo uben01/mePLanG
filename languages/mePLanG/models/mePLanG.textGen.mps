@@ -655,5 +655,29 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4UHSjJGRqUn">
+    <property role="3GE5qa" value="math" />
+    <ref role="WuzLi" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
+    <node concept="11bSqf" id="4UHSjJGRqUo" role="11c4hB">
+      <node concept="3clFbS" id="4UHSjJGRqUp" role="2VODD2">
+        <node concept="lc7rE" id="4UHSjJGRqUE" role="3cqZAp">
+          <node concept="la8eA" id="4UHSjJGRrbG" role="lcghm">
+            <property role="lacIc" value="Math.abs(" />
+          </node>
+          <node concept="l9hG8" id="4UHSjJGRrdd" role="lcghm">
+            <node concept="2OqwBi" id="4UHSjJGRrlK" role="lb14g">
+              <node concept="117lpO" id="4UHSjJGRre4" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4UHSjJGRrw5" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:4UHSjJGPIGA" resolve="expression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4UHSjJGRr_U" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

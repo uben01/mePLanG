@@ -466,5 +466,27 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4UHSjJGPIGy">
+    <property role="EcuMT" value="5669435153422150434" />
+    <property role="TrG5h" value="AbsoluteValue" />
+    <property role="3GE5qa" value="math" />
+    <property role="34LRSv" value="Abszolút érték" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="4UHSjJGPIG$" role="PzmwI">
+      <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
+    </node>
+    <node concept="1TJgyj" id="4UHSjJGPIGA" role="1TKVEi">
+      <property role="IQ2ns" value="5669435153422150438" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4UHSjJGPIGz">
+    <property role="EcuMT" value="5669435153422150435" />
+    <property role="3GE5qa" value="math" />
+    <property role="TrG5h" value="MathExpression" />
+  </node>
 </model>
 

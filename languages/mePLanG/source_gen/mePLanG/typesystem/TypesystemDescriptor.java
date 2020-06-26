@@ -68,6 +68,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.mySubtypingRules.add(subtypingRule);
     }
     {
+      SubtypingRule_Runtime subtypingRule = new absoluteValue_subtypeOf_Numbers_SubtypingRule();
+      this.mySubtypingRules.add(subtypingRule);
+    }
+    {
       SubtypingRule_Runtime subtypingRule = new boolean_subtypeOf_PL_Boolean_SubtypingRule();
       this.mySubtypingRules.add(subtypingRule);
     }

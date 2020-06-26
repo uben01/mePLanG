@@ -9,10 +9,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_AbsoluteValue;
   private ConceptPresentation props_BreakLineExpression;
   private ConceptPresentation props_EmptyLineStatement;
   private ConceptPresentation props_IPL_AllowedTypes;
   private ConceptPresentation props_IPL_ReturnTypes;
+  private ConceptPresentation props_MathExpression;
   private ConceptPresentation props_PL_BooleanType;
   private ConceptPresentation props_PL_Boolean_Constant;
   private ConceptPresentation props_PL_Boolean_Constant_False;
@@ -39,6 +41,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.AbsoluteValue:
+        if (props_AbsoluteValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Abszolút érték");
+          props_AbsoluteValue = cpb.create();
+        }
+        return props_AbsoluteValue;
       case LanguageConceptSwitch.BreakLineExpression:
         if (props_BreakLineExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -66,6 +75,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IPL_ReturnTypes = cpb.create();
         }
         return props_IPL_ReturnTypes;
+      case LanguageConceptSwitch.MathExpression:
+        if (props_MathExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_MathExpression = cpb.create();
+        }
+        return props_MathExpression;
       case LanguageConceptSwitch.PL_BooleanType:
         if (props_PL_BooleanType == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -157,6 +157,10 @@ public class RoutineDefinition_Constraints extends BaseConstraintsDescriptor {
       return true;
     }
 
+    if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), CONCEPTS.MathExpression$iw)) {
+      return true;
+    }
+
 
     if (SConceptOperations.isExactly(SNodeOperations.asSConcept(childConcept), CONCEPTS.PL_IfStatement$7f)) {
       return true;
@@ -222,6 +226,7 @@ public class RoutineDefinition_Constraints extends BaseConstraintsDescriptor {
     /*package*/ static final SConcept MinusExpression$E9 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression");
     /*package*/ static final SConcept DivExpression$d_ = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xff2bbc13daL, "jetbrains.mps.baseLanguage.structure.DivExpression");
     /*package*/ static final SConcept MulExpression$8_ = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfe476b758fL, "jetbrains.mps.baseLanguage.structure.MulExpression");
+    /*package*/ static final SInterfaceConcept MathExpression$iw = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb23L, "mePLanG.structure.MathExpression");
     /*package*/ static final SConcept PL_IfStatement$7f = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
     /*package*/ static final SConcept PL_ElifClause$B = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, "mePLanG.structure.PL_ElifClause");
     /*package*/ static final SConcept PL_WhileStatement$FE = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L, "mePLanG.structure.PL_WhileStatement");

@@ -10,12 +10,13 @@ public class program {
     do {
       fg(e);
       fg2();
-      e = e + 1;
+      e = increment(e);
     } while (e < 10);
     fg(e);
   }
   public static int fg(int l) {
     System.out.print(l + " ");
+    l = Math.abs(l);
     if (l < 10) {
       return l;
     } else if (l < 100) {
@@ -30,6 +31,9 @@ public class program {
     System.out.print("yee" + " ");
     System.out.print("\n");
     return "asd";
+  }
+  public static int increment(int e) {
+    return e + 1;
   }
 
 }

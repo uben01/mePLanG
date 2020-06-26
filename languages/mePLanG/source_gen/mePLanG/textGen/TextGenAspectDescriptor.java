@@ -19,6 +19,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   @Override
   public TextGenDescriptor getDescriptor(@NotNull SAbstractConcept concept) {
     switch (myIndex.index(concept)) {
+      case LanguageConceptSwitch.AbsoluteValue:
+        return new AbsoluteValue_TextGen();
       case LanguageConceptSwitch.BreakLineExpression:
         return new BreakLineExpression_TextGen();
       case LanguageConceptSwitch.PL_BooleanType:

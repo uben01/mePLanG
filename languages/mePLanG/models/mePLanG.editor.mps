@@ -1330,5 +1330,33 @@
       <property role="TrG5h" value="ReturnStatementAddParameter" />
     </node>
   </node>
+  <node concept="24kQdi" id="4UHSjJGPIH2">
+    <property role="3GE5qa" value="math" />
+    <ref role="1XX52x" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
+    <node concept="3EZMnI" id="4UHSjJGPIH4" role="2wV5jI">
+      <node concept="3F0ifn" id="4UHSjJGPIHb" role="3EZMnx">
+        <property role="3F0ifm" value="|" />
+        <node concept="11LMrY" id="4UHSjJGWrTt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="4UHSjJGWPLB" role="3F10Kt">
+          <property role="1413C4" value="parenthesis" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4UHSjJGPIHh" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:4UHSjJGPIGA" resolve="expression" />
+      </node>
+      <node concept="3F0ifn" id="4UHSjJGPIHp" role="3EZMnx">
+        <property role="3F0ifm" value="|" />
+        <node concept="11L4FC" id="4UHSjJGWrTv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="4UHSjJGWPLI" role="3F10Kt">
+          <property role="1413C4" value="parenthesis" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4UHSjJGPIH7" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
