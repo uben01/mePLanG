@@ -34,23 +34,23 @@ public final class PL_StatementList__BehaviorDescriptor extends BaseBHDescriptor
 
   /*package*/ static boolean hasReturnValue_id3oaD0rhb2J6(@NotNull SNode __thisNode__) {
     boolean pass = false;
-    for (SNode node : SLinkOperations.getChildren(__thisNode__, LINKS.statement$WHn8)) {
+    for (SNode node : SLinkOperations.getChildren(__thisNode__, LINKS.statement$53DE)) {
       {
         final SNode ret = node;
-        if (SNodeOperations.isInstanceOf(ret, CONCEPTS.ReturnStatement$Az)) {
+        if (SNodeOperations.isInstanceOf(ret, CONCEPTS.ReturnStatement$nQ)) {
           return true;
         }
       }
       {
         final SNode ifStatement = node;
-        if (SNodeOperations.isInstanceOf(ifStatement, CONCEPTS.PL_IfStatement$7f)) {
+        if (SNodeOperations.isInstanceOf(ifStatement, CONCEPTS.PL_IfStatement$Sy)) {
           pass |= (boolean) PL_IfStatement__BehaviorDescriptor.hasReturnValue_id3oaD0rhclhy.invoke(ifStatement);
         }
       }
       {
         final SNode doWhile = node;
-        if (SNodeOperations.isInstanceOf(doWhile, CONCEPTS.PL_DoWhileStatement$jD)) {
-          pass |= (boolean) PL_StatementList__BehaviorDescriptor.hasReturnValue_id3oaD0rhb2J6.invoke(SLinkOperations.getTarget(doWhile, LINKS.trueBranch$LjVZ));
+        if (SNodeOperations.isInstanceOf(doWhile, CONCEPTS.PL_DoWhileStatement$4W)) {
+          pass |= (boolean) PL_StatementList__BehaviorDescriptor.hasReturnValue_id3oaD0rhb2J6.invoke(SLinkOperations.getTarget(doWhile, LINKS.trueBranch$ZCOO));
         }
       }
     }
@@ -105,13 +105,13 @@ public final class PL_StatementList__BehaviorDescriptor extends BaseBHDescriptor
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept ReturnStatement$Az = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, "mePLanG.structure.ReturnStatement");
-    /*package*/ static final SConcept PL_IfStatement$7f = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
-    /*package*/ static final SConcept PL_DoWhileStatement$jD = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L, "mePLanG.structure.PL_DoWhileStatement");
+    /*package*/ static final SConcept ReturnStatement$nQ = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, "mePLanG.structure.ReturnStatement");
+    /*package*/ static final SConcept PL_IfStatement$Sy = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
+    /*package*/ static final SConcept PL_DoWhileStatement$4W = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L, "mePLanG.structure.PL_DoWhileStatement");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink trueBranch$LjVZ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L, 0x573df0449373e83bL, "trueBranch");
-    /*package*/ static final SContainmentLink statement$WHn8 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
+    /*package*/ static final SContainmentLink trueBranch$ZCOO = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L, 0x573df0449373e83bL, "trueBranch");
+    /*package*/ static final SContainmentLink statement$53DE = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
   }
 }

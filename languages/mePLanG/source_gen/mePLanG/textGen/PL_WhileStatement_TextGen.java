@@ -20,25 +20,25 @@ public class PL_WhileStatement_TextGen extends TextGenDescriptorBase {
     tgs.newLine();
     tgs.indent();
     tgs.append("while (");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.condition$nZF0));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.condition$IOAj));
     tgs.append(") {");
     ctx.getBuffer().area().increaseIndent();
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.trueBranch$nZQ9));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.trueBranch$ITZE));
     ctx.getBuffer().area().decreaseIndent();
     tgs.newLine();
     tgs.indent();
     tgs.append("}");
     if (tgs.needPositions()) {
-      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
+      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$L)));
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$nZF0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L, 0x12aa75e12f7da128L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$nZQ9 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L, 0x12aa75e12f7da12aL, "trueBranch");
+    /*package*/ static final SContainmentLink condition$IOAj = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L, 0x12aa75e12f7da128L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$ITZE = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L, 0x12aa75e12f7da12aL, "trueBranch");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SInterfaceConcept TraceableConcept$kK = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
+    /*package*/ static final SInterfaceConcept TraceableConcept$L = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
   }
 }

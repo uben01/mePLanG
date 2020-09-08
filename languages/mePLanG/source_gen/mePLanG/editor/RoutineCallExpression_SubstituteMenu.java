@@ -28,7 +28,7 @@ public class RoutineCallExpression_SubstituteMenu extends SubstituteMenuBase {
   @Override
   protected List<MenuPart<SubstituteMenuItem, SubstituteMenuContext>> getParts(final SubstituteMenuContext _context) {
     List<MenuPart<SubstituteMenuItem, SubstituteMenuContext>> result = new ArrayList<MenuPart<SubstituteMenuItem, SubstituteMenuContext>>();
-    result.add(new ConstraintsFilteringSubstituteMenuPartDecorator(new SMP_ReferenceScope_x7m3bz_a(), CONCEPTS.RoutineCallExpression$8D));
+    result.add(new ConstraintsFilteringSubstituteMenuPartDecorator(new SMP_ReferenceScope_x7m3bz_a(), CONCEPTS.RoutineCallExpression$TW));
     result.add(new SMP_Subconcepts_x7m3bz_b());
     return result;
   }
@@ -50,7 +50,7 @@ public class RoutineCallExpression_SubstituteMenu extends SubstituteMenuBase {
 
     public SMP_ReferenceScope_x7m3bz_a() {
       // that cast is needed for prevent the users from https://youtrack.jetbrains.com/issue/MPS-29051 
-      super((SAbstractConcept) CONCEPTS.RoutineCallExpression$8D, LINKS.routine$RDrw);
+      super((SAbstractConcept) CONCEPTS.RoutineCallExpression$TW, LINKS.routine$435N);
     }
     @NotNull
     @Override
@@ -67,7 +67,7 @@ public class RoutineCallExpression_SubstituteMenu extends SubstituteMenuBase {
   }
   public class SMP_Subconcepts_x7m3bz_b extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
     protected Collection getConcepts(final SubstituteMenuContext _context) {
-      return ConceptDescendantsCache.getInstance().getDirectDescendants(CONCEPTS.RoutineCallExpression$8D);
+      return ConceptDescendantsCache.getInstance().getDirectDescendants(CONCEPTS.RoutineCallExpression$TW);
     }
     @NotNull
     @Override
@@ -88,10 +88,10 @@ public class RoutineCallExpression_SubstituteMenu extends SubstituteMenuBase {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept RoutineCallExpression$8D = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, "mePLanG.structure.RoutineCallExpression");
+    /*package*/ static final SConcept RoutineCallExpression$TW = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, "mePLanG.structure.RoutineCallExpression");
   }
 
   private static final class LINKS {
-    /*package*/ static final SReferenceLink routine$RDrw = MetaAdapterFactory.getReferenceLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4b5a0b3L, "routine");
+    /*package*/ static final SReferenceLink routine$435N = MetaAdapterFactory.getReferenceLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4b5a0b3L, "routine");
   }
 }

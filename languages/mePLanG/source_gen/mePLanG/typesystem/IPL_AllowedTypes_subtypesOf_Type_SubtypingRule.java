@@ -26,7 +26,7 @@ public class IPL_AllowedTypes_subtypesOf_Type_SubtypingRule extends SubtypingRul
     return nlistNodes;
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.IPL_AllowedTypes$_o;
+    return CONCEPTS.IPL_AllowedTypes$mF;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -35,17 +35,17 @@ public class IPL_AllowedTypes_subtypesOf_Type_SubtypingRule extends SubtypingRul
     return false;
   }
   private static SNode createPrimitiveType_5so5r8_a0a1a1() {
-    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.PrimitiveType$5);
+    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.PrimitiveType$sR);
     return n0.getResult();
   }
   private static SNode createType_5so5r8_a0a2a1() {
-    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.Type$IG);
+    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.Type$bu);
     return n0.getResult();
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SInterfaceConcept IPL_AllowedTypes$_o = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L, "mePLanG.structure.IPL_AllowedTypes");
-    /*package*/ static final SConcept PrimitiveType$5 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f0ad8bde4L, "jetbrains.mps.baseLanguage.structure.PrimitiveType");
-    /*package*/ static final SConcept Type$IG = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL, "jetbrains.mps.baseLanguage.structure.Type");
+    /*package*/ static final SInterfaceConcept IPL_AllowedTypes$mF = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L, "mePLanG.structure.IPL_AllowedTypes");
+    /*package*/ static final SConcept PrimitiveType$sR = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f0ad8bde4L, "jetbrains.mps.baseLanguage.structure.PrimitiveType");
+    /*package*/ static final SConcept Type$bu = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL, "jetbrains.mps.baseLanguage.structure.Type");
   }
 }

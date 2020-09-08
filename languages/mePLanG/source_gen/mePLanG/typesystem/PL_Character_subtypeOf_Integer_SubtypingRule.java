@@ -19,7 +19,7 @@ public class PL_Character_subtypeOf_Integer_SubtypingRule extends SubtypingRule_
     return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b414L, "mePLanG.structure.PL_IntegerType"));
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.PL_CharacterType$hU;
+    return CONCEPTS.PL_CharacterType$3d;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -29,6 +29,6 @@ public class PL_Character_subtypeOf_Integer_SubtypingRule extends SubtypingRule_
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_CharacterType$hU = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b415L, "mePLanG.structure.PL_CharacterType");
+    /*package*/ static final SConcept PL_CharacterType$3d = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b415L, "mePLanG.structure.PL_CharacterType");
   }
 }

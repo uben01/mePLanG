@@ -21,7 +21,7 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.createPositionInfo();
-    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.content$ctEC)).visitAll(new IVisitor<SNode>() {
+    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.content$9mqF)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
         tgs.append("\n");
 
@@ -30,7 +30,7 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
 
         tgs.appendNode(it);
 
-        if (!(SNodeOperations.isInstanceOf(it, CONCEPTS.BreakLineExpression$Lu))) {
+        if (!(SNodeOperations.isInstanceOf(it, CONCEPTS.BreakLineExpression$yL))) {
           tgs.append(" + \" \"");
         }
 
@@ -39,16 +39,16 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
       }
     });
     if (tgs.needPositions()) {
-      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
+      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$L)));
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink content$ctEC = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x533078fd992eeff7L, 0x533078fd992ef027L, "content");
+    /*package*/ static final SContainmentLink content$9mqF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x533078fd992eeff7L, 0x533078fd992ef027L, "content");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept BreakLineExpression$Lu = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b4a1ceL, "mePLanG.structure.BreakLineExpression");
-    /*package*/ static final SInterfaceConcept TraceableConcept$kK = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
+    /*package*/ static final SConcept BreakLineExpression$yL = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b4a1ceL, "mePLanG.structure.BreakLineExpression");
+    /*package*/ static final SInterfaceConcept TraceableConcept$L = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
   }
 }

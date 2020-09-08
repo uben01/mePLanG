@@ -25,13 +25,13 @@ public class substituteType_PL_Boolean_SubstituteTypeRule extends AbstractSubsti
     }.invoke(), "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "3734351021360745028");
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.BooleanType$8G;
+    return CONCEPTS.BooleanType$_u;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept BooleanType$8G = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf940d6513eL, "jetbrains.mps.baseLanguage.structure.BooleanType");
+    /*package*/ static final SConcept BooleanType$_u = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf940d6513eL, "jetbrains.mps.baseLanguage.structure.BooleanType");
   }
 }

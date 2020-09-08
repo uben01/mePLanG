@@ -18,25 +18,25 @@ public class ReturnStatement_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.createPositionInfo();
     tgs.newLine();
-    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.returnValue$Xxrp) != null)) {
+    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.returnValue$Ub2q) != null)) {
       tgs.indent();
       tgs.append("return ");
-      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.returnValue$Xxrp));
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.returnValue$Ub2q));
       tgs.append(";");
     } else {
       tgs.indent();
       tgs.append("return;");
     }
     if (tgs.needPositions()) {
-      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
+      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$L)));
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink returnValue$Xxrp = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
+    /*package*/ static final SContainmentLink returnValue$Ub2q = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SInterfaceConcept TraceableConcept$kK = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
+    /*package*/ static final SInterfaceConcept TraceableConcept$L = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
   }
 }

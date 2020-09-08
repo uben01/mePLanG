@@ -14,10 +14,10 @@ public class PL_ElifClause_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append(" else if (");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.condition$9AG0));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.condition$KI5j));
     tgs.append(") {");
     ctx.getBuffer().area().increaseIndent();
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.trueBranch$9AGY));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.trueBranch$KIzl));
     ctx.getBuffer().area().decreaseIndent();
     tgs.newLine();
     tgs.indent();
@@ -25,7 +25,7 @@ public class PL_ElifClause_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$9AG0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$9AGY = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
+    /*package*/ static final SContainmentLink condition$KI5j = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$KIzl = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
   }
 }

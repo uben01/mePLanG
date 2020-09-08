@@ -11,10 +11,10 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class RoutineDefinition_DataFlow extends DataFlowBuilder {
   public void build(final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.body$msRy));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.body$YXEL));
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink body$msRy = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcf055L, "body");
+    /*package*/ static final SContainmentLink body$YXEL = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcf055L, "body");
   }
 }

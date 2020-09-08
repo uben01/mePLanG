@@ -17,10 +17,10 @@ public class RoutineCallExpression_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(SNodeOperations.getReference(ctx.getPrimaryInput(), LINKS.routine$RDrw).getSourceNode().toString() + "");
+    tgs.append(SNodeOperations.getReference(ctx.getPrimaryInput(), LINKS.routine$435N).getSourceNode().toString() + "");
     tgs.append("(");
     {
-      Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.parameters$nM0V);
+      Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.parameters$CddS);
       final SNode lastItem = Sequence.fromIterable(collection).last();
       for (SNode item : collection) {
         tgs.appendNode(item);
@@ -33,7 +33,7 @@ public class RoutineCallExpression_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class LINKS {
-    /*package*/ static final SReferenceLink routine$RDrw = MetaAdapterFactory.getReferenceLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4b5a0b3L, "routine");
-    /*package*/ static final SContainmentLink parameters$nM0V = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4be5858L, "parameters");
+    /*package*/ static final SReferenceLink routine$435N = MetaAdapterFactory.getReferenceLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4b5a0b3L, "routine");
+    /*package*/ static final SContainmentLink parameters$CddS = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4be5858L, "parameters");
   }
 }

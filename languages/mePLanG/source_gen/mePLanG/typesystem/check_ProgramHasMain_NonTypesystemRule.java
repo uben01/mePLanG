@@ -25,7 +25,7 @@ public class check_ProgramHasMain_NonTypesystemRule extends AbstractNonTypesyste
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.Program$im;
+    return CONCEPTS.Program$3D;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -35,6 +35,6 @@ public class check_ProgramHasMain_NonTypesystemRule extends AbstractNonTypesyste
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Program$im = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, "mePLanG.structure.Program");
+    /*package*/ static final SConcept Program$3D = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, "mePLanG.structure.Program");
   }
 }

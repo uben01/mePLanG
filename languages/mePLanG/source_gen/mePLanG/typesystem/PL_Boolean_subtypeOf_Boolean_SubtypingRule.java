@@ -20,7 +20,7 @@ public class PL_Boolean_subtypeOf_Boolean_SubtypingRule extends SubtypingRule_Ru
     return _quotation_createNode_a0yn3u_a0a1();
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.PL_BooleanType$qw;
+    return CONCEPTS.PL_BooleanType$bN;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -36,6 +36,6 @@ public class PL_Boolean_subtypeOf_Boolean_SubtypingRule extends SubtypingRule_Ru
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_BooleanType$qw = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed30866L, "mePLanG.structure.PL_BooleanType");
+    /*package*/ static final SConcept PL_BooleanType$bN = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed30866L, "mePLanG.structure.PL_BooleanType");
   }
 }

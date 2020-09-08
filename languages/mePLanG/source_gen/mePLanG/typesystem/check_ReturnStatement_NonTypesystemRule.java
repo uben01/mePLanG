@@ -26,20 +26,20 @@ public class check_ReturnStatement_NonTypesystemRule extends AbstractNonTypesyst
   }
   public void applyRule(final SNode returnStatement, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode def = ReturnStatement__BehaviorDescriptor.getParentRoutine_id6e665mWRU58.invoke(returnStatement);
-    if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(def, LINKS.returnType$m1QN))), CONCEPTS.PL_VoidType$u2)) {
-      if (!(ListSequence.fromList(SNodeOperations.getChildren(SLinkOperations.getTarget(returnStatement, LINKS.returnValue$Xxrp))).count() == 0)) {
+    if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(def, LINKS.returnType$LSk0))), CONCEPTS.PL_VoidType$fl)) {
+      if (!(ListSequence.fromList(SNodeOperations.getChildren(SLinkOperations.getTarget(returnStatement, LINKS.returnValue$Ub2q))).count() == 0)) {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(returnStatement, "Semmi függvénynek nem lehet visszatérési értéke", "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "7171446213154391613", null, errorTarget);
       }
     } else {
-      if (!((TypecheckingFacade.getFromContext().getTypeOf(SLinkOperations.getTarget(returnStatement, LINKS.returnValue$Xxrp)) + "").equals(SLinkOperations.getTarget(def, LINKS.returnType$m1QN) + ""))) {
+      if (!((TypecheckingFacade.getFromContext().getTypeOf(SLinkOperations.getTarget(returnStatement, LINKS.returnValue$Ub2q)) + "").equals(SLinkOperations.getTarget(def, LINKS.returnType$LSk0) + ""))) {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(returnStatement, "A visszatérés típusa nem megfelelő", "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "7171446213154414986", null, errorTarget);
       }
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.ReturnStatement$Az;
+    return CONCEPTS.ReturnStatement$nQ;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -49,12 +49,12 @@ public class check_ReturnStatement_NonTypesystemRule extends AbstractNonTypesyst
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink returnType$m1QN = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
-    /*package*/ static final SContainmentLink returnValue$Xxrp = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
+    /*package*/ static final SContainmentLink returnType$LSk0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
+    /*package*/ static final SContainmentLink returnValue$Ub2q = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_VoidType$u2 = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
-    /*package*/ static final SConcept ReturnStatement$Az = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, "mePLanG.structure.ReturnStatement");
+    /*package*/ static final SConcept PL_VoidType$fl = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
+    /*package*/ static final SConcept ReturnStatement$nQ = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, "mePLanG.structure.ReturnStatement");
   }
 }

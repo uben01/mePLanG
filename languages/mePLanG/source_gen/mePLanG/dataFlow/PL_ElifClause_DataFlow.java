@@ -12,14 +12,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class PL_ElifClause_DataFlow extends DataFlowBuilder {
   public void build(final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.condition$9AG0));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.condition$KI5j));
     _context.getBuilder().emitIfJump(_context.getBuilder().after(_context.getNode()), "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/1206536669330");
-    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.trueBranch$9AGY));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.trueBranch$KIzl));
     _context.getBuilder().emitJump(_context.getBuilder().after(PL_ElifClause__BehaviorDescriptor.getIfStatement_id5AQOkzXiuL0.invoke(_context.getNode())), "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/1217865542485");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$9AG0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$9AGY = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
+    /*package*/ static final SContainmentLink condition$KI5j = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$KIzl = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
   }
 }

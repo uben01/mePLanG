@@ -15,22 +15,22 @@ import org.jetbrains.mps.openapi.language.SProperty;
 
 public class Program_DataFlow extends DataFlowBuilder {
   public void build(final DataFlowBuilderContext _context) {
-    for (SNode routine : SLinkOperations.getChildren(_context.getNode(), LINKS.body$8xlY)) {
-      if (SPropertyOperations.getBoolean(SNodeOperations.cast(routine, CONCEPTS.RoutineDefinition$9p), PROPS.main$4MMG)) {
+    for (SNode routine : SLinkOperations.getChildren(_context.getNode(), LINKS.body$f8ql)) {
+      if (SPropertyOperations.getBoolean(SNodeOperations.cast(routine, CONCEPTS.RoutineDefinition$UG), PROPS.main$r_kB)) {
         _context.getBuilder().build((SNode) routine);
       }
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink body$8xlY = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, 0x112caf8f13515c6eL, "body");
+    /*package*/ static final SContainmentLink body$f8ql = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, 0x112caf8f13515c6eL, "body");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept RoutineDefinition$9p = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
+    /*package*/ static final SConcept RoutineDefinition$UG = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty main$4MMG = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
+    /*package*/ static final SProperty main$r_kB = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
   }
 }

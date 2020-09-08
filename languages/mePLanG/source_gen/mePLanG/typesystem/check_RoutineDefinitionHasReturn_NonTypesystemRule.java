@@ -23,7 +23,7 @@ public class check_RoutineDefinitionHasReturn_NonTypesystemRule extends Abstract
   public check_RoutineDefinitionHasReturn_NonTypesystemRule() {
   }
   public void applyRule(final SNode routine, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (!(SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(routine, LINKS.returnType$m1QN))), CONCEPTS.PL_VoidType$u2))) {
+    if (!(SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(routine, LINKS.returnType$LSk0))), CONCEPTS.PL_VoidType$fl))) {
       if (!((boolean) RoutineDefinition__BehaviorDescriptor.hasReturnValue_id6e665mWNO6c.invoke(routine))) {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(routine, "A függvénynek nincs visszatérési értéke", "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "7171446213153070208", null, errorTarget);
@@ -31,7 +31,7 @@ public class check_RoutineDefinitionHasReturn_NonTypesystemRule extends Abstract
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.RoutineDefinition$9p;
+    return CONCEPTS.RoutineDefinition$UG;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -41,11 +41,11 @@ public class check_RoutineDefinitionHasReturn_NonTypesystemRule extends Abstract
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink returnType$m1QN = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
+    /*package*/ static final SContainmentLink returnType$LSk0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_VoidType$u2 = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
-    /*package*/ static final SConcept RoutineDefinition$9p = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
+    /*package*/ static final SConcept PL_VoidType$fl = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
+    /*package*/ static final SConcept RoutineDefinition$UG = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
   }
 }

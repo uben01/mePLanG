@@ -1,0 +1,10 @@
+- hiányzó <=, >=
+- (int + double + int) -- ???
+- ciklus feltétel -- komplex expression
+- ++/-- 
+- binary operatorok
+- KI flagek
+ - bináris, hexa...
+ - autó sortörés
+ - space a végén
+  

@@ -27,14 +27,14 @@ public class compare_PL_Integer_to_Char_ComparisonRule extends ComparisonRule_Ru
   }
 
   public SAbstractConcept getApplicableConcept1() {
-    return CONCEPTS.PL_IntegerType$hr;
+    return CONCEPTS.PL_IntegerType$2I;
   }
   public SAbstractConcept getApplicableConcept2() {
-    return CONCEPTS.PL_CharacterType$hU;
+    return CONCEPTS.PL_CharacterType$3d;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_IntegerType$hr = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b414L, "mePLanG.structure.PL_IntegerType");
-    /*package*/ static final SConcept PL_CharacterType$hU = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b415L, "mePLanG.structure.PL_CharacterType");
+    /*package*/ static final SConcept PL_IntegerType$2I = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b414L, "mePLanG.structure.PL_IntegerType");
+    /*package*/ static final SConcept PL_CharacterType$3d = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b415L, "mePLanG.structure.PL_CharacterType");
   }
 }

@@ -23,6 +23,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new AbsoluteValue_TextGen();
       case LanguageConceptSwitch.BreakLineExpression:
         return new BreakLineExpression_TextGen();
+      case LanguageConceptSwitch.ExponentialExpression:
+        return new ExponentialExpression_TextGen();
       case LanguageConceptSwitch.PL_BooleanType:
         return new PL_BooleanType_TextGen();
       case LanguageConceptSwitch.PL_Boolean_Constant:

@@ -25,13 +25,13 @@ public class substituteType_PL_String_SubstituteTypeRule extends AbstractSubstit
     }.invoke(), "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "3734351021360788868");
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.StringType$2b;
+    return CONCEPTS.StringType$uX;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept StringType$2b = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11d47da71ecL, "jetbrains.mps.baseLanguage.structure.StringType");
+    /*package*/ static final SConcept StringType$uX = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11d47da71ecL, "jetbrains.mps.baseLanguage.structure.StringType");
   }
 }

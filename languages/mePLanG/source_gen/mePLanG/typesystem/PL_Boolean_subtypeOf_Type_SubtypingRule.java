@@ -19,7 +19,7 @@ public class PL_Boolean_subtypeOf_Type_SubtypingRule extends SubtypingRule_Runti
     return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL, "jetbrains.mps.baseLanguage.structure.Type"));
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.PL_BooleanType$qw;
+    return CONCEPTS.PL_BooleanType$bN;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -29,6 +29,6 @@ public class PL_Boolean_subtypeOf_Type_SubtypingRule extends SubtypingRule_Runti
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_BooleanType$qw = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed30866L, "mePLanG.structure.PL_BooleanType");
+    /*package*/ static final SConcept PL_BooleanType$bN = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed30866L, "mePLanG.structure.PL_BooleanType");
   }
 }

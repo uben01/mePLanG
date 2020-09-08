@@ -53,38 +53,38 @@ public final class RoutineDefinition__BehaviorDescriptor extends BaseBHDescripto
   }
 
   /*package*/ static List<SNode> getScopeVariables_id4pl5GY7LKmA(@NotNull SNode __thisNode__) {
-    return SLinkOperations.getChildren(__thisNode__, LINKS.inputs$jb5C);
+    return SLinkOperations.getChildren(__thisNode__, LINKS.inputs$pmvF);
   }
   /*package*/ static Scope getScope_id52_Geb4QDV$(@NotNull SNode __thisNode__, SAbstractConcept kind, SNode child) {
-    if (SConceptOperations.isExactly(SNodeOperations.asSConcept(kind), CONCEPTS.VariableDeclaration$xe)) {
-      if (ScopeUtils.comeFrom(LINKS.body$msRy, __thisNode__, child)) {
-        return Scopes.forVariables(kind, SLinkOperations.getChildren(__thisNode__, LINKS.inputs$jb5C), ScopeUtils.lazyParentScope(__thisNode__, kind));
+    if (SConceptOperations.isExactly(SNodeOperations.asSConcept(kind), CONCEPTS.VariableDeclaration$Y0)) {
+      if (ScopeUtils.comeFrom(LINKS.body$YXEL, __thisNode__, child)) {
+        return Scopes.forVariables(kind, SLinkOperations.getChildren(__thisNode__, LINKS.inputs$pmvF), ScopeUtils.lazyParentScope(__thisNode__, kind));
       } else {
         return ScopeUtils.lazyParentScope(__thisNode__, kind);
       }
     }
-    return ((Scope) ScopeProvider__BehaviorDescriptor.getScope_id52_Geb4QDV$.invoke0(__thisNode__, CONCEPTS.ScopeProvider$M8, kind, child));
+    return ((Scope) ScopeProvider__BehaviorDescriptor.getScope_id52_Geb4QDV$.invoke0(__thisNode__, CONCEPTS.ScopeProvider$aq, kind, child));
   }
   /*package*/ static boolean hasReturnValue_id6e665mWNO6c(@NotNull SNode __thisNode__) {
-    return (boolean) PL_StatementList__BehaviorDescriptor.hasReturnValue_id3oaD0rhb2J6.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.body$msRy));
+    return (boolean) PL_StatementList__BehaviorDescriptor.hasReturnValue_id3oaD0rhb2J6.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.body$YXEL));
   }
   /*package*/ static SNode getLastStatement_idi2fhS7A(@NotNull SNode __thisNode__) {
     return (SNode) StatementList__BehaviorDescriptor.getLastStatement_id28aPEVv8l7T.invoke(IStatementListContainer__BehaviorDescriptor.getStatementList_id28aPEVv_31A.invoke(__thisNode__));
   }
   /*package*/ static SNode getBody_idi2fhZ_m(@NotNull SNode __thisNode__) {
-    return SLinkOperations.getTarget(__thisNode__, LINKS.body$msRy);
+    return SLinkOperations.getTarget(__thisNode__, LINKS.body$YXEL);
   }
   /*package*/ static SNode getStatementList_id28aPEVv_31A(@NotNull SNode __thisNode__) {
     return IMethodLike__BehaviorDescriptor.getBody_idi2fhZ_m.invoke(__thisNode__);
   }
   /*package*/ static SNode getExpectedRetType_idi2fhBNC(@NotNull SNode __thisNode__) {
-    return (SNode) IPL_ReturnTypes__BehaviorDescriptor.expandGeneric_id3ZAe4NgLRRC.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.returnType$m1QN));
+    return (SNode) IPL_ReturnTypes__BehaviorDescriptor.expandGeneric_id3ZAe4NgLRRC.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.returnType$LSk0));
   }
   /*package*/ static boolean isPassLastExpressionValue_id28aPEVv$IZv(@NotNull SNode __thisNode__) {
     return false;
   }
   /*package*/ static String getFqName_idhEwIO9y(@NotNull SNode __thisNode__) {
-    return SPropertyOperations.getString(__thisNode__, PROPS.name$tAp1);
+    return SPropertyOperations.getString(__thisNode__, PROPS.name$MnvL);
   }
   /*package*/ static List<SNode> getThrowableTypes_id5op8ooRkkc7(@NotNull SNode __thisNode__) {
     return null;
@@ -155,17 +155,17 @@ public final class RoutineDefinition__BehaviorDescriptor extends BaseBHDescripto
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink inputs$jb5C = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
-    /*package*/ static final SContainmentLink body$msRy = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcf055L, "body");
-    /*package*/ static final SContainmentLink returnType$m1QN = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
+    /*package*/ static final SContainmentLink inputs$pmvF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
+    /*package*/ static final SContainmentLink body$YXEL = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcf055L, "body");
+    /*package*/ static final SContainmentLink returnType$LSk0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept VariableDeclaration$xe = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37a7f6eL, "jetbrains.mps.baseLanguage.structure.VariableDeclaration");
-    /*package*/ static final SInterfaceConcept ScopeProvider$M8 = MetaAdapterFactory.getInterfaceConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L, "jetbrains.mps.lang.core.structure.ScopeProvider");
+    /*package*/ static final SConcept VariableDeclaration$Y0 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37a7f6eL, "jetbrains.mps.baseLanguage.structure.VariableDeclaration");
+    /*package*/ static final SInterfaceConcept ScopeProvider$aq = MetaAdapterFactory.getInterfaceConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L, "jetbrains.mps.lang.core.structure.ScopeProvider");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }

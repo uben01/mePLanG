@@ -69,7 +69,7 @@ public class ReturnStatementAddParameter extends TransformationMenuBase {
   public class TMP_Group_xtzkk3_a0 extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
     @Override
     protected boolean isApplicable(TransformationMenuContext _context) {
-      return (SLinkOperations.getTarget(_context.getNode(), LINKS.returnValue$Xxrp) == null);
+      return (SLinkOperations.getTarget(_context.getNode(), LINKS.returnValue$Ub2q) == null);
     }
 
     @NotNull
@@ -154,7 +154,7 @@ public class ReturnStatementAddParameter extends TransformationMenuBase {
 
           @Override
           public void execute(@NotNull String pattern) {
-            SLinkOperations.setNewChild(_context.getNode(), LINKS.returnValue$Xxrp, null);
+            SLinkOperations.setNewChild(_context.getNode(), LINKS.returnValue$Ub2q, null);
           }
 
 
@@ -180,6 +180,6 @@ public class ReturnStatementAddParameter extends TransformationMenuBase {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink returnValue$Xxrp = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
+    /*package*/ static final SContainmentLink returnValue$Ub2q = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
   }
 }

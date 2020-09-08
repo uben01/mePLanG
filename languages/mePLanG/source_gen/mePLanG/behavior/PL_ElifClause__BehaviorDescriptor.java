@@ -36,15 +36,15 @@ public final class PL_ElifClause__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static SNode getIfStatement_id5AQOkzXiuL0(@NotNull SNode __thisNode__) {
-    return SNodeOperations.cast(SNodeOperations.getParent(__thisNode__), CONCEPTS.PL_IfStatement$7f);
+    return SNodeOperations.cast(SNodeOperations.getParent(__thisNode__), CONCEPTS.PL_IfStatement$Sy);
   }
   /*package*/ static NextProgramPoint getNextProgramPoint_id3F8BxGibk8h(@NotNull SNode __thisNode__, @NotNull SNode child, boolean value) {
-    if (child != SLinkOperations.getTarget(__thisNode__, LINKS.condition$9AG0)) {
+    if (child != SLinkOperations.getTarget(__thisNode__, LINKS.condition$KI5j)) {
       return null;
     }
     if (value) {
-      if (SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$9AGY) != null) {
-        return NextProgramPoint.continueAt(SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$9AGY), false);
+      if (SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$KIzl) != null) {
+        return NextProgramPoint.continueAt(SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$KIzl), false);
       } else {
         return NextProgramPoint.continueAfter(__thisNode__);
       }
@@ -53,7 +53,7 @@ public final class PL_ElifClause__BehaviorDescriptor extends BaseBHDescriptor {
     }
   }
   /*package*/ static SNode getStatementList_id28aPEVv_31A(@NotNull SNode __thisNode__) {
-    return SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$9AGY);
+    return SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$KIzl);
   }
 
   /*package*/ PL_ElifClause__BehaviorDescriptor() {
@@ -107,11 +107,11 @@ public final class PL_ElifClause__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_IfStatement$7f = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
+    /*package*/ static final SConcept PL_IfStatement$Sy = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$9AG0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$9AGY = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
+    /*package*/ static final SContainmentLink condition$KI5j = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$KIzl = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
   }
 }

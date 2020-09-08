@@ -1045,5 +1045,9 @@
     <property role="3GE5qa" value="control" />
     <ref role="1M2myG" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
   </node>
+  <node concept="1M2fIO" id="1ddvuj_TPfK">
+    <property role="3GE5qa" value="math" />
+    <ref role="1M2myG" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+  </node>
 </model>
 

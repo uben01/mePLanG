@@ -6,13 +6,16 @@ package sandbox.sandbox;
 public class program {
 
   public static void main(String[] args) {
-    int e = 0;
+    int e = -10;
     do {
-      fg(e);
+      int k = fg(e);
+      System.out.print(k + " ");
       fg2();
       e = increment(e);
     } while (e < 10);
     fg(e);
+    System.out.print("\n");
+    System.out.print(Math.pow(e, (2 + 3.01)) + " ");
   }
   public static int fg(int l) {
     System.out.print(l + " ");

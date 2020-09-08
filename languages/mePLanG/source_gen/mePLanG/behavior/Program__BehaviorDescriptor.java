@@ -34,11 +34,11 @@ public final class Program__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static List<SNode> getRoutines_id5lud8Jau$NF(@NotNull SNode __thisNode__) {
-    return SLinkOperations.getChildren(__thisNode__, LINKS.body$8xlY);
+    return SLinkOperations.getChildren(__thisNode__, LINKS.body$f8ql);
   }
   /*package*/ static boolean hasMain_id5lud8JazvcY(@NotNull SNode __thisNode__) {
-    for (SNode routine : SLinkOperations.getChildren(__thisNode__, LINKS.body$8xlY)) {
-      if (SPropertyOperations.getBoolean(routine, PROPS.main$4MMG)) {
+    for (SNode routine : SLinkOperations.getChildren(__thisNode__, LINKS.body$f8ql)) {
+      if (SPropertyOperations.getBoolean(routine, PROPS.main$r_kB)) {
         return true;
       }
     }
@@ -95,10 +95,10 @@ public final class Program__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink body$8xlY = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, 0x112caf8f13515c6eL, "body");
+    /*package*/ static final SContainmentLink body$f8ql = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, 0x112caf8f13515c6eL, "body");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty main$4MMG = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
+    /*package*/ static final SProperty main$r_kB = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
   }
 }

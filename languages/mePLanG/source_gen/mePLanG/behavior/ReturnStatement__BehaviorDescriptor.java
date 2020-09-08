@@ -35,7 +35,7 @@ public final class ReturnStatement__BehaviorDescriptor extends BaseBHDescriptor 
     while (true) {
       {
         final SNode def = SNodeOperations.getParent(node);
-        if (SNodeOperations.isInstanceOf(def, CONCEPTS.RoutineDefinition$9p)) {
+        if (SNodeOperations.isInstanceOf(def, CONCEPTS.RoutineDefinition$UG)) {
           return def;
         }
       }
@@ -90,6 +90,6 @@ public final class ReturnStatement__BehaviorDescriptor extends BaseBHDescriptor 
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept RoutineDefinition$9p = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
+    /*package*/ static final SConcept RoutineDefinition$UG = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
   }
 }

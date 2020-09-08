@@ -488,5 +488,29 @@
     <property role="3GE5qa" value="math" />
     <property role="TrG5h" value="MathExpression" />
   </node>
+  <node concept="1TIwiD" id="1ddvuj_NySs">
+    <property role="EcuMT" value="1390906281988861468" />
+    <property role="3GE5qa" value="math" />
+    <property role="TrG5h" value="ExponentialExpression" />
+    <property role="34LRSv" value="Hatvány" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="1ddvuj_NySt" role="PzmwI">
+      <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
+    </node>
+    <node concept="1TJgyj" id="1ddvuj_NySw" role="1TKVEi">
+      <property role="IQ2ns" value="1390906281988861472" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1ddvuj_NySy" role="1TKVEi">
+      <property role="IQ2ns" value="1390906281988861474" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exponent" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
