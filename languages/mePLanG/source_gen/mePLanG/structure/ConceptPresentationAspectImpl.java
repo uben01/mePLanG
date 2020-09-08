@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_AbsoluteValue;
   private ConceptPresentation props_BreakLineExpression;
   private ConceptPresentation props_EmptyLineStatement;
+  private ConceptPresentation props_ExponentialExpression;
   private ConceptPresentation props_IPL_AllowedTypes;
   private ConceptPresentation props_IPL_ReturnTypes;
   private ConceptPresentation props_MathExpression;
@@ -63,6 +64,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_EmptyLineStatement = cpb.create();
         }
         return props_EmptyLineStatement;
+      case LanguageConceptSwitch.ExponentialExpression:
+        if (props_ExponentialExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Hatvány");
+          props_ExponentialExpression = cpb.create();
+        }
+        return props_ExponentialExpression;
       case LanguageConceptSwitch.IPL_AllowedTypes:
         if (props_IPL_AllowedTypes == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

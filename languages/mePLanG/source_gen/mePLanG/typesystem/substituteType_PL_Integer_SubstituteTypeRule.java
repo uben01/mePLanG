@@ -25,13 +25,13 @@ public class substituteType_PL_Integer_SubstituteTypeRule extends AbstractSubsti
     }.invoke(), "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "3734351021360788775");
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.IntegerType$Eo;
+    return CONCEPTS.IntegerType$7a;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept IntegerType$Eo = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf940d22479L, "jetbrains.mps.baseLanguage.structure.IntegerType");
+    /*package*/ static final SConcept IntegerType$7a = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf940d22479L, "jetbrains.mps.baseLanguage.structure.IntegerType");
   }
 }

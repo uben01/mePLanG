@@ -24,7 +24,7 @@ public class typeof_PL_BooleanConstant_InferenceRule extends AbstractInferenceRu
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.PL_Boolean_Constant$x0;
+    return CONCEPTS.PL_Boolean_Constant$ij;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -33,12 +33,12 @@ public class typeof_PL_BooleanConstant_InferenceRule extends AbstractInferenceRu
     return false;
   }
   private static SNode createPL_BooleanType_jj4co6_a1a0c0a0b() {
-    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.PL_BooleanType$qw);
+    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.PL_BooleanType$bN);
     return n0.getResult();
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_Boolean_Constant$x0 = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b926d1L, "mePLanG.structure.PL_Boolean_Constant");
-    /*package*/ static final SConcept PL_BooleanType$qw = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed30866L, "mePLanG.structure.PL_BooleanType");
+    /*package*/ static final SConcept PL_Boolean_Constant$ij = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b926d1L, "mePLanG.structure.PL_Boolean_Constant");
+    /*package*/ static final SConcept PL_BooleanType$bN = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed30866L, "mePLanG.structure.PL_BooleanType");
   }
 }

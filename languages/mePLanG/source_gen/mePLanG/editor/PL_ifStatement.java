@@ -76,7 +76,7 @@ public class PL_ifStatement extends TransformationMenuBase {
   public class TMP_Group_mdv7nr_a0 extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
     @Override
     protected boolean isApplicable(TransformationMenuContext _context) {
-      return (SLinkOperations.getTarget(_context.getNode(), LINKS.falseBranch$IXaB) == null);
+      return (SLinkOperations.getTarget(_context.getNode(), LINKS.falseBranch$QAUc) == null);
     }
 
     @NotNull
@@ -161,9 +161,9 @@ public class PL_ifStatement extends TransformationMenuBase {
 
           @Override
           public void execute(@NotNull String pattern) {
-            SNodeFactoryOperations.setNewChild(_context.getNode(), LINKS.falseBranch$IXaB, CONCEPTS.PL_StatementList$Ev);
-            ListSequence.fromList(SNodeOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), LINKS.falseBranch$IXaB))).addElement(SNodeFactoryOperations.createNewNode(CONCEPTS.EmptyLineStatement$yM, null));
-            SelectionUtil.selectLabelCellAnSetCaret(_context.getEditorContext(), SLinkOperations.getTarget(_context.getNode(), LINKS.falseBranch$IXaB), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, -1);
+            SNodeFactoryOperations.setNewChild(_context.getNode(), LINKS.falseBranch$QAUc, CONCEPTS.PL_StatementList$rM);
+            ListSequence.fromList(SNodeOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), LINKS.falseBranch$QAUc))).addElement(SNodeFactoryOperations.createNewNode(CONCEPTS.EmptyLineStatement$k5, null));
+            SelectionUtil.selectLabelCellAnSetCaret(_context.getEditorContext(), SLinkOperations.getTarget(_context.getNode(), LINKS.falseBranch$QAUc), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, -1);
           }
 
 
@@ -254,7 +254,7 @@ public class PL_ifStatement extends TransformationMenuBase {
 
         @Override
         public void execute(@NotNull String pattern) {
-          SNode elif = SNodeFactoryOperations.addNewChild(_context.getNode(), LINKS.elifClauses$U_Hp, null);
+          SNode elif = SNodeFactoryOperations.addNewChild(_context.getNode(), LINKS.elifClauses$vfKq, null);
           SelectionUtil.selectLabelCellAnSetCaret(_context.getEditorContext(), elif, SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, -1);
         }
 
@@ -280,12 +280,12 @@ public class PL_ifStatement extends TransformationMenuBase {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink falseBranch$IXaB = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbb02L, "falseBranch");
-    /*package*/ static final SContainmentLink elifClauses$U_Hp = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x59b6d148fd49b2f2L, "elifClauses");
+    /*package*/ static final SContainmentLink falseBranch$QAUc = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbb02L, "falseBranch");
+    /*package*/ static final SContainmentLink elifClauses$vfKq = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x59b6d148fd49b2f2L, "elifClauses");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_StatementList$Ev = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x22328d3fafaf57a5L, "mePLanG.structure.PL_StatementList");
-    /*package*/ static final SConcept EmptyLineStatement$yM = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x18b6f7391cb9f461L, "mePLanG.structure.EmptyLineStatement");
+    /*package*/ static final SConcept PL_StatementList$rM = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x22328d3fafaf57a5L, "mePLanG.structure.PL_StatementList");
+    /*package*/ static final SConcept EmptyLineStatement$k5 = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x18b6f7391cb9f461L, "mePLanG.structure.EmptyLineStatement");
   }
 }

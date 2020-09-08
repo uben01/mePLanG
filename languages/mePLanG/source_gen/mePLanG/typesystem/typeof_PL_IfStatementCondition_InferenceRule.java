@@ -21,13 +21,13 @@ public class typeof_PL_IfStatementCondition_InferenceRule extends AbstractInfere
   }
   public void applyRule(final SNode pL_IfStatement, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
-      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(pL_IfStatement, LINKS.condition$IWRI);
+      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(pL_IfStatement, LINKS.condition$QtK_);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "3578036148844672114", 0, null);
       typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "3578036148844672120", true), (SNode) _quotation_createNode_btmoq2_a1a0c0a0b(), false, true, _info_12389875345);
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.PL_IfStatement$7f;
+    return CONCEPTS.PL_IfStatement$Sy;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -43,10 +43,10 @@ public class typeof_PL_IfStatementCondition_InferenceRule extends AbstractInfere
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$IWRI = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaf0L, "condition");
+    /*package*/ static final SContainmentLink condition$QtK_ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaf0L, "condition");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_IfStatement$7f = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
+    /*package*/ static final SConcept PL_IfStatement$Sy = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
   }
 }

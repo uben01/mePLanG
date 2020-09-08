@@ -37,7 +37,7 @@ public final class addParameters_Intention extends AbstractIntentionDescriptor i
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return !(SPropertyOperations.getBoolean(node, PROPS.main$4MMG)) && ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.inputs$jb5C)).isEmpty();
+    return !(SPropertyOperations.getBoolean(node, PROPS.main$r_kB)) && ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.inputs$pmvF)).isEmpty();
   }
   @Override
   public boolean isSurroundWith() {
@@ -58,7 +58,7 @@ public final class addParameters_Intention extends AbstractIntentionDescriptor i
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SLinkOperations.addNewChild(node, LINKS.inputs$jb5C, null);
+      SLinkOperations.addNewChild(node, LINKS.inputs$pmvF, null);
     }
     @Override
     public IntentionDescriptor getDescriptor() {
@@ -67,10 +67,10 @@ public final class addParameters_Intention extends AbstractIntentionDescriptor i
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink inputs$jb5C = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
+    /*package*/ static final SContainmentLink inputs$pmvF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty main$4MMG = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
+    /*package*/ static final SProperty main$r_kB = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
   }
 }

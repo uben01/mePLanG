@@ -21,41 +21,41 @@ public class PL_IfStatement_TextGen extends TextGenDescriptorBase {
     tgs.newLine();
     tgs.indent();
     tgs.append("if (");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.condition$IWRI));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.condition$QtK_));
     tgs.append(") {");
     ctx.getBuffer().area().increaseIndent();
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.trueBranch$IX9a));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.trueBranch$QAd9));
     ctx.getBuffer().area().decreaseIndent();
     tgs.newLine();
     tgs.indent();
     tgs.append("}");
 
-    for (SNode elif : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.elifClauses$U_Hp)) {
+    for (SNode elif : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.elifClauses$vfKq)) {
       tgs.appendNode(elif);
     }
 
-    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.falseBranch$IXaB) != null)) {
+    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.falseBranch$QAUc) != null)) {
       tgs.append(" else {");
       ctx.getBuffer().area().increaseIndent();
-      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.falseBranch$IXaB));
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.falseBranch$QAUc));
       ctx.getBuffer().area().decreaseIndent();
       tgs.newLine();
       tgs.indent();
       tgs.append("}");
     }
     if (tgs.needPositions()) {
-      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
+      tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$L)));
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$IWRI = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaf0L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$IX9a = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaffL, "trueBranch");
-    /*package*/ static final SContainmentLink elifClauses$U_Hp = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x59b6d148fd49b2f2L, "elifClauses");
-    /*package*/ static final SContainmentLink falseBranch$IXaB = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbb02L, "falseBranch");
+    /*package*/ static final SContainmentLink condition$QtK_ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaf0L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$QAd9 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaffL, "trueBranch");
+    /*package*/ static final SContainmentLink elifClauses$vfKq = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x59b6d148fd49b2f2L, "elifClauses");
+    /*package*/ static final SContainmentLink falseBranch$QAUc = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbb02L, "falseBranch");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SInterfaceConcept TraceableConcept$kK = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
+    /*package*/ static final SInterfaceConcept TraceableConcept$L = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
   }
 }

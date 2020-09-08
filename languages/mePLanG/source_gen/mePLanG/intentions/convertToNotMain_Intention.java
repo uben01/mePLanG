@@ -34,7 +34,7 @@ public final class convertToNotMain_Intention extends AbstractIntentionDescripto
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, PROPS.main$4MMG);
+    return SPropertyOperations.getBoolean(node, PROPS.main$r_kB);
   }
   @Override
   public boolean isSurroundWith() {
@@ -55,7 +55,7 @@ public final class convertToNotMain_Intention extends AbstractIntentionDescripto
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.assign(node, PROPS.main$4MMG, false);
+      SPropertyOperations.assign(node, PROPS.main$r_kB, false);
     }
     @Override
     public IntentionDescriptor getDescriptor() {
@@ -64,6 +64,6 @@ public final class convertToNotMain_Intention extends AbstractIntentionDescripto
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty main$4MMG = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
+    /*package*/ static final SProperty main$r_kB = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
   }
 }

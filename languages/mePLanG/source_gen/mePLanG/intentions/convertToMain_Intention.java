@@ -39,7 +39,7 @@ public final class convertToMain_Intention extends AbstractIntentionDescriptor i
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return !((boolean) Program__BehaviorDescriptor.hasMain_id5lud8JazvcY.invoke(SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.Program$im)));
+    return !((boolean) Program__BehaviorDescriptor.hasMain_id5lud8JazvcY.invoke(SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.Program$3D)));
   }
   @Override
   public boolean isSurroundWith() {
@@ -60,10 +60,10 @@ public final class convertToMain_Intention extends AbstractIntentionDescriptor i
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.assign(node, PROPS.main$4MMG, true);
-      SLinkOperations.getChildren(node, LINKS.inputs$jb5C).clear();
-      SLinkOperations.setNewChild(node, LINKS.returnType$m1QN, CONCEPTS.PL_VoidType$u2);
-      SPropertyOperations.assign(node, PROPS.name$tAp1, "main");
+      SPropertyOperations.assign(node, PROPS.main$r_kB, true);
+      SLinkOperations.getChildren(node, LINKS.inputs$pmvF).clear();
+      SLinkOperations.setNewChild(node, LINKS.returnType$LSk0, CONCEPTS.PL_VoidType$fl);
+      SPropertyOperations.assign(node, PROPS.name$MnvL, "main");
     }
     @Override
     public IntentionDescriptor getDescriptor() {
@@ -72,17 +72,17 @@ public final class convertToMain_Intention extends AbstractIntentionDescriptor i
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Program$im = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, "mePLanG.structure.Program");
-    /*package*/ static final SConcept PL_VoidType$u2 = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
+    /*package*/ static final SConcept Program$3D = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, "mePLanG.structure.Program");
+    /*package*/ static final SConcept PL_VoidType$fl = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty main$4MMG = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
-    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty main$r_kB = MetaAdapterFactory.getProperty(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ed88a76L, "main");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink inputs$jb5C = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
-    /*package*/ static final SContainmentLink returnType$m1QN = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
+    /*package*/ static final SContainmentLink inputs$pmvF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
+    /*package*/ static final SContainmentLink returnType$LSk0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
   }
 }

@@ -13,16 +13,16 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class RoutineCallExpression_DataFlow extends DataFlowBuilder {
   public void build(final DataFlowBuilderContext _context) {
-    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.parameters$nM0V)).count(); i++) {
-      _context.getBuilder().emitWrite(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), LINKS.routine$RDrw), LINKS.inputs$jb5C)).getElement(i), ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.parameters$nM0V)).getElement(i), "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/4847857255827511300");
+    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.parameters$CddS)).count(); i++) {
+      _context.getBuilder().emitWrite(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), LINKS.routine$435N), LINKS.inputs$pmvF)).getElement(i), ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.parameters$CddS)).getElement(i), "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/4847857255827511300");
     }
 
-    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.routine$RDrw));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), LINKS.routine$435N));
   }
 
   private static final class LINKS {
-    /*package*/ static final SReferenceLink routine$RDrw = MetaAdapterFactory.getReferenceLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4b5a0b3L, "routine");
-    /*package*/ static final SContainmentLink inputs$jb5C = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
-    /*package*/ static final SContainmentLink parameters$nM0V = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4be5858L, "parameters");
+    /*package*/ static final SReferenceLink routine$435N = MetaAdapterFactory.getReferenceLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4b5a0b3L, "routine");
+    /*package*/ static final SContainmentLink inputs$pmvF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebced63L, "inputs");
+    /*package*/ static final SContainmentLink parameters$CddS = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L, 0x40e51422f4be5858L, "parameters");
   }
 }

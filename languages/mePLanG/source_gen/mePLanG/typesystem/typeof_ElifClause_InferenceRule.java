@@ -21,13 +21,13 @@ public class typeof_ElifClause_InferenceRule extends AbstractInferenceRule_Runti
   }
   public void applyRule(final SNode elifClause, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
-      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(elifClause, LINKS.condition$9AG0);
+      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(elifClause, LINKS.condition$KI5j);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "6464584426554250189", 0, null);
       typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "6464584426554250195", true), (SNode) _quotation_createNode_pgo5x7_a1a0c0a0b(), false, true, _info_12389875345);
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.PL_ElifClause$B;
+    return CONCEPTS.PL_ElifClause$LU;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -43,10 +43,10 @@ public class typeof_ElifClause_InferenceRule extends AbstractInferenceRule_Runti
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$9AG0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
+    /*package*/ static final SContainmentLink condition$KI5j = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept PL_ElifClause$B = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, "mePLanG.structure.PL_ElifClause");
+    /*package*/ static final SConcept PL_ElifClause$LU = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, "mePLanG.structure.PL_ElifClause");
   }
 }

@@ -15,14 +15,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class PL_node_factories {
   public static class NodeFactory_4587952750758668166 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SNodeFactoryOperations.setNewChild(newNode, LINKS.condition$IWRI, null);
-      SNodeFactoryOperations.setNewChild(newNode, LINKS.trueBranch$IX9a, null);
+      SNodeFactoryOperations.setNewChild(newNode, LINKS.condition$QtK_, null);
+      SNodeFactoryOperations.setNewChild(newNode, LINKS.trueBranch$QAd9, null);
     }
   }
   public static class NodeFactory_6464584426558287306 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SNodeFactoryOperations.setNewChild(newNode, LINKS.condition$9AG0, null);
-      SNodeFactoryOperations.setNewChild(newNode, LINKS.trueBranch$9AGY, null);
+      SNodeFactoryOperations.setNewChild(newNode, LINKS.condition$KI5j, null);
+      SNodeFactoryOperations.setNewChild(newNode, LINKS.trueBranch$KIzl, null);
     }
   }
   public static class NodeFactory_3069092188763423968 implements NodeFactory {
@@ -31,9 +31,9 @@ public class PL_node_factories {
       do {
         {
           final SNode def = node;
-          if (SNodeOperations.isInstanceOf(def, CONCEPTS.RoutineDefinition$9p)) {
-            if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(def, LINKS.returnType$m1QN), CONCEPTS.PL_VoidType$u2))) {
-              SLinkOperations.setNewChild(newNode, LINKS.returnValue$Xxrp, null);
+          if (SNodeOperations.isInstanceOf(def, CONCEPTS.RoutineDefinition$UG)) {
+            if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(def, LINKS.returnType$LSk0), CONCEPTS.PL_VoidType$fl))) {
+              SLinkOperations.setNewChild(newNode, LINKS.returnValue$Ub2q, null);
             }
             return;
           }
@@ -44,16 +44,16 @@ public class PL_node_factories {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink condition$IWRI = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaf0L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$IX9a = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaffL, "trueBranch");
-    /*package*/ static final SContainmentLink condition$9AG0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
-    /*package*/ static final SContainmentLink trueBranch$9AGY = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
-    /*package*/ static final SContainmentLink returnType$m1QN = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
-    /*package*/ static final SContainmentLink returnValue$Xxrp = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
+    /*package*/ static final SContainmentLink condition$QtK_ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaf0L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$QAd9 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, 0x4d491b819a6dbaffL, "trueBranch");
+    /*package*/ static final SContainmentLink condition$KI5j = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b760L, "condition");
+    /*package*/ static final SContainmentLink trueBranch$KIzl = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L, 0x59b6d148fd49b762L, "trueBranch");
+    /*package*/ static final SContainmentLink returnType$LSk0 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, 0x78692a4c9ebcef1bL, "returnType");
+    /*package*/ static final SContainmentLink returnValue$Ub2q = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L, 0x63861855bcbf6614L, "returnValue");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept RoutineDefinition$9p = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
-    /*package*/ static final SConcept PL_VoidType$u2 = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
+    /*package*/ static final SConcept RoutineDefinition$UG = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
+    /*package*/ static final SConcept PL_VoidType$fl = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L, "mePLanG.structure.PL_VoidType");
   }
 }

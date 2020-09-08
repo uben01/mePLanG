@@ -679,5 +679,40 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="1ddvuj_SLhv">
+    <property role="3GE5qa" value="math" />
+    <ref role="WuzLi" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+    <node concept="11bSqf" id="1ddvuj_SLhw" role="11c4hB">
+      <node concept="3clFbS" id="1ddvuj_SLhx" role="2VODD2">
+        <node concept="lc7rE" id="1ddvuj_SMu9" role="3cqZAp">
+          <node concept="la8eA" id="1ddvuj_SMut" role="lcghm">
+            <property role="lacIc" value="Math.pow(" />
+          </node>
+          <node concept="l9hG8" id="1ddvuj_SMwr" role="lcghm">
+            <node concept="2OqwBi" id="1ddvuj_SMEq" role="lb14g">
+              <node concept="117lpO" id="1ddvuj_SMxj" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1ddvuj_SMOs" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:1ddvuj_NySw" resolve="expression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="1ddvuj_SMTB" role="lcghm">
+            <property role="lacIc" value=", " />
+          </node>
+          <node concept="l9hG8" id="1ddvuj_SMVa" role="lcghm">
+            <node concept="2OqwBi" id="1ddvuj_SMX4" role="lb14g">
+              <node concept="117lpO" id="1ddvuj_SMWu" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1ddvuj_SMYL" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:1ddvuj_NySy" resolve="exponent" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="1ddvuj_SMv$" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -91,6 +91,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
+      <concept id="1157103807699" name="jetbrains.mps.baseLanguage.structure.Number" flags="ng" index="1CKIRu" />
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
         <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
@@ -1132,6 +1133,124 @@
     <node concept="1YaCAy" id="4UHSjJGUJJD" role="1YuTPh">
       <property role="TrG5h" value="absoluteValue" />
       <ref role="1YaFvo" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="1ddvuj_O$SI">
+    <property role="3GE5qa" value="math" />
+    <property role="TrG5h" value="exponentialExpression_subtypeOf_Numbers" />
+    <node concept="3clFbS" id="1ddvuj_O$SJ" role="2sgrp5">
+      <node concept="3cpWs8" id="1ddvuj_O$SX" role="3cqZAp">
+        <node concept="3cpWsn" id="1ddvuj_O$SY" role="3cpWs9">
+          <property role="TrG5h" value="nlist" />
+          <node concept="2I9FWS" id="1ddvuj_O$SZ" role="1tU5fm" />
+          <node concept="2ShNRf" id="1ddvuj_O$T0" role="33vP2m">
+            <node concept="2T8Vx0" id="1ddvuj_O$T1" role="2ShVmc">
+              <node concept="2I9FWS" id="1ddvuj_O$T2" role="2T96Bj" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1ddvuj_O$T3" role="3cqZAp">
+        <node concept="2OqwBi" id="1ddvuj_O$T4" role="3clFbG">
+          <node concept="37vLTw" id="1ddvuj_O$T5" role="2Oq$k0">
+            <ref role="3cqZAo" node="1ddvuj_O$SY" resolve="nlist" />
+          </node>
+          <node concept="TSZUe" id="1ddvuj_O$T6" role="2OqNvi">
+            <node concept="2pJPEk" id="1ddvuj_O$T7" role="25WWJ7">
+              <node concept="2pJPED" id="1ddvuj_O$T8" role="2pJPEn">
+                <ref role="2pJxaS" to="b47h:3fj57vIOVgk" resolve="PL_IntegerType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1ddvuj_O$T9" role="3cqZAp">
+        <node concept="2OqwBi" id="1ddvuj_O$Ta" role="3clFbG">
+          <node concept="37vLTw" id="1ddvuj_O$Tb" role="2Oq$k0">
+            <ref role="3cqZAo" node="1ddvuj_O$SY" resolve="nlist" />
+          </node>
+          <node concept="TSZUe" id="1ddvuj_O$Tc" role="2OqNvi">
+            <node concept="2pJPEk" id="1ddvuj_O$Td" role="25WWJ7">
+              <node concept="2pJPED" id="1ddvuj_O$Te" role="2pJPEn">
+                <ref role="2pJxaS" to="b47h:3fj57vIOVgn" resolve="PL_DoubleType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3Y5Hlmc4G1W" role="3cqZAp" />
+      <node concept="3cpWs6" id="3Y5Hlmc4G37" role="3cqZAp">
+        <node concept="37vLTw" id="3Y5Hlmc4G3W" role="3cqZAk">
+          <ref role="3cqZAo" node="1ddvuj_O$SY" resolve="nlist" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1ddvuj_O$SL" role="1YuTPh">
+      <property role="TrG5h" value="exponential" />
+      <ref role="1YaFvo" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1ddvujA2glv">
+    <property role="TrG5h" value="typeof_ExponentialExpression" />
+    <property role="3GE5qa" value="math" />
+    <node concept="3clFbS" id="1ddvujA2glw" role="18ibNy">
+      <node concept="1ZobV4" id="3Y5Hlmc3Ec3" role="3cqZAp">
+        <node concept="mw_s8" id="3Y5Hlmc3Ec5" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3Y5Hlmc3Ec6" role="mwGJk">
+            <node concept="2OqwBi" id="3Y5Hlmc3Ec7" role="1Z2MuG">
+              <node concept="1YBJjd" id="3Y5Hlmc3Ec8" role="2Oq$k0">
+                <ref role="1YBMHb" node="1ddvujA2gly" resolve="exp" />
+              </node>
+              <node concept="3TrEf2" id="3Y5Hlmc3Ec9" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:1ddvuj_NySw" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3Y5Hlmc3Eca" role="1ZfhKB">
+          <node concept="2c44tf" id="3Y5Hlmc3Ecb" role="mwGJk">
+            <node concept="1CKIRu" id="3Y5Hlmc3Ecc" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1ddvujA2gly" role="1YuTPh">
+      <property role="TrG5h" value="exp" />
+      <ref role="1YaFvo" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="3Y5Hlmc5JLU">
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="PL_Double_subtypeOf_Number" />
+    <node concept="3clFbS" id="3Y5Hlmc5JLV" role="2sgrp5">
+      <node concept="3cpWs6" id="3Y5Hlmc5JMA" role="3cqZAp">
+        <node concept="2pJPEk" id="3Y5Hlmc5UUM" role="3cqZAk">
+          <node concept="2pJPED" id="3Y5Hlmc5UV7" role="2pJPEn">
+            <ref role="2pJxaS" to="tpee:gPCKINj" resolve="Number" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3Y5Hlmc5JMd" role="1YuTPh">
+      <property role="TrG5h" value="pL_DoubleType" />
+      <ref role="1YaFvo" to="b47h:3fj57vIOVgn" resolve="PL_DoubleType" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="3Y5Hlmc849I">
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="PL_Integer_subtypeOf_Number" />
+    <node concept="3clFbS" id="3Y5Hlmc849J" role="2sgrp5">
+      <node concept="3cpWs6" id="3Y5Hlmc849K" role="3cqZAp">
+        <node concept="2pJPEk" id="3Y5Hlmc849L" role="3cqZAk">
+          <node concept="2pJPED" id="3Y5Hlmc849M" role="2pJPEn">
+            <ref role="2pJxaS" to="tpee:gPCKINj" resolve="Number" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3Y5Hlmc849N" role="1YuTPh">
+      <property role="TrG5h" value="pL_IntegerType" />
+      <ref role="1YaFvo" to="b47h:3fj57vIOVgk" resolve="PL_IntegerType" />
     </node>
   </node>
 </model>

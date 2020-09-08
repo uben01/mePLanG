@@ -10,10 +10,10 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class ReadStatement_DataFlow extends DataFlowBuilder {
   public void build(final DataFlowBuilderContext _context) {
-    _context.getBuilder().emitWrite(SLinkOperations.getTarget(_context.getNode(), LINKS.into$cCB6), "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/2464187250793370693");
+    _context.getBuilder().emitWrite(SLinkOperations.getTarget(_context.getNode(), LINKS.into$eDHd), "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/2464187250793370693");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink into$cCB6 = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x683c59fec17762dcL, 0x683c59fec17762f8L, "into");
+    /*package*/ static final SContainmentLink into$eDHd = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x683c59fec17762dcL, 0x683c59fec17762f8L, "into");
   }
 }

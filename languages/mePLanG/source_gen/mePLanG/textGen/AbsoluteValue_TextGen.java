@@ -14,11 +14,11 @@ public class AbsoluteValue_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("Math.abs(");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.expression$UeKX));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.expression$k8uQ));
     tgs.append(")");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink expression$UeKX = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L, 0x4eade13becd6eb26L, "expression");
+    /*package*/ static final SContainmentLink expression$k8uQ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L, 0x4eade13becd6eb26L, "expression");
   }
 }

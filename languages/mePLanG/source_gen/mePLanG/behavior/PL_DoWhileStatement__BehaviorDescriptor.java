@@ -31,7 +31,7 @@ public final class PL_DoWhileStatement__BehaviorDescriptor extends BaseBHDescrip
   }
 
   /*package*/ static SNode getStatementList_id28aPEVv_31A(@NotNull SNode __thisNode__) {
-    return SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$LjVZ);
+    return SLinkOperations.getTarget(__thisNode__, LINKS.trueBranch$ZCOO);
   }
 
   /*package*/ PL_DoWhileStatement__BehaviorDescriptor() {
@@ -81,6 +81,6 @@ public final class PL_DoWhileStatement__BehaviorDescriptor extends BaseBHDescrip
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink trueBranch$LjVZ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L, 0x573df0449373e83bL, "trueBranch");
+    /*package*/ static final SContainmentLink trueBranch$ZCOO = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L, 0x573df0449373e83bL, "trueBranch");
   }
 }
