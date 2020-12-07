@@ -149,7 +149,7 @@ public class ReturnStatementAddParameter extends TransformationMenuBase {
           @Nullable
           @Override
           public String getLabelText(String pattern) {
-            return "" + myParameterObject;
+            return myParameterObject;
           }
 
           @Override

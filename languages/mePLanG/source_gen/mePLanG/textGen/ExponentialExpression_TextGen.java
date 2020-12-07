@@ -14,14 +14,14 @@ public class ExponentialExpression_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("Math.pow(");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.expression$uieF));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.base$uieF));
     tgs.append(", ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.exponent$uiGH));
     tgs.append(")");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink expression$uieF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, 0x134d7de4e5ce2e20L, "expression");
+    /*package*/ static final SContainmentLink base$uieF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, 0x134d7de4e5ce2e20L, "base");
     /*package*/ static final SContainmentLink exponent$uiGH = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, 0x134d7de4e5ce2e22L, "exponent");
   }
 }

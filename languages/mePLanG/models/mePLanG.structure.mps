@@ -500,7 +500,7 @@
     <node concept="1TJgyj" id="1ddvuj_NySw" role="1TKVEi">
       <property role="IQ2ns" value="1390906281988861472" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="base" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
@@ -508,6 +508,53 @@
       <property role="IQ2ns" value="1390906281988861474" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="exponent" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3JZhiFqr4vs">
+    <property role="EcuMT" value="4323250217654437852" />
+    <property role="3GE5qa" value="math" />
+    <property role="TrG5h" value="ModuloExpression" />
+    <property role="34LRSv" value="Modulo" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3JZhiFqr4wj" role="PzmwI">
+      <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
+    </node>
+    <node concept="1TJgyj" id="3JZhiFqr4wZ" role="1TKVEi">
+      <property role="IQ2ns" value="4323250217654437951" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3JZhiFqr4xL" role="1TKVEi">
+      <property role="IQ2ns" value="4323250217654438001" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="modulo" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3JZhiFqyQej">
+    <property role="EcuMT" value="4323250217656476563" />
+    <property role="3GE5qa" value="math" />
+    <property role="TrG5h" value="NthRoot" />
+    <property role="34LRSv" value="Gyök" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3JZhiFqyQfs" role="PzmwI">
+      <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
+    </node>
+    <node concept="1TJgyj" id="3JZhiFqGNML" role="1TKVEi">
+      <property role="IQ2ns" value="4323250217659088049" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nth" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3JZhiFqyQiG" role="1TKVEi">
+      <property role="IQ2ns" value="4323250217656476844" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>

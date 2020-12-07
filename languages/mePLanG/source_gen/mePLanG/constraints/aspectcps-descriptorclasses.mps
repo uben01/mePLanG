@@ -1172,8 +1172,8 @@
                           <node concept="2Zo12i" id="4D" role="2OqNvi">
                             <uo k="s:originTrace" v="n:5160040910343291685" />
                             <node concept="chp4Y" id="4G" role="2Zo12j">
-                              <ref role="cht4Q" to="tpee:fz7vLUm" resolve="AssignmentExpression" />
-                              <uo k="s:originTrace" v="n:5160040910343291686" />
+                              <ref role="cht4Q" to="tpee:hGd03cG" resolve="BaseAssignmentExpression" />
+                              <uo k="s:originTrace" v="n:8164914146848694164" />
                             </node>
                           </node>
                         </node>

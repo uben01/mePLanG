@@ -16,6 +16,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_IPL_AllowedTypes;
   private ConceptPresentation props_IPL_ReturnTypes;
   private ConceptPresentation props_MathExpression;
+  private ConceptPresentation props_ModuloExpression;
+  private ConceptPresentation props_NthRoot;
   private ConceptPresentation props_PL_BooleanType;
   private ConceptPresentation props_PL_Boolean_Constant;
   private ConceptPresentation props_PL_Boolean_Constant_False;
@@ -89,6 +91,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_MathExpression = cpb.create();
         }
         return props_MathExpression;
+      case LanguageConceptSwitch.ModuloExpression:
+        if (props_ModuloExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Modulo");
+          props_ModuloExpression = cpb.create();
+        }
+        return props_ModuloExpression;
+      case LanguageConceptSwitch.NthRoot:
+        if (props_NthRoot == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Gyök");
+          props_NthRoot = cpb.create();
+        }
+        return props_NthRoot;
       case LanguageConceptSwitch.PL_BooleanType:
         if (props_PL_BooleanType == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

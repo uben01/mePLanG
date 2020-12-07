@@ -25,6 +25,10 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new BreakLineExpression_TextGen();
       case LanguageConceptSwitch.ExponentialExpression:
         return new ExponentialExpression_TextGen();
+      case LanguageConceptSwitch.ModuloExpression:
+        return new ModuloExpression_TextGen();
+      case LanguageConceptSwitch.NthRoot:
+        return new NthRoot_TextGen();
       case LanguageConceptSwitch.PL_BooleanType:
         return new PL_BooleanType_TextGen();
       case LanguageConceptSwitch.PL_Boolean_Constant:
@@ -43,8 +47,6 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PrintStatement_TextGen();
       case LanguageConceptSwitch.ReturnStatement:
         return new ReturnStatement_TextGen();
-      case LanguageConceptSwitch.RoutineCallExpression:
-        return new RoutineCallExpression_TextGen();
     }
     return null;
   }

@@ -21,9 +21,15 @@ public class typeof_ExponentialExpression_InferenceRule extends AbstractInferenc
   }
   public void applyRule(final SNode exp, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
-      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(exp, LINKS.expression$uieF);
+      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(exp, LINKS.base$uieF);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "4577263975318594307", 0, null);
       typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "4577263975318594310", true), (SNode) _quotation_createNode_z0fcde_a1a0c0a0b(), false, true, _info_12389875345);
+    }
+
+    {
+      SNode _nodeToCheck_1029348928467 = exp;
+      EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "4323250217656474896", 0, null);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:cf47ddf0-7871-49fa-b23f-152a01cabfaa(mePLanG.typesystem)", "4323250217656474524", true), (SNode) createPL_DoubleType_z0fcde_a1a0c0c0b(), _info_12389875345);
     }
   }
   public SAbstractConcept getApplicableConcept() {
@@ -41,12 +47,17 @@ public class typeof_ExponentialExpression_InferenceRule extends AbstractInferenc
     quotedNode_1 = new SNodeBuilder(null, null).init(MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage"), 0x10d68c2ecd3L, "Number")).getResult();
     return quotedNode_1;
   }
+  private static SNode createPL_DoubleType_z0fcde_a1a0c0c0b() {
+    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.PL_DoubleType$4b);
+    return n0.getResult();
+  }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink expression$uieF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, 0x134d7de4e5ce2e20L, "expression");
+    /*package*/ static final SContainmentLink base$uieF = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, 0x134d7de4e5ce2e20L, "base");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept ExponentialExpression$cX = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, "mePLanG.structure.ExponentialExpression");
+    /*package*/ static final SConcept PL_DoubleType$4b = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b417L, "mePLanG.structure.PL_DoubleType");
   }
 }

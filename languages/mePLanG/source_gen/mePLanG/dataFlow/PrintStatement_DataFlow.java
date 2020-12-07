@@ -13,7 +13,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 public class PrintStatement_DataFlow extends DataFlowBuilder {
   public void build(final DataFlowBuilderContext _context) {
     for (SNode expression : ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.content$9mqF))) {
-      _context.getBuilder().emitRead(expression, "r:4c2bf331-abc8-448a-84f4-f880d56a7b39(mePLanG.dataFlow)/2464187250793323731");
+      _context.getBuilder().build((SNode) expression);
     }
   }
 

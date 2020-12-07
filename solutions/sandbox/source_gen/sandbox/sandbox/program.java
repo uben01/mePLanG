@@ -9,18 +9,20 @@ public class program {
     int e = -10;
     do {
       int k = fg(e);
-      System.out.print(k + " ");
+      System.out.print(k);
       fg2();
       e = increment(e);
+      double c = Math.pow(15, 1/8);
+      System.out.print(c);
     } while (e < 10);
     fg(e);
     System.out.print("\n");
-    System.out.print(Math.pow(e, (2 + 3.01)) + " ");
+    System.out.print(Math.pow(e, (2 + 3.01)));
   }
   public static int fg(int l) {
-    System.out.print(l + " ");
+    System.out.print(l);
     l = Math.abs(l);
-    if (l < 10) {
+    if (l <= 10) {
       return l;
     } else if (l < 100) {
       return l - 6;
@@ -30,8 +32,8 @@ public class program {
   }
   public static String fg2() {
     double v = 5.0;
-    System.out.print(v + " ");
-    System.out.print("yee" + " ");
+    System.out.print(v);
+    System.out.print("yee");
     System.out.print("\n");
     return "asd";
   }

@@ -88,7 +88,6 @@
       </concept>
       <concept id="1206442659665" name="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" flags="in" index="3__wT9" />
       <concept id="1206442747519" name="jetbrains.mps.lang.dataFlow.structure.NodeParameter" flags="nn" index="3__QtB" />
-      <concept id="1206443823146" name="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" flags="nn" index="3_DX4M" />
       <concept id="1206444349662" name="jetbrains.mps.lang.dataFlow.structure.EmitWriteStatement" flags="nn" index="3_FXB6">
         <child id="1230468250683" name="value" index="1XBRO_" />
       </concept>
@@ -232,15 +231,15 @@
           <node concept="2GrKxI" id="28MzjYJ_hdN" role="2Gsz3X">
             <property role="TrG5h" value="expression" />
           </node>
-          <node concept="2OqwBi" id="28MzjYJ_hqr" role="2GsD0m">
-            <node concept="3__QtB" id="28MzjYJ_hed" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="28MzjYJ_hFq" role="2OqNvi">
+          <node concept="2OqwBi" id="75fAywKvOvt" role="2GsD0m">
+            <node concept="3__QtB" id="75fAywKvOj8" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="75fAywKvOOL" role="2OqNvi">
               <ref role="3TtcxE" to="b47h:5cKufQpbJ0B" resolve="content" />
             </node>
           </node>
           <node concept="3clFbS" id="28MzjYJ_hdP" role="2LFqv$">
-            <node concept="3_DX4M" id="28MzjYJ_hNj" role="3cqZAp">
-              <node concept="2GrUjf" id="28MzjYJ_hNE" role="3_H1SZ">
+            <node concept="3AgYrR" id="75fAywKwkhr" role="3cqZAp">
+              <node concept="2GrUjf" id="75fAywKwkhM" role="3Ah4Yx">
                 <ref role="2Gs0qQ" node="28MzjYJ_hdN" resolve="expression" />
               </node>
             </node>

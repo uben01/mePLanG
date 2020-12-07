@@ -20,6 +20,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
+      InferenceRule_Runtime inferenceRule = new typeof_ModuloExpression_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_PL_BooleanConstant_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
@@ -90,6 +94,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     {
       SubtypingRule_Runtime subtypingRule = new exponentialExpression_subtypeOf_Numbers_SubtypingRule();
       this.mySubtypingRules.add(subtypingRule);
+    }
+    {
+      SubstituteType_Runtime substituteTypeRule = new substituteType_ModuloExpression_SubstituteTypeRule();
+      this.mySubstituteTypeRules.add(substituteTypeRule);
     }
     {
       SubstituteType_Runtime substituteTypeRule = new substituteType_PL_Boolean_SubstituteTypeRule();

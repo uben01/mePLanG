@@ -236,10 +236,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -1544,6 +1544,25 @@
     <ref role="13h7C2" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
     <node concept="13hLZK" id="4UHSjJGRPl5" role="13h7CW">
       <node concept="3clFbS" id="4UHSjJGRPl6" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="3JZhiFqzc_l">
+    <property role="3GE5qa" value="math" />
+    <ref role="13h7C2" to="b47h:3JZhiFqyQej" resolve="NthRoot" />
+    <node concept="13hLZK" id="3JZhiFqzc_m" role="13h7CW">
+      <node concept="3clFbS" id="3JZhiFqzc_n" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3JZhiFqzcCq" role="13h7CS">
+      <property role="TrG5h" value="getOpName" />
+      <node concept="3Tm1VV" id="3JZhiFqzcCr" role="1B3o_S" />
+      <node concept="3clFbS" id="3JZhiFqzcCt" role="3clF47">
+        <node concept="3cpWs6" id="3JZhiFqzcM0" role="3cqZAp">
+          <node concept="Xl_RD" id="3JZhiFqzcMR" role="3cqZAk">
+            <property role="Xl_RC" value="√" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3JZhiFqzcIT" role="3clF45" />
     </node>
   </node>
 </model>

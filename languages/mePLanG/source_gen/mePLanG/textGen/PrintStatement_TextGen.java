@@ -9,11 +9,10 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.traceable.behavior.TraceableConcept__BehaviorDescriptor;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
 public class PrintStatement_TextGen extends TextGenDescriptorBase {
@@ -24,18 +23,10 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
     ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.content$9mqF)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
         tgs.append("\n");
-
         tgs.indent();
         tgs.append("System.out.print(");
-
         tgs.appendNode(it);
-
-        if (!(SNodeOperations.isInstanceOf(it, CONCEPTS.BreakLineExpression$yL))) {
-          tgs.append(" + \" \"");
-        }
-
         tgs.append(");");
-
       }
     });
     if (tgs.needPositions()) {
@@ -48,7 +39,6 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept BreakLineExpression$yL = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b4a1ceL, "mePLanG.structure.BreakLineExpression");
     /*package*/ static final SInterfaceConcept TraceableConcept$L = MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept");
   }
 }

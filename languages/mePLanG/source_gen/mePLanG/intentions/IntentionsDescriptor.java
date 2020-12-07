@@ -34,6 +34,13 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
       case 0:
         if (true) {
           // concept 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new AddBaseToRoot_Intention();
+        }
+        break;
+      case 1:
+        if (true) {
+          // concept 
           intentions = new IntentionFactory[3];
           intentions[0] = new convertToMain_Intention();
           intentions[1] = new convertToNotMain_Intention();
@@ -49,11 +56,12 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[3];
+    IntentionFactory[] rv = new IntentionFactory[4];
     rv[0] = new convertToMain_Intention();
     rv[1] = new convertToNotMain_Intention();
     rv[2] = new addParameters_Intention();
+    rv[3] = new AddBaseToRoot_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada8b6393L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL)).seal();
 }

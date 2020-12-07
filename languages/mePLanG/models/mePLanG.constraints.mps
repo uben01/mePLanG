@@ -201,8 +201,8 @@
                             <node concept="2yIwOk" id="4us9tTJvGc$" role="2OqNvi" />
                           </node>
                           <node concept="2Zo12i" id="4us9tTJvGc_" role="2OqNvi">
-                            <node concept="chp4Y" id="4us9tTJvGcA" role="2Zo12j">
-                              <ref role="cht4Q" to="tpee:fz7vLUm" resolve="AssignmentExpression" />
+                            <node concept="chp4Y" id="75fAywKu_Yk" role="2Zo12j">
+                              <ref role="cht4Q" to="tpee:hGd03cG" resolve="BaseAssignmentExpression" />
                             </node>
                           </node>
                         </node>
