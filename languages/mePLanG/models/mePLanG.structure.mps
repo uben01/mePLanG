@@ -13,11 +13,14 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
-      </concept>
-      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
-        <property id="1083066089218" name="constraint" index="FLfZY" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -92,7 +95,7 @@
     <node concept="1TJgyi" id="2lyUNl9HXJz" role="1TKVEl">
       <property role="IQ2nx" value="2693974141223558115" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="2lyUNl9J61y" resolve="PL_Boolean_DataType" />
+      <ref role="AX2Wp" node="58aHDCgWTMJ" resolve="PL_Boolean_DataType" />
     </node>
     <node concept="PrWs8" id="36BJeIdlUTD" role="PzmwI">
       <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
@@ -156,6 +159,21 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyi" id="58aHDCgGLZ9" role="1TKVEl">
+      <property role="IQ2nx" value="5911738233698590665" />
+      <property role="TrG5h" value="showProperties" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="58aHDCgGLLQ" role="1TKVEl">
+      <property role="IQ2nx" value="5911738233698589814" />
+      <property role="TrG5h" value="separator" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58aHDCgGLQ$" role="1TKVEl">
+      <property role="IQ2nx" value="5911738233698590116" />
+      <property role="TrG5h" value="isEndOfLine" />
+      <ref role="AX2Wp" node="58aHDCgWTMJ" resolve="PL_Boolean_DataType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6wWmvV1tQbs">
     <property role="EcuMT" value="7510977229249536732" />
@@ -191,12 +209,6 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-  </node>
-  <node concept="Az7Fb" id="2lyUNl9J61y">
-    <property role="3F6X1D" value="2693974141223854178" />
-    <property role="3GE5qa" value="variable.type" />
-    <property role="TrG5h" value="PL_Boolean_DataType" />
-    <property role="FLfZY" value="(IGAZ) | (HAMIS)" />
   </node>
   <node concept="1TIwiD" id="4P96S6qlY9g">
     <property role="EcuMT" value="5569012657674510928" />
@@ -557,6 +569,19 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="25R3W" id="58aHDCgWTMJ">
+    <property role="3F6X1D" value="5911738233702816943" />
+    <property role="3GE5qa" value="variable.type" />
+    <property role="TrG5h" value="PL_Boolean_DataType" />
+    <node concept="25R33" id="58aHDCgWTN9" role="25R1y">
+      <property role="3tVfz5" value="5911738233702816969" />
+      <property role="TrG5h" value="IGAZ" />
+    </node>
+    <node concept="25R33" id="58aHDCgWTMK" role="25R1y">
+      <property role="3tVfz5" value="5911738233702816944" />
+      <property role="TrG5h" value="HAMIS" />
     </node>
   </node>
 </model>

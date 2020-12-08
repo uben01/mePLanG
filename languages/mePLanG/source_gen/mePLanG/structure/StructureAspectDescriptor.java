@@ -4,8 +4,7 @@ package mePLanG.structure;
 
 import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
-import jetbrains.mps.smodel.runtime.ConstrainedStringDatatypeDescriptor;
-import jetbrains.mps.smodel.runtime.ConstrainedStringDatatypeDescriptorImpl;
+import jetbrains.mps.smodel.runtime.EnumerationDescriptor;
 import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
@@ -48,7 +47,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptReturnStatement = createDescriptorForReturnStatement();
   /*package*/ final ConceptDescriptor myConceptRoutineCallExpression = createDescriptorForRoutineCallExpression();
   /*package*/ final ConceptDescriptor myConceptRoutineDefinition = createDescriptorForRoutineDefinition();
-  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypePL_Boolean_DataType = new ConstrainedStringDatatypeDescriptorImpl(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549bc6062L, "PL_Boolean_DataType", "r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)/2693974141223854178", "(IGAZ) | (HAMIS)");
+  /*package*/ final EnumerationDescriptor myEnumerationPL_Boolean_DataType = new EnumerationDescriptor_PL_Boolean_DataType();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -137,7 +136,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myCSDatatypePL_Boolean_DataType);
+    return Arrays.asList(myEnumerationPL_Boolean_DataType);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -240,7 +239,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L);
     b.origin("r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)/3734351021360744550");
     b.version(2);
-    b.property("value", 0x2562eb3549b7dbe3L).type(MetaIdFactory.dataTypeId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549bc6062L)).origin("2693974141223558115").done();
+    b.property("value", 0x2562eb3549b7dbe3L).type(MetaIdFactory.dataTypeId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x520ab69a10f39cafL)).origin("2693974141223558115").done();
     b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
     b.alias("Logikai");
     return b.create();
@@ -395,6 +394,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("jetbrains.mps.baseLanguage.structure.Statement", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b215L);
     b.origin("r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)/5994424134622179319");
     b.version(2);
+    b.property("showProperties", 0x520ab69a10b31fc9L).type(PrimitiveTypeId.BOOLEAN).origin("5911738233698590665").done();
+    b.property("separator", 0x520ab69a10b31c76L).type(PrimitiveTypeId.STRING).origin("5911738233698589814").done();
+    b.property("isEndOfLine", 0x520ab69a10b31da4L).type(MetaIdFactory.dataTypeId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x520ab69a10f39cafL)).origin("5911738233698590116").done();
     b.aggregate("content", 0x533078fd992ef027L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(true).origin("5994424134622179367").done();
     b.alias("KI");
     return b.create();

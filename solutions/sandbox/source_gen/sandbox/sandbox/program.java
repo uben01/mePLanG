@@ -9,15 +9,14 @@ public class program {
     int e = -10;
     do {
       int k = fg(e);
-      System.out.print(k);
+      System.out.println(k + " " + e);
       fg2();
-      e = increment(e);
-      double c = Math.pow(15, 1/8);
+      e = increment(e, true);
+      double c = Math.pow(15, 1/2);
       System.out.print(c);
     } while (e < 10);
     fg(e);
-    System.out.print("\n");
-    System.out.print(Math.pow(e, (2 + 3.01)));
+    System.out.print("\n" + "" + Math.pow(e, (2 + 3.01)));
   }
   public static int fg(int l) {
     System.out.print(l);
@@ -32,12 +31,13 @@ public class program {
   }
   public static String fg2() {
     double v = 5.0;
-    System.out.print(v);
-    System.out.print("yee");
-    System.out.print("\n");
+    System.out.print(v + "" + "yee" + "" + "\n");
     return "asd";
   }
-  public static int increment(int e) {
+  public static int increment(int e, boolean c) {
+    if (c) {
+      System.out.println("as");
+    }
     return e + 1;
   }
 
