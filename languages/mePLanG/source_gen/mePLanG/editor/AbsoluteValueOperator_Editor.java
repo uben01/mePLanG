@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class ModuloExpression_Editor extends DefaultNodeEditor {
+public class AbsoluteValueOperator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ModuloExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new AbsoluteValueOperator_EditorBuilder_a(editorContext, node).createCell();
   }
 }

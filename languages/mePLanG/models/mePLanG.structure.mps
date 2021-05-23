@@ -379,7 +379,7 @@
     <property role="EcuMT" value="4426204082555134717" />
     <property role="TrG5h" value="RoutineDefinition" />
     <property role="R4oN_" value="Függvény definíció" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2xEqTJCDELN" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
@@ -447,7 +447,7 @@
   </node>
   <node concept="1TIwiD" id="43_52bOHq2M">
     <property role="EcuMT" value="4676165928461115570" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <property role="TrG5h" value="RoutineCallExpression" />
     <property role="R4oN_" value="Függvényhívás" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -467,7 +467,7 @@
   </node>
   <node concept="1TIwiD" id="6e665mWJMu7">
     <property role="EcuMT" value="7171446213152024455" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <property role="TrG5h" value="ReturnStatement" />
     <property role="34LRSv" value="VISSZATÉRÉS" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
@@ -480,9 +480,10 @@
   </node>
   <node concept="1TIwiD" id="4UHSjJGPIGy">
     <property role="EcuMT" value="5669435153422150434" />
-    <property role="TrG5h" value="AbsoluteValue" />
+    <property role="TrG5h" value="AbsoluteValueOperator" />
     <property role="3GE5qa" value="math" />
     <property role="34LRSv" value="Abszolút érték" />
+    <property role="R4oN_" value="Abszolút érték" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="4UHSjJGPIG$" role="PzmwI">
       <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
@@ -503,8 +504,9 @@
   <node concept="1TIwiD" id="1ddvuj_NySs">
     <property role="EcuMT" value="1390906281988861468" />
     <property role="3GE5qa" value="math" />
-    <property role="TrG5h" value="ExponentialExpression" />
+    <property role="TrG5h" value="ExponentialOperator" />
     <property role="34LRSv" value="Hatvány" />
+    <property role="R4oN_" value="Hatványozás" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="1ddvuj_NySt" role="PzmwI">
       <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
@@ -527,8 +529,9 @@
   <node concept="1TIwiD" id="3JZhiFqr4vs">
     <property role="EcuMT" value="4323250217654437852" />
     <property role="3GE5qa" value="math" />
-    <property role="TrG5h" value="ModuloExpression" />
+    <property role="TrG5h" value="ModuloOperator" />
     <property role="34LRSv" value="Modulo" />
+    <property role="R4oN_" value="Osztási maradék" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="3JZhiFqr4wj" role="PzmwI">
       <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
@@ -553,6 +556,7 @@
     <property role="3GE5qa" value="math" />
     <property role="TrG5h" value="NthRoot" />
     <property role="34LRSv" value="Gyök" />
+    <property role="R4oN_" value="N-edik gyök" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="3JZhiFqyQfs" role="PzmwI">
       <ref role="PrY4T" node="4UHSjJGPIGz" resolve="MathExpression" />
@@ -582,6 +586,24 @@
     <node concept="25R33" id="58aHDCgWTMK" role="25R1y">
       <property role="3tVfz5" value="5911738233702816944" />
       <property role="TrG5h" value="HAMIS" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4QOuhmmx2oy">
+    <property role="EcuMT" value="5599233370354886178" />
+    <property role="3GE5qa" value="logic" />
+    <property role="TrG5h" value="NegateOperator" />
+    <property role="34LRSv" value="NEM" />
+    <property role="R4oN_" value="Negálás operátor" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="4QOuhmmx2qT" role="1TKVEi">
+      <property role="IQ2ns" value="5599233370354886329" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="4QOuhmmzquz" role="PzmwI">
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
     </node>
   </node>
 </model>

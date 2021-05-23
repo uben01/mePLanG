@@ -619,7 +619,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="6e665mWJQp3">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="WuzLi" to="b47h:6e665mWJMu7" resolve="ReturnStatement" />
     <node concept="11bSqf" id="6e665mWJQp4" role="11c4hB">
       <node concept="3clFbS" id="6e665mWJQp5" role="2VODD2">
@@ -671,7 +671,7 @@
   </node>
   <node concept="WtQ9Q" id="4UHSjJGRqUn">
     <property role="3GE5qa" value="math" />
-    <ref role="WuzLi" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
+    <ref role="WuzLi" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValueOperator" />
     <node concept="11bSqf" id="4UHSjJGRqUo" role="11c4hB">
       <node concept="3clFbS" id="4UHSjJGRqUp" role="2VODD2">
         <node concept="lc7rE" id="4UHSjJGRqUE" role="3cqZAp">
@@ -695,7 +695,7 @@
   </node>
   <node concept="WtQ9Q" id="1ddvuj_SLhv">
     <property role="3GE5qa" value="math" />
-    <ref role="WuzLi" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+    <ref role="WuzLi" to="b47h:1ddvuj_NySs" resolve="ExponentialOperator" />
     <node concept="11bSqf" id="1ddvuj_SLhw" role="11c4hB">
       <node concept="3clFbS" id="1ddvuj_SLhx" role="2VODD2">
         <node concept="lc7rE" id="1ddvuj_SMu9" role="3cqZAp">
@@ -730,7 +730,7 @@
   </node>
   <node concept="WtQ9Q" id="3JZhiFqr5tx">
     <property role="3GE5qa" value="math" />
-    <ref role="WuzLi" to="b47h:3JZhiFqr4vs" resolve="ModuloExpression" />
+    <ref role="WuzLi" to="b47h:3JZhiFqr4vs" resolve="ModuloOperator" />
     <node concept="11bSqf" id="3JZhiFqr5ty" role="11c4hB">
       <node concept="3clFbS" id="3JZhiFqr5tz" role="2VODD2">
         <node concept="lc7rE" id="3JZhiFqr5u6" role="3cqZAp">
@@ -813,6 +813,30 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4QOuhmmzMRu">
+    <property role="3GE5qa" value="logic" />
+    <ref role="WuzLi" to="b47h:4QOuhmmx2oy" resolve="NegateOperator" />
+    <node concept="11bSqf" id="4QOuhmmzMRv" role="11c4hB">
+      <node concept="3clFbS" id="4QOuhmmzMRw" role="2VODD2">
+        <node concept="lc7rE" id="4QOuhmmzMS3" role="3cqZAp">
+          <node concept="la8eA" id="4QOuhmmzMSn" role="lcghm">
+            <property role="lacIc" value="!(" />
+          </node>
+          <node concept="l9hG8" id="4QOuhmmzMUn" role="lcghm">
+            <node concept="2OqwBi" id="4QOuhmmzN4W" role="lb14g">
+              <node concept="117lpO" id="4QOuhmmzMVk" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4QOuhmmzNjm" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:4QOuhmmx2qT" resolve="expression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4QOuhmmzNpW" role="lcghm">
+            <property role="lacIc" value=")" />
           </node>
         </node>
       </node>

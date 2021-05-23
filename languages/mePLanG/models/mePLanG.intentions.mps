@@ -127,7 +127,7 @@
   </registry>
   <node concept="2S6QgY" id="5lud8J9ZFgR">
     <property role="TrG5h" value="convertToMain" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="2ZfgGC" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="2S6ZIM" id="5lud8J9ZFgS" role="2ZfVej">
       <node concept="3clFbS" id="5lud8J9ZFgT" role="2VODD2">
@@ -219,7 +219,7 @@
   </node>
   <node concept="2S6QgY" id="5lud8Jag0H8">
     <property role="TrG5h" value="convertToNotMain" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="2ZfgGC" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="2S6ZIM" id="5lud8Jag0H9" role="2ZfVej">
       <node concept="3clFbS" id="5lud8Jag0Ha" role="2VODD2">
@@ -260,7 +260,7 @@
   </node>
   <node concept="2S6QgY" id="5lud8Jayzaf">
     <property role="TrG5h" value="addParameters" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="2ZfgGC" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="2S6ZIM" id="5lud8Jayzag" role="2ZfVej">
       <node concept="3clFbS" id="5lud8Jayzah" role="2VODD2">

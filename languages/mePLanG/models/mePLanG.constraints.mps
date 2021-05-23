@@ -335,7 +335,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5lud8Jai0uS">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="1M2myG" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="9S07l" id="5lud8Jakcyb" role="9Vyp8">
       <node concept="3clFbS" id="5lud8Jakcyc" role="2VODD2">
@@ -1042,12 +1042,12 @@
     </node>
   </node>
   <node concept="1M2fIO" id="4hnnCwim6DT">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="1M2myG" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
   </node>
   <node concept="1M2fIO" id="1ddvuj_TPfK">
     <property role="3GE5qa" value="math" />
-    <ref role="1M2myG" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+    <ref role="1M2myG" to="b47h:1ddvuj_NySs" resolve="ExponentialOperator" />
   </node>
 </model>
 

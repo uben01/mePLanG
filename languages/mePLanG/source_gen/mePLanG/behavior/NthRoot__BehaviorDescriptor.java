@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
-import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -21,7 +20,7 @@ import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 public final class NthRoot__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada8b6393L, "mePLanG.structure.NthRoot");
 
-  public static final SMethod<String> getOpName_id3JZhiFqzcCq = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpName").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3JZhiFqzcCq").build();
+  public static final SMethod<String> getOpName_id3JZhiFqzcCq = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("3JZhiFqzcCq").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpName_id3JZhiFqzcCq);
 

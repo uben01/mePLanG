@@ -656,7 +656,7 @@
   </node>
   <node concept="18kY7G" id="4d737ORaxOL">
     <property role="TrG5h" value="check_RoutineCallParameters" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <node concept="3clFbS" id="4d737ORaxOM" role="18ibNy">
       <node concept="2Mj0R9" id="4d737ORaxYe" role="3cqZAp">
         <node concept="17R0WA" id="4d737ORaB70" role="2MkoU_">
@@ -805,7 +805,7 @@
   </node>
   <node concept="18kY7G" id="2nG6t0oF5zS">
     <property role="TrG5h" value="check_RoutineNameDuplication" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <node concept="3clFbS" id="2nG6t0oF5zT" role="18ibNy">
       <node concept="3cpWs8" id="2nG6t0oFbnX" role="3cqZAp">
         <node concept="3cpWsn" id="2nG6t0oFbo0" role="3cpWs9">
@@ -909,7 +909,7 @@
   </node>
   <node concept="18kY7G" id="6e665mWNKYH">
     <property role="TrG5h" value="check_RoutineDefinitionHasReturn" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <node concept="3clFbS" id="6e665mWNKYI" role="18ibNy">
       <node concept="3clFbJ" id="6e665mWNKYO" role="3cqZAp">
         <node concept="3fqX7Q" id="6e665mWR3Em" role="3clFbw">
@@ -959,7 +959,7 @@
   </node>
   <node concept="18kY7G" id="6e665mWRTYm">
     <property role="TrG5h" value="check_ReturnStatement" />
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <node concept="3clFbS" id="6e665mWRTYn" role="18ibNy">
       <node concept="3cpWs8" id="6e665mWSWg8" role="3cqZAp">
         <node concept="3cpWsn" id="6e665mWSWgb" role="3cpWs9">
@@ -1132,7 +1132,7 @@
     </node>
     <node concept="1YaCAy" id="4UHSjJGUJJD" role="1YuTPh">
       <property role="TrG5h" value="absoluteValue" />
-      <ref role="1YaFvo" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
+      <ref role="1YaFvo" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValueOperator" />
     </node>
   </node>
   <node concept="2sgARr" id="1ddvuj_O$SI">
@@ -1187,7 +1187,7 @@
     </node>
     <node concept="1YaCAy" id="1ddvuj_O$SL" role="1YuTPh">
       <property role="TrG5h" value="exponential" />
-      <ref role="1YaFvo" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+      <ref role="1YaFvo" to="b47h:1ddvuj_NySs" resolve="ExponentialOperator" />
     </node>
   </node>
   <node concept="1YbPZF" id="1ddvujA2glv">
@@ -1233,7 +1233,7 @@
     </node>
     <node concept="1YaCAy" id="1ddvujA2gly" role="1YuTPh">
       <property role="TrG5h" value="exp" />
-      <ref role="1YaFvo" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+      <ref role="1YaFvo" to="b47h:1ddvuj_NySs" resolve="ExponentialOperator" />
     </node>
   </node>
   <node concept="2sgARr" id="3Y5Hlmc5JLU">
@@ -1332,7 +1332,7 @@
     </node>
     <node concept="1YaCAy" id="3JZhiFqr5h8" role="1YuTPh">
       <property role="TrG5h" value="exp" />
-      <ref role="1YaFvo" to="b47h:3JZhiFqr4vs" resolve="ModuloExpression" />
+      <ref role="1YaFvo" to="b47h:3JZhiFqr4vs" resolve="ModuloOperator" />
     </node>
   </node>
   <node concept="3qnSWH" id="3JZhiFqv_4N">
@@ -1351,7 +1351,87 @@
     </node>
     <node concept="1YaCAy" id="3JZhiFqv_4Q" role="1YuTPh">
       <property role="TrG5h" value="moduloExpression" />
-      <ref role="1YaFvo" to="b47h:3JZhiFqr4vs" resolve="ModuloExpression" />
+      <ref role="1YaFvo" to="b47h:3JZhiFqr4vs" resolve="ModuloOperator" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="4QOuhmmx2zk">
+    <property role="3GE5qa" value="logic" />
+    <property role="TrG5h" value="Negate_subtypeOf_Boolean" />
+    <node concept="3clFbS" id="4QOuhmmx2zl" role="2sgrp5">
+      <node concept="3cpWs6" id="4QOuhmmx2_G" role="3cqZAp">
+        <node concept="2c44tf" id="4QOuhmmx2Av" role="3cqZAk">
+          <node concept="10P_77" id="4QOuhmmx2AY" role="2c44tc" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4QOuhmmx2zn" role="1YuTPh">
+      <property role="TrG5h" value="negateOperator" />
+      <ref role="1YaFvo" to="b47h:4QOuhmmx2oy" resolve="NegateOperator" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4QOuhmmx355">
+    <property role="TrG5h" value="typeof_NegateOperator" />
+    <property role="3GE5qa" value="logic" />
+    <node concept="3clFbS" id="4QOuhmmx356" role="18ibNy">
+      <node concept="1ZobV4" id="4QOuhmmx35u" role="3cqZAp">
+        <node concept="mw_s8" id="4QOuhmmx360" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4QOuhmmx35W" role="mwGJk">
+            <node concept="2OqwBi" id="4QOuhmmx3fz" role="1Z2MuG">
+              <node concept="1YBJjd" id="4QOuhmmx36D" role="2Oq$k0">
+                <ref role="1YBMHb" node="4QOuhmmx358" resolve="negateOperator" />
+              </node>
+              <node concept="3TrEf2" id="4QOuhmmx3o0" role="2OqNvi">
+                <ref role="3Tt5mk" to="b47h:4QOuhmmx2qT" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4QOuhmmx3rS" role="1ZfhKB">
+          <node concept="2c44tf" id="4QOuhmmx3rO" role="mwGJk">
+            <node concept="10P_77" id="4QOuhmmx3sZ" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="4QOuhmmx3t_" role="3cqZAp" />
+      <node concept="1Z5TYs" id="4QOuhmmx3F6" role="3cqZAp">
+        <node concept="mw_s8" id="4QOuhmmx3FW" role="1ZfhKB">
+          <node concept="2pJPEk" id="4QOuhmmx3FS" role="mwGJk">
+            <node concept="2pJPED" id="4QOuhmmx3Gd" role="2pJPEn">
+              <ref role="2pJxaS" to="b47h:3fj57vIOKxA" resolve="PL_BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4QOuhmmx3F9" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4QOuhmmx3u8" role="mwGJk">
+            <node concept="1YBJjd" id="4QOuhmmx3w8" role="1Z2MuG">
+              <ref role="1YBMHb" node="4QOuhmmx358" resolve="negateOperator" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4QOuhmmx358" role="1YuTPh">
+      <property role="TrG5h" value="negateOperator" />
+      <ref role="1YaFvo" to="b47h:4QOuhmmx2oy" resolve="NegateOperator" />
+    </node>
+  </node>
+  <node concept="3qnSWH" id="4QOuhmmxO26">
+    <property role="TrG5h" value="substituteType_NegateOperator" />
+    <property role="3GE5qa" value="logic" />
+    <node concept="3clFbS" id="4QOuhmmxO27" role="3hT0BD">
+      <node concept="3cpWs6" id="4QOuhmmxO2B" role="3cqZAp">
+        <node concept="2ShNRf" id="4QOuhmmxO3R" role="3cqZAk">
+          <node concept="3zrR0B" id="4QOuhmmxOaL" role="2ShVmc">
+            <node concept="3Tqbb2" id="4QOuhmmyE6n" role="3zrR0E">
+              <ref role="ehGHo" to="b47h:3fj57vIOKxA" resolve="PL_BooleanType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4QOuhmmxO29" role="1YuTPh">
+      <property role="TrG5h" value="negateOperator" />
+      <ref role="1YaFvo" to="b47h:4QOuhmmx2oy" resolve="NegateOperator" />
     </node>
   </node>
 </model>

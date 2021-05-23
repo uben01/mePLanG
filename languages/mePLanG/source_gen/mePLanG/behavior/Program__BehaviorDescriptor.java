@@ -10,7 +10,6 @@ import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
-import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
@@ -25,8 +24,8 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class Program__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, "mePLanG.structure.Program");
 
-  public static final SMethod<List<SNode>> getRoutines_id5lud8Jau$NF = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getRoutines").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5lud8Jau$NF").build();
-  public static final SMethod<Boolean> hasMain_id5lud8JazvcY = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasMain").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5lud8JazvcY").build();
+  public static final SMethod<List<SNode>> getRoutines_id5lud8Jau$NF = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getRoutines").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("5lud8Jau$NF").build();
+  public static final SMethod<Boolean> hasMain_id5lud8JazvcY = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasMain").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("5lud8JazvcY").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getRoutines_id5lud8Jau$NF, hasMain_id5lud8JazvcY);
 

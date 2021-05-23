@@ -11,9 +11,9 @@ public class program {
       int k = fg(e);
       System.out.println(k + " " + e);
       fg2();
-      e = increment(e, true);
+      e = increment(k);
       double c = Math.pow(15, 1/2);
-      System.out.print(c);
+      System.out.print(c + " " + "" + 1 + '.');
     } while (e < 10);
     fg(e);
     System.out.print("\n" + "" + Math.pow(e, (2 + 3.01)));
@@ -34,11 +34,8 @@ public class program {
     System.out.print(v + "" + "yee" + "" + "\n");
     return "asd";
   }
-  public static int increment(int e, boolean c) {
-    if (c) {
-      System.out.println("as");
-    }
-    return e + 1;
+  public static int increment(int e) {
+    return e;
   }
 
 }

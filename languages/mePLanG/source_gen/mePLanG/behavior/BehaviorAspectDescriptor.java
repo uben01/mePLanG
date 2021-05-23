@@ -24,7 +24,7 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
   private final BHDescriptor myRoutineDefinition__BehaviorDescriptor = new RoutineDefinition__BehaviorDescriptor();
   private final BHDescriptor myRoutineCallExpression__BehaviorDescriptor = new RoutineCallExpression__BehaviorDescriptor();
   private final BHDescriptor myPL_IfStatement__BehaviorDescriptor = new PL_IfStatement__BehaviorDescriptor();
-  private final BHDescriptor myAbsoluteValue__BehaviorDescriptor = new AbsoluteValue__BehaviorDescriptor();
+  private final BHDescriptor myAbsoluteValueOperator__BehaviorDescriptor = new AbsoluteValueOperator__BehaviorDescriptor();
   private final BHDescriptor myPrintStatement__BehaviorDescriptor = new PrintStatement__BehaviorDescriptor();
   private final BHDescriptor myPL_DoWhileStatement__BehaviorDescriptor = new PL_DoWhileStatement__BehaviorDescriptor();
   private final BHDescriptor myPL_ElifClause__BehaviorDescriptor = new PL_ElifClause__BehaviorDescriptor();
@@ -40,7 +40,7 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     SAbstractConcept cncpt = concept;
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return myAbsoluteValue__BehaviorDescriptor;
+        return myAbsoluteValueOperator__BehaviorDescriptor;
       case 1:
         return myIPL_ReturnTypes__BehaviorDescriptor;
       case 2:

@@ -988,7 +988,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7xDa$MuJfav">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="1XX52x" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="3EZMnI" id="7xDa$MuJfcc" role="2wV5jI">
       <node concept="35HoNQ" id="5lud8JaoidR" role="3EZMnx">
@@ -1215,7 +1215,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="43_52bOHq3f">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="1XX52x" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
     <node concept="3EZMnI" id="43_52bOIK42" role="2wV5jI">
       <node concept="PMmxH" id="43_52bP6s$l" role="3EZMnx">
@@ -1277,7 +1277,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="43_52bP6szZ">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <property role="TrG5h" value="RoutinCallName" />
     <ref role="1XX52x" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
     <node concept="1iCGBv" id="43_52bP6s$1" role="2wV5jI">
@@ -1291,7 +1291,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6e665mWJQo5">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="1XX52x" to="b47h:6e665mWJMu7" resolve="ReturnStatement" />
     <node concept="3EZMnI" id="6e665mWJQoa" role="2wV5jI">
       <node concept="3F0ifn" id="6e665mWJQoc" role="3EZMnx">
@@ -1345,7 +1345,7 @@
     </node>
   </node>
   <node concept="3ICUPy" id="5m8do_SdvS$">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="aqKnT" to="b47h:6e665mWJMu7" resolve="ReturnStatement" />
     <node concept="1Qtc8_" id="5m8do_SdvSB" role="IW6Ez">
       <node concept="aenpk" id="5m8do_SdwOT" role="1Qtc8A">
@@ -1418,7 +1418,7 @@
   </node>
   <node concept="24kQdi" id="4UHSjJGPIH2">
     <property role="3GE5qa" value="math" />
-    <ref role="1XX52x" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValue" />
+    <ref role="1XX52x" to="b47h:4UHSjJGPIGy" resolve="AbsoluteValueOperator" />
     <node concept="3EZMnI" id="4UHSjJGPIH4" role="2wV5jI">
       <node concept="3F0ifn" id="4UHSjJGPIHb" role="3EZMnx">
         <property role="3F0ifm" value="|" />
@@ -1452,7 +1452,7 @@
   </node>
   <node concept="24kQdi" id="1ddvuj_NySZ">
     <property role="3GE5qa" value="math" />
-    <ref role="1XX52x" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+    <ref role="1XX52x" to="b47h:1ddvuj_NySs" resolve="ExponentialOperator" />
     <node concept="3EZMnI" id="1ddvuj_NyT4" role="2wV5jI">
       <node concept="l2Vlx" id="1ddvuj_NyT5" role="2iSdaV" />
       <node concept="3F1sOY" id="1ddvuj_NyT8" role="3EZMnx">
@@ -1474,7 +1474,7 @@
   </node>
   <node concept="24kQdi" id="3JZhiFqr4yY">
     <property role="3GE5qa" value="math" />
-    <ref role="1XX52x" to="b47h:3JZhiFqr4vs" resolve="ModuloExpression" />
+    <ref role="1XX52x" to="b47h:3JZhiFqr4vs" resolve="ModuloOperator" />
     <node concept="3EZMnI" id="3JZhiFqr4zo" role="2wV5jI">
       <node concept="3F1sOY" id="3JZhiFqr4zL" role="3EZMnx">
         <ref role="1NtTu8" to="b47h:3JZhiFqr4wZ" resolve="expression" />
@@ -1575,6 +1575,22 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4QOuhmmx2s5">
+    <property role="3GE5qa" value="logic" />
+    <ref role="1XX52x" to="b47h:4QOuhmmx2oy" resolve="NegateOperator" />
+    <node concept="3EZMnI" id="4QOuhmmx2tp" role="2wV5jI">
+      <node concept="l2Vlx" id="4QOuhmmx2tq" role="2iSdaV" />
+      <node concept="3F0ifn" id="4QOuhmmx2tv" role="3EZMnx">
+        <property role="3F0ifm" value="¬(" />
+      </node>
+      <node concept="3F1sOY" id="4QOuhmmx2tR" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:4QOuhmmx2qT" resolve="expression" />
+      </node>
+      <node concept="3F0ifn" id="4QOuhmmycx2" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
       </node>
     </node>
   </node>

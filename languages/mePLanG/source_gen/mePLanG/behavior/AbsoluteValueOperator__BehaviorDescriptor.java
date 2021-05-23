@@ -14,8 +14,8 @@ import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
-public final class AbsoluteValue__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L, "mePLanG.structure.AbsoluteValue");
+public final class AbsoluteValueOperator__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L, "mePLanG.structure.AbsoluteValueOperator");
 
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
@@ -24,7 +24,7 @@ public final class AbsoluteValue__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
 
-  /*package*/ AbsoluteValue__BehaviorDescriptor() {
+  /*package*/ AbsoluteValueOperator__BehaviorDescriptor() {
   }
 
   @Override

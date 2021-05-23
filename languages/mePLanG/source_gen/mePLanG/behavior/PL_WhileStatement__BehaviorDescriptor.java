@@ -9,7 +9,6 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
-import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -21,7 +20,7 @@ import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 public final class PL_WhileStatement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L, "mePLanG.structure.PL_WhileStatement");
 
-  public static final SMethod<SNode> getStatementList_id28aPEVv_31A = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStatementList").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("28aPEVv_31A").build();
+  public static final SMethod<SNode> getStatementList_id28aPEVv_31A = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStatementList").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("28aPEVv_31A").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStatementList_id28aPEVv_31A);
 
@@ -29,7 +28,7 @@ public final class PL_WhileStatement__BehaviorDescriptor extends BaseBHDescripto
   }
 
   /*package*/ static SNode getStatementList_id28aPEVv_31A(@NotNull SNode __thisNode__) {
-    // TODO: branching 
+    // TODO: branching
     return null;
   }
 

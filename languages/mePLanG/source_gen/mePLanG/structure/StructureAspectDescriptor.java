@@ -18,14 +18,15 @@ import jetbrains.mps.smodel.runtime.StaticScope;
 import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  /*package*/ final ConceptDescriptor myConceptAbsoluteValue = createDescriptorForAbsoluteValue();
+  /*package*/ final ConceptDescriptor myConceptAbsoluteValueOperator = createDescriptorForAbsoluteValueOperator();
   /*package*/ final ConceptDescriptor myConceptBreakLineExpression = createDescriptorForBreakLineExpression();
   /*package*/ final ConceptDescriptor myConceptEmptyLineStatement = createDescriptorForEmptyLineStatement();
-  /*package*/ final ConceptDescriptor myConceptExponentialExpression = createDescriptorForExponentialExpression();
+  /*package*/ final ConceptDescriptor myConceptExponentialOperator = createDescriptorForExponentialOperator();
   /*package*/ final ConceptDescriptor myConceptIPL_AllowedTypes = createDescriptorForIPL_AllowedTypes();
   /*package*/ final ConceptDescriptor myConceptIPL_ReturnTypes = createDescriptorForIPL_ReturnTypes();
   /*package*/ final ConceptDescriptor myConceptMathExpression = createDescriptorForMathExpression();
-  /*package*/ final ConceptDescriptor myConceptModuloExpression = createDescriptorForModuloExpression();
+  /*package*/ final ConceptDescriptor myConceptModuloOperator = createDescriptorForModuloOperator();
+  /*package*/ final ConceptDescriptor myConceptNegateOperator = createDescriptorForNegateOperator();
   /*package*/ final ConceptDescriptor myConceptNthRoot = createDescriptorForNthRoot();
   /*package*/ final ConceptDescriptor myConceptPL_BooleanType = createDescriptorForPL_BooleanType();
   /*package*/ final ConceptDescriptor myConceptPL_Boolean_Constant = createDescriptorForPL_Boolean_Constant();
@@ -64,29 +65,31 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbsoluteValue, myConceptBreakLineExpression, myConceptEmptyLineStatement, myConceptExponentialExpression, myConceptIPL_AllowedTypes, myConceptIPL_ReturnTypes, myConceptMathExpression, myConceptModuloExpression, myConceptNthRoot, myConceptPL_BooleanType, myConceptPL_Boolean_Constant, myConceptPL_Boolean_Constant_False, myConceptPL_Boolean_Constant_True, myConceptPL_CharacterType, myConceptPL_DoWhileStatement, myConceptPL_DoubleType, myConceptPL_ElifClause, myConceptPL_IfStatement, myConceptPL_IntegerType, myConceptPL_StatementList, myConceptPL_StringType, myConceptPL_VoidType, myConceptPL_WhileStatement, myConceptPrintStatement, myConceptProgram, myConceptReadStatement, myConceptReturnStatement, myConceptRoutineCallExpression, myConceptRoutineDefinition);
+    return Arrays.asList(myConceptAbsoluteValueOperator, myConceptBreakLineExpression, myConceptEmptyLineStatement, myConceptExponentialOperator, myConceptIPL_AllowedTypes, myConceptIPL_ReturnTypes, myConceptMathExpression, myConceptModuloOperator, myConceptNegateOperator, myConceptNthRoot, myConceptPL_BooleanType, myConceptPL_Boolean_Constant, myConceptPL_Boolean_Constant_False, myConceptPL_Boolean_Constant_True, myConceptPL_CharacterType, myConceptPL_DoWhileStatement, myConceptPL_DoubleType, myConceptPL_ElifClause, myConceptPL_IfStatement, myConceptPL_IntegerType, myConceptPL_StatementList, myConceptPL_StringType, myConceptPL_VoidType, myConceptPL_WhileStatement, myConceptPrintStatement, myConceptProgram, myConceptReadStatement, myConceptReturnStatement, myConceptRoutineCallExpression, myConceptRoutineDefinition);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
-      case LanguageConceptSwitch.AbsoluteValue:
-        return myConceptAbsoluteValue;
+      case LanguageConceptSwitch.AbsoluteValueOperator:
+        return myConceptAbsoluteValueOperator;
       case LanguageConceptSwitch.BreakLineExpression:
         return myConceptBreakLineExpression;
       case LanguageConceptSwitch.EmptyLineStatement:
         return myConceptEmptyLineStatement;
-      case LanguageConceptSwitch.ExponentialExpression:
-        return myConceptExponentialExpression;
+      case LanguageConceptSwitch.ExponentialOperator:
+        return myConceptExponentialOperator;
       case LanguageConceptSwitch.IPL_AllowedTypes:
         return myConceptIPL_AllowedTypes;
       case LanguageConceptSwitch.IPL_ReturnTypes:
         return myConceptIPL_ReturnTypes;
       case LanguageConceptSwitch.MathExpression:
         return myConceptMathExpression;
-      case LanguageConceptSwitch.ModuloExpression:
-        return myConceptModuloExpression;
+      case LanguageConceptSwitch.ModuloOperator:
+        return myConceptModuloOperator;
+      case LanguageConceptSwitch.NegateOperator:
+        return myConceptNegateOperator;
       case LanguageConceptSwitch.NthRoot:
         return myConceptNthRoot;
       case LanguageConceptSwitch.PL_BooleanType:
@@ -143,8 +146,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
-  private static ConceptDescriptor createDescriptorForAbsoluteValue() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "AbsoluteValue", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L);
+  private static ConceptDescriptor createDescriptorForAbsoluteValueOperator() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "AbsoluteValueOperator", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L);
     b.class_(false, false, false);
     b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
     b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb23L);
@@ -171,8 +174,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForExponentialExpression() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "ExponentialExpression", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL);
+  private static ConceptDescriptor createDescriptorForExponentialOperator() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "ExponentialOperator", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL);
     b.class_(false, false, false);
     b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
     b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb23L);
@@ -208,8 +211,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForModuloExpression() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "ModuloExpression", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada6c47dcL);
+  private static ConceptDescriptor createDescriptorForModuloOperator() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "ModuloOperator", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada6c47dcL);
     b.class_(false, false, false);
     b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
     b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb23L);
@@ -218,6 +221,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("expression", 0x3bff452ada6c483fL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("4323250217654437951").done();
     b.aggregate("modulo", 0x3bff452ada6c4871L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("4323250217654438001").done();
     b.alias("Modulo");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForNegateOperator() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "NegateOperator", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4db4791596842622L);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L);
+    b.origin("r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)/5599233370354886178");
+    b.version(2);
+    b.aggregate("expression", 0x4db47915968426b9L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("5599233370354886329").done();
+    b.alias("NEM");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForNthRoot() {

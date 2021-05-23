@@ -9,7 +9,6 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.baseLanguage.behavior.NextProgramPoint;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
-import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -28,12 +27,12 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class PL_IfStatement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L, "mePLanG.structure.PL_IfStatement");
 
-  public static final SMethod<NextProgramPoint> getNextProgramPoint_id3F8BxGibk8h = new SMethodBuilder<NextProgramPoint>(new SJavaCompoundTypeImpl(NextProgramPoint.class)).name("getNextProgramPoint").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3F8BxGibk8h").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
-  public static final SMethod<SNode> getStatementList_id28aPEVv_31A = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStatementList").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("28aPEVv_31A").build();
-  public static final SMethod<SNode> getIfBranchStatementList_id4RCNb5xn$uK = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getIfBranchStatementList").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("4RCNb5xn$uK").build();
-  public static final SMethod<List<SNode>> getElifBranchesStatementLists_id4RCNb5xn_WU = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getElifBranchesStatementLists").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("4RCNb5xn_WU").build();
-  public static final SMethod<SNode> getElseBranchStatementList_id4RCNb5xnWpo = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getElseBranchStatementList").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("4RCNb5xnWpo").build();
-  public static final SMethod<Boolean> hasReturnValue_id3oaD0rhclhy = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasReturnValue").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3oaD0rhclhy").build();
+  public static final SMethod<NextProgramPoint> getNextProgramPoint_id3F8BxGibk8h = new SMethodBuilder<NextProgramPoint>(new SJavaCompoundTypeImpl(NextProgramPoint.class)).name("getNextProgramPoint").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("3F8BxGibk8h").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
+  public static final SMethod<SNode> getStatementList_id28aPEVv_31A = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStatementList").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("28aPEVv_31A").build();
+  public static final SMethod<SNode> getIfBranchStatementList_id4RCNb5xn$uK = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getIfBranchStatementList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("4RCNb5xn$uK").build();
+  public static final SMethod<List<SNode>> getElifBranchesStatementLists_id4RCNb5xn_WU = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getElifBranchesStatementLists").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("4RCNb5xn_WU").build();
+  public static final SMethod<SNode> getElseBranchStatementList_id4RCNb5xnWpo = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getElseBranchStatementList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("4RCNb5xnWpo").build();
+  public static final SMethod<Boolean> hasReturnValue_id3oaD0rhclhy = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasReturnValue").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).id("3oaD0rhclhy").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNextProgramPoint_id3F8BxGibk8h, getStatementList_id28aPEVv_31A, getIfBranchStatementList_id4RCNb5xn$uK, getElifBranchesStatementLists_id4RCNb5xn_WU, getElseBranchStatementList_id4RCNb5xnWpo, hasReturnValue_id3oaD0rhclhy);
 

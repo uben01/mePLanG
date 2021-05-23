@@ -27,42 +27,44 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
     SAbstractConcept cncpt = ((SAbstractConcept) concept);
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new AbsoluteValue_Editor());
+        return Collections.<ConceptEditor>singletonList(new AbsoluteValueOperator_Editor());
       case 1:
         return Collections.<ConceptEditor>singletonList(new BreakLineExpression_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new ExponentialExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new ExponentialOperator_Editor());
       case 3:
         return Collections.<ConceptEditor>singletonList(new ExpressionStatement_plang_Editor());
       case 4:
         return Collections.<ConceptEditor>singletonList(new LocalVariableDeclarationStatement_plang_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new ModuloExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new ModuloOperator_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new NthRoot_Editor());
+        return Collections.<ConceptEditor>singletonList(new NegateOperator_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new PL_Boolean_Constant_Editor());
+        return Collections.<ConceptEditor>singletonList(new NthRoot_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new PL_DoWhileStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PL_Boolean_Constant_Editor());
       case 9:
-        return Collections.<ConceptEditor>singletonList(new PL_ElifClause_Editor());
+        return Collections.<ConceptEditor>singletonList(new PL_DoWhileStatement_Editor());
       case 10:
-        return Collections.<ConceptEditor>singletonList(new PL_IfStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PL_ElifClause_Editor());
       case 11:
-        return Collections.<ConceptEditor>singletonList(new PL_VoidType_Editor());
+        return Collections.<ConceptEditor>singletonList(new PL_IfStatement_Editor());
       case 12:
-        return Collections.<ConceptEditor>singletonList(new PL_WhileStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PL_VoidType_Editor());
       case 13:
-        return Arrays.asList(new ConceptEditor[]{new PrintStatement_Editor(), new PrintStatement_plang_Editor()});
+        return Collections.<ConceptEditor>singletonList(new PL_WhileStatement_Editor());
       case 14:
-        return Collections.<ConceptEditor>singletonList(new Program_Editor());
+        return Arrays.asList(new ConceptEditor[]{new PrintStatement_Editor(), new PrintStatement_plang_Editor()});
       case 15:
-        return Arrays.asList(new ConceptEditor[]{new ReadStatement_Editor(), new ReadStatement_plang_Editor()});
+        return Collections.<ConceptEditor>singletonList(new Program_Editor());
       case 16:
-        return Collections.<ConceptEditor>singletonList(new ReturnStatement_Editor());
+        return Arrays.asList(new ConceptEditor[]{new ReadStatement_Editor(), new ReadStatement_plang_Editor()});
       case 17:
-        return Collections.<ConceptEditor>singletonList(new RoutineCallExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReturnStatement_Editor());
       case 18:
+        return Collections.<ConceptEditor>singletonList(new RoutineCallExpression_Editor());
+      case 19:
         return Collections.<ConceptEditor>singletonList(new RoutineDefinition_Editor());
       default:
     }
@@ -128,7 +130,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b4a1ceL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f0L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada6c47dcL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada8b6393L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b926d1L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x533078fd992eeff7L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x683c59fec17762dcL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b4a1ceL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f0L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada6c47dcL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4db4791596842622L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3bff452ada8b6393L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x2562eb3549b926d1L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x573df0449373e839L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x59b6d148fd49b313L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce1c7L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x12aa75e12f7da127L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x533078fd992eeff7L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x683c59fec17762dcL), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L)).seal();
   private static final ConceptSwitchIndex conceptIndex2 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4d491b819a637a75L), MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x63861855bcbf2787L)).seal();
   private static final ConceptSwitchIndex conceptIndex3 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x40e51422f4b5a0b2L)).seal();

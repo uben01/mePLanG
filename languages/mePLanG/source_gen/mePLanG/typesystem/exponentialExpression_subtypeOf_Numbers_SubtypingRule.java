@@ -26,7 +26,7 @@ public class exponentialExpression_subtypeOf_Numbers_SubtypingRule extends Subty
     return nlist;
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.ExponentialExpression$cX;
+    return CONCEPTS.ExponentialOperator$cX;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -44,7 +44,7 @@ public class exponentialExpression_subtypeOf_Numbers_SubtypingRule extends Subty
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept ExponentialExpression$cX = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, "mePLanG.structure.ExponentialExpression");
+    /*package*/ static final SConcept ExponentialOperator$cX = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x134d7de4e5ce2e1cL, "mePLanG.structure.ExponentialOperator");
     /*package*/ static final SConcept PL_IntegerType$2I = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b414L, "mePLanG.structure.PL_IntegerType");
     /*package*/ static final SConcept PL_DoubleType$4b = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x33d31477eed3b417L, "mePLanG.structure.PL_DoubleType");
   }

@@ -508,7 +508,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="5lud8J9Tbrb">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="3_znuS" to="b47h:3PH2i_W5ibX" resolve="RoutineDefinition" />
     <node concept="3__wT9" id="5lud8J9Tbrc" role="3_A6iZ">
       <node concept="3clFbS" id="5lud8J9Tbrd" role="2VODD2">
@@ -524,7 +524,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="4d737ORnVPx">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="3_znuS" to="b47h:43_52bOHq2M" resolve="RoutineCallExpression" />
     <node concept="3__wT9" id="4d737ORnVPy" role="3_A6iZ">
       <node concept="3clFbS" id="4d737ORnVPz" role="2VODD2">
@@ -600,7 +600,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="4RCNb5xqj_q">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <ref role="3_znuS" to="b47h:6e665mWJMu7" resolve="ReturnStatement" />
     <node concept="3__wT9" id="4RCNb5xqj_r" role="3_A6iZ">
       <node concept="3clFbS" id="4RCNb5xqj_s" role="2VODD2">

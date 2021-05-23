@@ -9,14 +9,15 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
-  private ConceptPresentation props_AbsoluteValue;
+  private ConceptPresentation props_AbsoluteValueOperator;
   private ConceptPresentation props_BreakLineExpression;
   private ConceptPresentation props_EmptyLineStatement;
-  private ConceptPresentation props_ExponentialExpression;
+  private ConceptPresentation props_ExponentialOperator;
   private ConceptPresentation props_IPL_AllowedTypes;
   private ConceptPresentation props_IPL_ReturnTypes;
   private ConceptPresentation props_MathExpression;
-  private ConceptPresentation props_ModuloExpression;
+  private ConceptPresentation props_ModuloOperator;
+  private ConceptPresentation props_NegateOperator;
   private ConceptPresentation props_NthRoot;
   private ConceptPresentation props_PL_BooleanType;
   private ConceptPresentation props_PL_Boolean_Constant;
@@ -44,13 +45,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
-      case LanguageConceptSwitch.AbsoluteValue:
-        if (props_AbsoluteValue == null) {
+      case LanguageConceptSwitch.AbsoluteValueOperator:
+        if (props_AbsoluteValueOperator == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Abszolút érték");
           cpb.rawPresentation("Abszolút érték");
-          props_AbsoluteValue = cpb.create();
+          props_AbsoluteValueOperator = cpb.create();
         }
-        return props_AbsoluteValue;
+        return props_AbsoluteValueOperator;
       case LanguageConceptSwitch.BreakLineExpression:
         if (props_BreakLineExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -66,13 +68,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_EmptyLineStatement = cpb.create();
         }
         return props_EmptyLineStatement;
-      case LanguageConceptSwitch.ExponentialExpression:
-        if (props_ExponentialExpression == null) {
+      case LanguageConceptSwitch.ExponentialOperator:
+        if (props_ExponentialOperator == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Hatványozás");
           cpb.rawPresentation("Hatvány");
-          props_ExponentialExpression = cpb.create();
+          props_ExponentialOperator = cpb.create();
         }
-        return props_ExponentialExpression;
+        return props_ExponentialOperator;
       case LanguageConceptSwitch.IPL_AllowedTypes:
         if (props_IPL_AllowedTypes == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -91,16 +94,26 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_MathExpression = cpb.create();
         }
         return props_MathExpression;
-      case LanguageConceptSwitch.ModuloExpression:
-        if (props_ModuloExpression == null) {
+      case LanguageConceptSwitch.ModuloOperator:
+        if (props_ModuloOperator == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Osztási maradék");
           cpb.rawPresentation("Modulo");
-          props_ModuloExpression = cpb.create();
+          props_ModuloOperator = cpb.create();
         }
-        return props_ModuloExpression;
+        return props_ModuloOperator;
+      case LanguageConceptSwitch.NegateOperator:
+        if (props_NegateOperator == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Negálás operátor");
+          cpb.rawPresentation("NEM");
+          props_NegateOperator = cpb.create();
+        }
+        return props_NegateOperator;
       case LanguageConceptSwitch.NthRoot:
         if (props_NthRoot == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("N-edik gyök");
           cpb.rawPresentation("Gyök");
           props_NthRoot = cpb.create();
         }

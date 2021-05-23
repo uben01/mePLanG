@@ -21,7 +21,7 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
       case 0:
         return new BreakLineExpression_Constraints();
       case 1:
-        return new ExponentialExpression_Constraints();
+        return new ExponentialOperator_Constraints();
       case 2:
         return new PL_StatementList_Constraints();
       case 3:

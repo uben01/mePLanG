@@ -662,7 +662,7 @@
             <node concept="3clFbS" id="2a" role="1pnPq1">
               <node concept="3cpWs6" id="2c" role="3cqZAp">
                 <node concept="1nCR9W" id="2d" role="3cqZAk">
-                  <property role="1nD$Q0" value="mePLanG.constraints.ExponentialExpression_Constraints" />
+                  <property role="1nD$Q0" value="mePLanG.constraints.ExponentialOperator_Constraints" />
                   <node concept="3uibUv" id="2e" role="2lIhxL">
                     <ref role="3uigEE" to="ze1i:~ConstraintsDescriptor" resolve="ConstraintsDescriptor" />
                   </node>
@@ -670,7 +670,7 @@
               </node>
             </node>
             <node concept="3gn64h" id="2b" role="1pnPq6">
-              <ref role="3gnhBz" to="b47h:1ddvuj_NySs" resolve="ExponentialExpression" />
+              <ref role="3gnhBz" to="b47h:1ddvuj_NySs" resolve="ExponentialOperator" />
             </node>
           </node>
           <node concept="3clFbS" id="1P" role="1prKM_" />
@@ -690,7 +690,7 @@
   </node>
   <node concept="312cEu" id="2i">
     <property role="3GE5qa" value="math" />
-    <property role="TrG5h" value="ExponentialExpression_Constraints" />
+    <property role="TrG5h" value="ExponentialOperator_Constraints" />
     <uo k="s:originTrace" v="n:1390906281990509552" />
     <node concept="3Tm1VV" id="2j" role="1B3o_S">
       <uo k="s:originTrace" v="n:1390906281990509552" />
@@ -711,7 +711,7 @@
           <uo k="s:originTrace" v="n:1390906281990509552" />
           <node concept="1BaE9c" id="2r" role="37wK5m">
             <property role="1ouuDV" value="CONCEPTS" />
-            <property role="1BaxDp" value="ExponentialExpression$cX" />
+            <property role="1BaxDp" value="ExponentialOperator$cX" />
             <uo k="s:originTrace" v="n:1390906281990509552" />
             <node concept="2YIFZM" id="2s" role="1Bazha">
               <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
@@ -730,7 +730,7 @@
                 <uo k="s:originTrace" v="n:1390906281990509552" />
               </node>
               <node concept="Xl_RD" id="2w" role="37wK5m">
-                <property role="Xl_RC" value="mePLanG.structure.ExponentialExpression" />
+                <property role="Xl_RC" value="mePLanG.structure.ExponentialOperator" />
                 <uo k="s:originTrace" v="n:1390906281990509552" />
               </node>
             </node>
@@ -1422,7 +1422,7 @@
     </node>
   </node>
   <node concept="312cEu" id="5_">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <property role="TrG5h" value="RoutineCallExpression_Constraints" />
     <uo k="s:originTrace" v="n:4924508656069274233" />
     <node concept="3Tm1VV" id="5A" role="1B3o_S">
@@ -1479,7 +1479,7 @@
     </node>
   </node>
   <node concept="312cEu" id="5O">
-    <property role="3GE5qa" value="control" />
+    <property role="3GE5qa" value="control.routine" />
     <property role="TrG5h" value="RoutineDefinition_Constraints" />
     <uo k="s:originTrace" v="n:6151411916033492920" />
     <node concept="3Tm1VV" id="5P" role="1B3o_S">

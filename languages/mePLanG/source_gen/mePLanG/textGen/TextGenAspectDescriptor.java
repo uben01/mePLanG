@@ -19,14 +19,16 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   @Override
   public TextGenDescriptor getDescriptor(@NotNull SAbstractConcept concept) {
     switch (myIndex.index(concept)) {
-      case LanguageConceptSwitch.AbsoluteValue:
-        return new AbsoluteValue_TextGen();
+      case LanguageConceptSwitch.AbsoluteValueOperator:
+        return new AbsoluteValueOperator_TextGen();
       case LanguageConceptSwitch.BreakLineExpression:
         return new BreakLineExpression_TextGen();
-      case LanguageConceptSwitch.ExponentialExpression:
-        return new ExponentialExpression_TextGen();
-      case LanguageConceptSwitch.ModuloExpression:
-        return new ModuloExpression_TextGen();
+      case LanguageConceptSwitch.ExponentialOperator:
+        return new ExponentialOperator_TextGen();
+      case LanguageConceptSwitch.ModuloOperator:
+        return new ModuloOperator_TextGen();
+      case LanguageConceptSwitch.NegateOperator:
+        return new NegateOperator_TextGen();
       case LanguageConceptSwitch.NthRoot:
         return new NthRoot_TextGen();
       case LanguageConceptSwitch.PL_BooleanType:

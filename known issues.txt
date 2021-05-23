@@ -1,14 +1,9 @@
 - hiányzó <=, >=
 - (int + double + int) -- ???
-- ciklus feltétel -- komplex expression
+- ciklus/elágazás feltétel -- komplex expression
 - unary operátorok
  - ++/--
- - not 
 - binary operatorok
  - gyökvonás
  - transzformálás
-- KI flagek
- - bináris, hexa...
- - autó sortörés
- - space a végén
 - type cast

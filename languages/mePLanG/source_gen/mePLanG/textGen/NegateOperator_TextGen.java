@@ -9,16 +9,16 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
-public class AbsoluteValue_TextGen extends TextGenDescriptorBase {
+public class NegateOperator_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("Math.abs(");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.expression$k8uQ));
+    tgs.append("!(");
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.expression$LbWq));
     tgs.append(")");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink expression$k8uQ = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4eade13becd6eb22L, 0x4eade13becd6eb26L, "expression");
+    /*package*/ static final SContainmentLink expression$LbWq = MetaAdapterFactory.getContainmentLink(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4db4791596842622L, 0x4db47915968426b9L, "expression");
   }
 }

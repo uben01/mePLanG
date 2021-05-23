@@ -24,6 +24,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
+      InferenceRule_Runtime inferenceRule = new typeof_NegateOperator_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_PL_BooleanConstant_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
@@ -64,6 +68,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.mySubtypingRules.add(subtypingRule);
     }
     {
+      SubtypingRule_Runtime subtypingRule = new Negate_subtypeOf_Boolean_SubtypingRule();
+      this.mySubtypingRules.add(subtypingRule);
+    }
+    {
       SubtypingRule_Runtime subtypingRule = new PL_Boolean_subtypeOf_Boolean_SubtypingRule();
       this.mySubtypingRules.add(subtypingRule);
     }
@@ -97,6 +105,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
     {
       SubstituteType_Runtime substituteTypeRule = new substituteType_ModuloExpression_SubstituteTypeRule();
+      this.mySubstituteTypeRules.add(substituteTypeRule);
+    }
+    {
+      SubstituteType_Runtime substituteTypeRule = new substituteType_NegateOperator_SubstituteTypeRule();
       this.mySubstituteTypeRules.add(substituteTypeRule);
     }
     {
