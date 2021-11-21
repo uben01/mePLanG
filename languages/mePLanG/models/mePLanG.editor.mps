@@ -1594,5 +1594,37 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="iyytlj4NzV">
+    <property role="3GE5qa" value="logic" />
+    <ref role="1XX52x" to="b47h:iyytlj4Nz0" resolve="AndOperator" />
+    <node concept="3EZMnI" id="iyytlj4N$1" role="2wV5jI">
+      <node concept="3F1sOY" id="iyytlj4N$b" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:iyytlj4Nzp" resolve="left" />
+      </node>
+      <node concept="3F0ifn" id="iyytlj4N$q" role="3EZMnx">
+        <property role="3F0ifm" value="ÉS" />
+      </node>
+      <node concept="3F1sOY" id="iyytlj4N$J" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:iyytlj4Nzs" resolve="right" />
+      </node>
+      <node concept="l2Vlx" id="iyytlj4N$4" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="iyytljed5D">
+    <property role="3GE5qa" value="logic" />
+    <ref role="1XX52x" to="b47h:iyytljed5a" resolve="OrOperator" />
+    <node concept="3EZMnI" id="iyytljed5E" role="2wV5jI">
+      <node concept="3F1sOY" id="iyytljed5F" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:iyytljed5c" resolve="left" />
+      </node>
+      <node concept="3F0ifn" id="iyytljed5G" role="3EZMnx">
+        <property role="3F0ifm" value="VAGY" />
+      </node>
+      <node concept="3F1sOY" id="iyytljed5H" role="3EZMnx">
+        <ref role="1NtTu8" to="b47h:iyytljed5d" resolve="right" />
+      </node>
+      <node concept="l2Vlx" id="iyytljed5I" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

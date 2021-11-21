@@ -19,6 +19,7 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAbsoluteValueOperator = createDescriptorForAbsoluteValueOperator();
+  /*package*/ final ConceptDescriptor myConceptAndOperator = createDescriptorForAndOperator();
   /*package*/ final ConceptDescriptor myConceptBreakLineExpression = createDescriptorForBreakLineExpression();
   /*package*/ final ConceptDescriptor myConceptEmptyLineStatement = createDescriptorForEmptyLineStatement();
   /*package*/ final ConceptDescriptor myConceptExponentialOperator = createDescriptorForExponentialOperator();
@@ -28,6 +29,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptModuloOperator = createDescriptorForModuloOperator();
   /*package*/ final ConceptDescriptor myConceptNegateOperator = createDescriptorForNegateOperator();
   /*package*/ final ConceptDescriptor myConceptNthRoot = createDescriptorForNthRoot();
+  /*package*/ final ConceptDescriptor myConceptOrOperator = createDescriptorForOrOperator();
   /*package*/ final ConceptDescriptor myConceptPL_BooleanType = createDescriptorForPL_BooleanType();
   /*package*/ final ConceptDescriptor myConceptPL_Boolean_Constant = createDescriptorForPL_Boolean_Constant();
   /*package*/ final ConceptDescriptor myConceptPL_Boolean_Constant_False = createDescriptorForPL_Boolean_Constant_False();
@@ -65,7 +67,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbsoluteValueOperator, myConceptBreakLineExpression, myConceptEmptyLineStatement, myConceptExponentialOperator, myConceptIPL_AllowedTypes, myConceptIPL_ReturnTypes, myConceptMathExpression, myConceptModuloOperator, myConceptNegateOperator, myConceptNthRoot, myConceptPL_BooleanType, myConceptPL_Boolean_Constant, myConceptPL_Boolean_Constant_False, myConceptPL_Boolean_Constant_True, myConceptPL_CharacterType, myConceptPL_DoWhileStatement, myConceptPL_DoubleType, myConceptPL_ElifClause, myConceptPL_IfStatement, myConceptPL_IntegerType, myConceptPL_StatementList, myConceptPL_StringType, myConceptPL_VoidType, myConceptPL_WhileStatement, myConceptPrintStatement, myConceptProgram, myConceptReadStatement, myConceptReturnStatement, myConceptRoutineCallExpression, myConceptRoutineDefinition);
+    return Arrays.asList(myConceptAbsoluteValueOperator, myConceptAndOperator, myConceptBreakLineExpression, myConceptEmptyLineStatement, myConceptExponentialOperator, myConceptIPL_AllowedTypes, myConceptIPL_ReturnTypes, myConceptMathExpression, myConceptModuloOperator, myConceptNegateOperator, myConceptNthRoot, myConceptOrOperator, myConceptPL_BooleanType, myConceptPL_Boolean_Constant, myConceptPL_Boolean_Constant_False, myConceptPL_Boolean_Constant_True, myConceptPL_CharacterType, myConceptPL_DoWhileStatement, myConceptPL_DoubleType, myConceptPL_ElifClause, myConceptPL_IfStatement, myConceptPL_IntegerType, myConceptPL_StatementList, myConceptPL_StringType, myConceptPL_VoidType, myConceptPL_WhileStatement, myConceptPrintStatement, myConceptProgram, myConceptReadStatement, myConceptReturnStatement, myConceptRoutineCallExpression, myConceptRoutineDefinition);
   }
 
   @Override
@@ -74,6 +76,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.AbsoluteValueOperator:
         return myConceptAbsoluteValueOperator;
+      case LanguageConceptSwitch.AndOperator:
+        return myConceptAndOperator;
       case LanguageConceptSwitch.BreakLineExpression:
         return myConceptBreakLineExpression;
       case LanguageConceptSwitch.EmptyLineStatement:
@@ -92,6 +96,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptNegateOperator;
       case LanguageConceptSwitch.NthRoot:
         return myConceptNthRoot;
+      case LanguageConceptSwitch.OrOperator:
+        return myConceptOrOperator;
       case LanguageConceptSwitch.PL_BooleanType:
         return myConceptPL_BooleanType;
       case LanguageConceptSwitch.PL_Boolean_Constant:
@@ -155,6 +161,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("expression", 0x4eade13becd6eb26L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("5669435153422150438").done();
     b.alias("Abszolút érték");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForAndOperator() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "AndOperator", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4a289d5531338c0L);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L);
+    b.origin("r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)/333980871693646016");
+    b.version(2);
+    b.aggregate("left", 0x4a289d5531338d9L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("333980871693646041").done();
+    b.aggregate("right", 0x4a289d5531338dcL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("333980871693646044").done();
+    b.alias("ÉS");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForBreakLineExpression() {
@@ -244,6 +262,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("nth", 0x3bff452adab33cb1L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("4323250217659088049").done();
     b.aggregate("expression", 0x3bff452ada8b64acL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("4323250217656476844").done();
     b.alias("Gyök");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForOrOperator() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "OrOperator", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x4a289d55338d14aL);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L);
+    b.origin("r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure)/333980871696109898");
+    b.version(2);
+    b.aggregate("left", 0x4a289d55338d14cL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("333980871696109900").done();
+    b.aggregate("right", 0x4a289d55338d14dL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("333980871696109901").done();
+    b.alias("VAGY");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPL_BooleanType() {

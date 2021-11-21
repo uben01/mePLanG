@@ -21,6 +21,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     switch (myIndex.index(concept)) {
       case LanguageConceptSwitch.AbsoluteValueOperator:
         return new AbsoluteValueOperator_TextGen();
+      case LanguageConceptSwitch.AndOperator:
+        return new AndOperator_TextGen();
       case LanguageConceptSwitch.BreakLineExpression:
         return new BreakLineExpression_TextGen();
       case LanguageConceptSwitch.ExponentialOperator:
@@ -31,6 +33,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new NegateOperator_TextGen();
       case LanguageConceptSwitch.NthRoot:
         return new NthRoot_TextGen();
+      case LanguageConceptSwitch.OrOperator:
+        return new OrOperator_TextGen();
       case LanguageConceptSwitch.PL_BooleanType:
         return new PL_BooleanType_TextGen();
       case LanguageConceptSwitch.PL_Boolean_Constant:

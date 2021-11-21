@@ -10,6 +10,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_AbsoluteValueOperator;
+  private ConceptPresentation props_AndOperator;
   private ConceptPresentation props_BreakLineExpression;
   private ConceptPresentation props_EmptyLineStatement;
   private ConceptPresentation props_ExponentialOperator;
@@ -19,6 +20,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ModuloOperator;
   private ConceptPresentation props_NegateOperator;
   private ConceptPresentation props_NthRoot;
+  private ConceptPresentation props_OrOperator;
   private ConceptPresentation props_PL_BooleanType;
   private ConceptPresentation props_PL_Boolean_Constant;
   private ConceptPresentation props_PL_Boolean_Constant_False;
@@ -53,6 +55,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_AbsoluteValueOperator = cpb.create();
         }
         return props_AbsoluteValueOperator;
+      case LanguageConceptSwitch.AndOperator:
+        if (props_AndOperator == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Logikai és");
+          cpb.rawPresentation("ÉS");
+          props_AndOperator = cpb.create();
+        }
+        return props_AndOperator;
       case LanguageConceptSwitch.BreakLineExpression:
         if (props_BreakLineExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -118,6 +128,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NthRoot = cpb.create();
         }
         return props_NthRoot;
+      case LanguageConceptSwitch.OrOperator:
+        if (props_OrOperator == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Logikai vagy");
+          cpb.rawPresentation("VAGY");
+          props_OrOperator = cpb.create();
+        }
+        return props_OrOperator;
       case LanguageConceptSwitch.PL_BooleanType:
         if (props_PL_BooleanType == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

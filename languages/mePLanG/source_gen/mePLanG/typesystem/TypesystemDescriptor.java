@@ -12,6 +12,10 @@ import jetbrains.mps.lang.typesystem.runtime.ComparisonRule_Runtime;
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
     {
+      InferenceRule_Runtime inferenceRule = new typeof_AndOperator_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_ElifClause_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
@@ -25,6 +29,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
     {
       InferenceRule_Runtime inferenceRule = new typeof_NegateOperator_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_OrOperator_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {

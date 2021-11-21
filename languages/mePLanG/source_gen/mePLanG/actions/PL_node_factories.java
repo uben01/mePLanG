@@ -14,19 +14,19 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
 public class PL_node_factories {
   public static class NodeFactory_4587952750758668166 implements NodeFactory {
-    public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
+    public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, int index, SModel model) {
       SNodeFactoryOperations.setNewChild(newNode, LINKS.condition$QtK_, null);
       SNodeFactoryOperations.setNewChild(newNode, LINKS.trueBranch$QAd9, null);
     }
   }
   public static class NodeFactory_6464584426558287306 implements NodeFactory {
-    public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
+    public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, int index, SModel model) {
       SNodeFactoryOperations.setNewChild(newNode, LINKS.condition$KI5j, null);
       SNodeFactoryOperations.setNewChild(newNode, LINKS.trueBranch$KIzl, null);
     }
   }
   public static class NodeFactory_3069092188763423968 implements NodeFactory {
-    public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
+    public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, int index, SModel model) {
       SNode node = enclosingNode;
       do {
         {
