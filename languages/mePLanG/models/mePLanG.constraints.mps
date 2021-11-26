@@ -367,7 +367,7 @@
                 <node concept="2DD5aU" id="5lud8JalK0h" role="2Oq$k0" />
                 <node concept="2Zo12i" id="5lud8JalKE$" role="2OqNvi">
                   <node concept="chp4Y" id="5lud8JalKTc" role="2Zo12j">
-                    <ref role="cht4Q" to="b47h:7xDa$MuJebg" resolve="IPL_ReturnTypes" />
+                    <ref role="cht4Q" to="b47h:7xDa$MuJebg" resolve="IReturnTypes" />
                   </node>
                 </node>
               </node>
@@ -391,7 +391,7 @@
             <node concept="2DD5aU" id="74PBwp7SU5p" role="2Oq$k0" />
             <node concept="2Zo12i" id="3N82JC8IXA8" role="2OqNvi">
               <node concept="chp4Y" id="3N82JC8IXKW" role="2Zo12j">
-                <ref role="cht4Q" to="b47h:36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+                <ref role="cht4Q" to="b47h:36BJeIdlUTC" resolve="IAllowedTypes" />
               </node>
             </node>
           </node>

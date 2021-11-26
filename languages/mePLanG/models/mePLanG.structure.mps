@@ -98,7 +98,7 @@
       <ref role="AX2Wp" node="58aHDCgWTMJ" resolve="PL_Boolean_DataType" />
     </node>
     <node concept="PrWs8" id="36BJeIdlUTD" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgk">
@@ -109,7 +109,7 @@
     <property role="R4oN_" value="Egész típus" />
     <ref role="1TJDcQ" to="tpee:f_0OyhT" resolve="IntegerType" />
     <node concept="PrWs8" id="36BJeIdlUTJ" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgl">
@@ -120,7 +120,7 @@
     <property role="R4oN_" value="Karakter típus" />
     <ref role="1TJDcQ" to="tpee:f_0PfwA" resolve="CharType" />
     <node concept="PrWs8" id="36BJeIdlUTF" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgm">
@@ -131,7 +131,7 @@
     <property role="R4oN_" value="Szöveg típus" />
     <ref role="1TJDcQ" to="tpee:hP7QB7G" resolve="StringType" />
     <node concept="PrWs8" id="36BJeIdlUTL" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="3fj57vIOVgn">
@@ -142,7 +142,7 @@
     <property role="R4oN_" value="Valós típus" />
     <ref role="1TJDcQ" to="tpee:f_0P56A" resolve="DoubleType" />
     <node concept="PrWs8" id="36BJeIdlUTH" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="5cKufQpbIZR">
@@ -270,12 +270,12 @@
   <node concept="PlHQZ" id="36BJeIdlUTC">
     <property role="EcuMT" value="3578036148843818600" />
     <property role="3GE5qa" value="variable.type.interface" />
-    <property role="TrG5h" value="IPL_AllowedTypes" />
+    <property role="TrG5h" value="IAllowedTypes" />
     <node concept="PrWs8" id="6$khvH9k3PY" role="PrDN$">
       <ref role="PrY4T" to="tpee:3zZky3wF74d" resolve="IGenericType" />
     </node>
     <node concept="PrWs8" id="7xDa$MuJejL" role="PrDN$">
-      <ref role="PrY4T" node="7xDa$MuJebg" resolve="IPL_ReturnTypes" />
+      <ref role="PrY4T" node="7xDa$MuJebg" resolve="IReturnTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="28MzjYJFPu_">
@@ -408,7 +408,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="returnType" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7xDa$MuJebg" resolve="IPL_ReturnTypes" />
+      <ref role="20lvS9" node="7xDa$MuJebg" resolve="IReturnTypes" />
     </node>
     <node concept="1TJgyj" id="7xDa$MuJf1l" role="1TKVEi">
       <property role="IQ2ns" value="8676512665675034709" />
@@ -431,13 +431,13 @@
     <property role="R4oN_" value="Üres típus" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="PrWs8" id="7xDa$MuJen2" role="PzmwI">
-      <ref role="PrY4T" node="7xDa$MuJebg" resolve="IPL_ReturnTypes" />
+      <ref role="PrY4T" node="7xDa$MuJebg" resolve="IReturnTypes" />
     </node>
   </node>
   <node concept="PlHQZ" id="7xDa$MuJebg">
     <property role="EcuMT" value="8676512665675031248" />
     <property role="3GE5qa" value="variable.type.interface" />
-    <property role="TrG5h" value="IPL_ReturnTypes" />
+    <property role="TrG5h" value="IReturnTypes" />
     <node concept="PrWs8" id="5lud8J9VkpR" role="PrDN$">
       <ref role="PrY4T" to="tpee:3zZky3wF74d" resolve="IGenericType" />
     </node>
@@ -603,7 +603,7 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="4QOuhmmzquz" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="1TIwiD" id="iyytlj4Nz0">
@@ -614,7 +614,7 @@
     <property role="R4oN_" value="Logikai és" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="iyytlj4Nza" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
     <node concept="1TJgyj" id="iyytlj4Nzp" role="1TKVEi">
       <property role="IQ2ns" value="333980871693646041" />
@@ -639,7 +639,7 @@
     <property role="34LRSv" value="VAGY" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="iyytljed5b" role="PzmwI">
-      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="PrY4T" node="36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
     <node concept="1TJgyj" id="iyytljed5c" role="1TKVEi">
       <property role="IQ2ns" value="333980871696109900" />

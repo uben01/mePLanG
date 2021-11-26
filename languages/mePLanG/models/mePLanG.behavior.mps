@@ -1296,7 +1296,7 @@
   </node>
   <node concept="13h7C7" id="3ZAe4NgLQXE">
     <property role="3GE5qa" value="variable.type.interface" />
-    <ref role="13h7C2" to="b47h:7xDa$MuJebg" resolve="IPL_ReturnTypes" />
+    <ref role="13h7C2" to="b47h:7xDa$MuJebg" resolve="IReturnTypes" />
     <node concept="13i0hz" id="3ZAe4NgLRRC" role="13h7CS">
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="expandGeneric" />

@@ -17,23 +17,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f0af0d6d-e926-4cfa-ae90-a7620ddc2433" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/mePLanG.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/mePLanG.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.intentions.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.textGen.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.textGen.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/models/mePLanG.typesystem.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/actions/PL_Boolean_Constant_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/actions/PL_Boolean_Constant_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/actions/PL_node_factories.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/actions/PL_node_factories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/textGen/TextGenAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/textGen/TextGenAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/typesystem/TypesystemDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/typesystem/TypesystemDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/mePLanG/source_gen/mePLanG/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/sandbox/source_gen/sandbox/sandbox/program.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sandbox/source_gen/sandbox/sandbox/program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/sandbox/source_gen/sandbox/sandbox/program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sandbox/source_gen/sandbox/sandbox/program2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +42,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="3bef079b-0712-417f-8b07-42480e12ad70/r:13f5509e-6253-45ff-9834-ff23bfb66093(TempModule3bef079b-0712-417f-8b07-42480e12ad70/ConsoleModel_214609097899600)">
+            <model ref="836ad337-bf49-4049-aef9-65db52dae5b9/r:99b75be4-455a-40a5-9940-a757a1a7e994(TempModule836ad337-bf49-4049-aef9-65db52dae5b9/ConsoleModel_6278272501800)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -73,11 +62,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="iyytliZuvT">
-                <node concept="3balQm" id="iyytliZuvU" role="aymYE" />
-                <node concept="2Clz$F" id="iyytliZuvV" role="aymYO" />
-                <node concept="2_V_lH" id="iyytliZuvW" role="1PhJh3">
-                  <ref role="2_V_lI" node="iyytliZuvV" resolve="CommandHolder" />
+              <node concept="aymSD" id="6R43g8qu8we">
+                <node concept="3balQm" id="6R43g8qu8wf" role="aymYE" />
+                <node concept="2Clz$F" id="6R43g8qu8wg" role="aymYO" />
+                <node concept="2_V_lH" id="6R43g8qu8wh" role="1PhJh3">
+                  <ref role="2_V_lI" node="6R43g8qu8wg" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -162,7 +151,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,28 +162,12 @@
               <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
+              <option name="myItemId" value="r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure) in IdeaFile[path: E:/workspace/mePLanG/languages/mePLanG/models/mePLanG.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3b7df8d3-3f23-4a71-8884-a73dd7069dc4(sandbox.sandbox) in IdeaFile[path: E:/workspace/mePLanG/solutions/sandbox/models/sandbox.sandbox]" />
+              <option name="myItemId" value="variable" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,31 +185,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mePLanG" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
+              <option name="myItemId" value="logic" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,20 +208,86 @@
               <option name="myItemId" value="mePLanG" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b7575a81-43ff-4fe6-b9c0-6b5446b3f751" />
+              <option name="myItemId" value="mePLanG" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3b7df8d3-3f23-4a71-8884-a73dd7069dc4(sandbox.sandbox) in IdeaFile[path: E:/workspace/mePLanG/solutions/sandbox/models/sandbox.sandbox]" />
+              <option name="myItemId" value="r:7bea744c-5da2-4788-80dc-ba033598b09a(mePLanG.editor) in IdeaFile[path: E:/workspace/mePLanG/languages/mePLanG/models/mePLanG.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mePLanG" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5599233370354884105" />
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure) in IdeaFile[path: E:/workspace/mePLanG/languages/mePLanG/models/mePLanG.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IO" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mePLanG" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mePLanG" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:7bea744c-5da2-4788-80dc-ba033598b09a(mePLanG.editor) in IdeaFile[path: E:/workspace/mePLanG/languages/mePLanG/models/mePLanG.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mePLanG" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4516c44b-8ee5-4276-bb7f-7414c1a20bd0(mePLanG)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f23cd24d-0c63-4a47-a186-e2ad0b8a0eaa(mePLanG.structure) in IdeaFile[path: E:/workspace/mePLanG/languages/mePLanG/models/mePLanG.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="variable" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constant" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,16 +305,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4323250217654437852" />
+              <option name="myItemId" value="logic" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -420,6 +431,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591345524750</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added new logical operators, removed solutions">
+      <created>1637522908429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637522908429</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -439,5 +458,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new logical operators, removed solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new logical operators, removed solutions" />
   </component>
 </project>

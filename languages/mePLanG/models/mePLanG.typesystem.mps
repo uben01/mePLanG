@@ -501,7 +501,7 @@
     </node>
     <node concept="1YaCAy" id="6$khvH9isfy" role="1YuTPh">
       <property role="TrG5h" value="ipL_AllowedTypes" />
-      <ref role="1YaFvo" to="b47h:36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+      <ref role="1YaFvo" to="b47h:36BJeIdlUTC" resolve="IAllowedTypes" />
     </node>
   </node>
   <node concept="2sgARr" id="3N82JC90sLw">
