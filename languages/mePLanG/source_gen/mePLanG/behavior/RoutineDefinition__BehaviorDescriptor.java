@@ -77,7 +77,7 @@ public final class RoutineDefinition__BehaviorDescriptor extends BaseBHDescripto
     return IMethodLike__BehaviorDescriptor.getBody_idi2fhZ_m.invoke(__thisNode__);
   }
   /*package*/ static SNode getExpectedRetType_idi2fhBNC(@NotNull SNode __thisNode__) {
-    return (SNode) IPL_ReturnTypes__BehaviorDescriptor.expandGeneric_id3ZAe4NgLRRC.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.returnType$LSk0));
+    return (SNode) IReturnTypes__BehaviorDescriptor.expandGeneric_id3ZAe4NgLRRC.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.returnType$LSk0));
   }
   /*package*/ static boolean isPassLastExpressionValue_id28aPEVv$IZv(@NotNull SNode __thisNode__) {
     return false;

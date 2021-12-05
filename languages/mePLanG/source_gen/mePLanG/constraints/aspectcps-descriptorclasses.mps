@@ -2143,7 +2143,7 @@
                 <node concept="2Zo12i" id="9s" role="2OqNvi">
                   <uo k="s:originTrace" v="n:6151411916034476708" />
                   <node concept="chp4Y" id="9t" role="2Zo12j">
-                    <ref role="cht4Q" to="b47h:7xDa$MuJebg" resolve="IPL_ReturnTypes" />
+                    <ref role="cht4Q" to="b47h:7xDa$MuJebg" resolve="IReturnTypes" />
                     <uo k="s:originTrace" v="n:6151411916034477644" />
                   </node>
                 </node>
@@ -2186,7 +2186,7 @@
             <node concept="2Zo12i" id="9_" role="2OqNvi">
               <uo k="s:originTrace" v="n:4379762706622437768" />
               <node concept="chp4Y" id="9A" role="2Zo12j">
-                <ref role="cht4Q" to="b47h:36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+                <ref role="cht4Q" to="b47h:36BJeIdlUTC" resolve="IAllowedTypes" />
                 <uo k="s:originTrace" v="n:4379762706622438460" />
               </node>
             </node>

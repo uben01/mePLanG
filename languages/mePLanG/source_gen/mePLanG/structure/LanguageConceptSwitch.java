@@ -14,8 +14,8 @@ public final class LanguageConceptSwitch {
   public static final int BreakLineExpression = 2;
   public static final int EmptyLineStatement = 3;
   public static final int ExponentialOperator = 4;
-  public static final int IPL_AllowedTypes = 5;
-  public static final int IPL_ReturnTypes = 6;
+  public static final int IAllowedTypes = 5;
+  public static final int IReturnTypes = 6;
   public static final int MathExpression = 7;
   public static final int ModuloOperator = 8;
   public static final int NegateOperator = 9;
@@ -49,8 +49,8 @@ public final class LanguageConceptSwitch {
     builder.put(0x2562eb3549b4a1ceL, BreakLineExpression);
     builder.put(0x18b6f7391cb9f461L, EmptyLineStatement);
     builder.put(0x134d7de4e5ce2e1cL, ExponentialOperator);
-    builder.put(0x31a7bceb8d57ae68L, IPL_AllowedTypes);
-    builder.put(0x78692a4c9ebce2d0L, IPL_ReturnTypes);
+    builder.put(0x31a7bceb8d57ae68L, IAllowedTypes);
+    builder.put(0x78692a4c9ebce2d0L, IReturnTypes);
     builder.put(0x4eade13becd6eb23L, MathExpression);
     builder.put(0x3bff452ada6c47dcL, ModuloOperator);
     builder.put(0x4db4791596842622L, NegateOperator);

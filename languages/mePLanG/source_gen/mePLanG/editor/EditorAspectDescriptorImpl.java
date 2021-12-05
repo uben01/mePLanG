@@ -59,11 +59,11 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
       case 15:
         return Collections.<ConceptEditor>singletonList(new PL_WhileStatement_Editor());
       case 16:
-        return Arrays.asList(new ConceptEditor[]{new PrintStatement_Editor(), new PrintStatement_plang_Editor()});
+        return Collections.<ConceptEditor>singletonList(new PrintStatement_Editor());
       case 17:
         return Collections.<ConceptEditor>singletonList(new Program_Editor());
       case 18:
-        return Arrays.asList(new ConceptEditor[]{new ReadStatement_Editor(), new ReadStatement_plang_Editor()});
+        return Collections.<ConceptEditor>singletonList(new ReadStatement_Editor());
       case 19:
         return Collections.<ConceptEditor>singletonList(new ReturnStatement_Editor());
       case 20:

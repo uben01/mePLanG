@@ -60,12 +60,12 @@ public class RoutineDefinition_Constraints extends BaseConstraintsDescriptor {
   }
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     if (Objects.equals(parentNode, node)) {
-      if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), CONCEPTS.IPL_ReturnTypes$Tk)) {
+      if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), CONCEPTS.IReturnTypes$Tk)) {
         return true;
       }
     }
 
-    if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), CONCEPTS.IPL_AllowedTypes$mF)) {
+    if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), CONCEPTS.IAllowedTypes$mF)) {
       return true;
     }
     if (SConceptOperations.isExactly(SNodeOperations.asSConcept(childConcept), CONCEPTS.IntegerConstant$Na)) {
@@ -197,8 +197,8 @@ public class RoutineDefinition_Constraints extends BaseConstraintsDescriptor {
   private static final class CONCEPTS {
     /*package*/ static final SConcept RoutineDefinition$UG = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x3d6d09297c1522fdL, "mePLanG.structure.RoutineDefinition");
     /*package*/ static final SConcept Program$3D = MetaAdapterFactory.getConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x112caf8f13515c6bL, "mePLanG.structure.Program");
-    /*package*/ static final SInterfaceConcept IPL_ReturnTypes$Tk = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce2d0L, "mePLanG.structure.IPL_ReturnTypes");
-    /*package*/ static final SInterfaceConcept IPL_AllowedTypes$mF = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L, "mePLanG.structure.IPL_AllowedTypes");
+    /*package*/ static final SInterfaceConcept IReturnTypes$Tk = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce2d0L, "mePLanG.structure.IReturnTypes");
+    /*package*/ static final SInterfaceConcept IAllowedTypes$mF = MetaAdapterFactory.getInterfaceConcept(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L, "mePLanG.structure.IAllowedTypes");
     /*package*/ static final SConcept IntegerConstant$Na = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant");
     /*package*/ static final SConcept CharConstant$Y4 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x1177d44b21bL, "jetbrains.mps.baseLanguage.structure.CharConstant");
     /*package*/ static final SConcept IntegerLiteral$73 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x1129778b846L, "jetbrains.mps.baseLanguage.structure.IntegerLiteral");

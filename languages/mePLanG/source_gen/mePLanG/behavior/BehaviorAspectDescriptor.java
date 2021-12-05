@@ -30,7 +30,7 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
   private final BHDescriptor myPL_ElifClause__BehaviorDescriptor = new PL_ElifClause__BehaviorDescriptor();
   private final BHDescriptor myReturnStatement__BehaviorDescriptor = new ReturnStatement__BehaviorDescriptor();
   private final BHDescriptor myPL_VoidType__BehaviorDescriptor = new PL_VoidType__BehaviorDescriptor();
-  private final BHDescriptor myIPL_ReturnTypes__BehaviorDescriptor = new IPL_ReturnTypes__BehaviorDescriptor();
+  private final BHDescriptor myIReturnTypes__BehaviorDescriptor = new IReturnTypes__BehaviorDescriptor();
 
   public BehaviorAspectDescriptor() {
   }
@@ -42,7 +42,7 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
       case 0:
         return myAbsoluteValueOperator__BehaviorDescriptor;
       case 1:
-        return myIPL_ReturnTypes__BehaviorDescriptor;
+        return myIReturnTypes__BehaviorDescriptor;
       case 2:
         return myNthRoot__BehaviorDescriptor;
       case 3:

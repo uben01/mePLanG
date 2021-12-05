@@ -22,8 +22,8 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.createPositionInfo();
-    int m = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.content$9mqF).size();
-    int c = 0;
+    int content_size = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.content$9mqF).size();
+    int item_counter = 0;
 
     tgs.append("\n");
 
@@ -37,17 +37,15 @@ public class PrintStatement_TextGen extends TextGenDescriptorBase {
     for (SNode it : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.content$9mqF))) {
       tgs.appendNode(it);
 
-      if (c + 1 != m) {
+      if (item_counter + 1 != content_size) {
         tgs.append(" + \"");
         tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.separator$$rLJ));
         tgs.append("\" + ");
       }
 
-      c++;
+      item_counter++;
     }
     tgs.append(");");
-    c++;
-
     if (tgs.needPositions()) {
       tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$L)));
     }

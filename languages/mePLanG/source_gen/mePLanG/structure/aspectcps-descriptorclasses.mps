@@ -254,7 +254,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_IPL_AllowedTypes" />
+      <property role="TrG5h" value="props_IAllowedTypes" />
       <node concept="3uibUv" id="J" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -264,7 +264,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_IPL_ReturnTypes" />
+      <property role="TrG5h" value="props_IReturnTypes" />
       <node concept="3uibUv" id="L" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -980,7 +980,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="4U" role="37vLTJ">
-                        <ref role="3cqZAo" node="7" resolve="props_IPL_AllowedTypes" />
+                        <ref role="3cqZAo" node="7" resolve="props_IAllowedTypes" />
                       </node>
                     </node>
                   </node>
@@ -988,18 +988,18 @@
                 <node concept="3clFbC" id="4L" role="3clFbw">
                   <node concept="10Nm6u" id="4X" role="3uHU7w" />
                   <node concept="37vLTw" id="4Y" role="3uHU7B">
-                    <ref role="3cqZAo" node="7" resolve="props_IPL_AllowedTypes" />
+                    <ref role="3cqZAo" node="7" resolve="props_IAllowedTypes" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="4J" role="3cqZAp">
                 <node concept="37vLTw" id="4Z" role="3cqZAk">
-                  <ref role="3cqZAo" node="7" resolve="props_IPL_AllowedTypes" />
+                  <ref role="3cqZAo" node="7" resolve="props_IAllowedTypes" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="4H" role="3Kbmr1">
-              <ref role="3cqZAo" node="iX" resolve="IPL_AllowedTypes" />
+              <ref role="3cqZAo" node="iX" resolve="IAllowedTypes" />
               <ref role="1PxDUh" node="iQ" resolve="LanguageConceptSwitch" />
             </node>
           </node>
@@ -1031,7 +1031,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="5e" role="37vLTJ">
-                        <ref role="3cqZAo" node="8" resolve="props_IPL_ReturnTypes" />
+                        <ref role="3cqZAo" node="8" resolve="props_IReturnTypes" />
                       </node>
                     </node>
                   </node>
@@ -1039,18 +1039,18 @@
                 <node concept="3clFbC" id="55" role="3clFbw">
                   <node concept="10Nm6u" id="5h" role="3uHU7w" />
                   <node concept="37vLTw" id="5i" role="3uHU7B">
-                    <ref role="3cqZAo" node="8" resolve="props_IPL_ReturnTypes" />
+                    <ref role="3cqZAo" node="8" resolve="props_IReturnTypes" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="53" role="3cqZAp">
                 <node concept="37vLTw" id="5j" role="3cqZAk">
-                  <ref role="3cqZAo" node="8" resolve="props_IPL_ReturnTypes" />
+                  <ref role="3cqZAo" node="8" resolve="props_IReturnTypes" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="51" role="3Kbmr1">
-              <ref role="3cqZAo" node="iY" resolve="IPL_ReturnTypes" />
+              <ref role="3cqZAo" node="iY" resolve="IReturnTypes" />
               <ref role="1PxDUh" node="iQ" resolve="LanguageConceptSwitch" />
             </node>
           </node>
@@ -3557,7 +3557,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="IPL_AllowedTypes" />
+      <property role="TrG5h" value="IAllowedTypes" />
       <node concept="3Tm1VV" id="jK" role="1B3o_S" />
       <node concept="10Oyi0" id="jL" role="1tU5fm" />
       <node concept="3cmrfG" id="jM" role="33vP2m">
@@ -3568,7 +3568,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="IPL_ReturnTypes" />
+      <property role="TrG5h" value="IReturnTypes" />
       <node concept="3Tm1VV" id="jN" role="1B3o_S" />
       <node concept="10Oyi0" id="jO" role="1tU5fm" />
       <node concept="3cmrfG" id="jP" role="33vP2m">
@@ -3965,7 +3965,7 @@
                 <property role="1adDun" value="0x31a7bceb8d57ae68L" />
               </node>
               <node concept="37vLTw" id="m9" role="37wK5m">
-                <ref role="3cqZAo" node="iX" resolve="IPL_AllowedTypes" />
+                <ref role="3cqZAo" node="iX" resolve="IAllowedTypes" />
               </node>
             </node>
           </node>
@@ -3981,7 +3981,7 @@
                 <property role="1adDun" value="0x78692a4c9ebce2d0L" />
               </node>
               <node concept="37vLTw" id="me" role="37wK5m">
-                <ref role="3cqZAo" node="iY" resolve="IPL_ReturnTypes" />
+                <ref role="3cqZAo" node="iY" resolve="IReturnTypes" />
               </node>
             </node>
           </node>
@@ -4527,24 +4527,24 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptIPL_AllowedTypes" />
+      <property role="TrG5h" value="myConceptIAllowedTypes" />
       <node concept="3uibUv" id="q1" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="q2" role="33vP2m">
-        <ref role="37wK5l" node="ps" resolve="createDescriptorForIPL_AllowedTypes" />
+        <ref role="37wK5l" node="ps" resolve="createDescriptorForIAllowedTypes" />
       </node>
     </node>
     <node concept="312cEg" id="oG" role="jymVt">
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptIPL_ReturnTypes" />
+      <property role="TrG5h" value="myConceptIReturnTypes" />
       <node concept="3uibUv" id="q3" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="q4" role="33vP2m">
-        <ref role="37wK5l" node="pt" resolve="createDescriptorForIPL_ReturnTypes" />
+        <ref role="37wK5l" node="pt" resolve="createDescriptorForIReturnTypes" />
       </node>
     </node>
     <node concept="312cEg" id="oH" role="jymVt">
@@ -4991,10 +4991,10 @@
               <ref role="3cqZAo" node="oE" resolve="myConceptExponentialOperator" />
             </node>
             <node concept="37vLTw" id="rE" role="37wK5m">
-              <ref role="3cqZAo" node="oF" resolve="myConceptIPL_AllowedTypes" />
+              <ref role="3cqZAo" node="oF" resolve="myConceptIAllowedTypes" />
             </node>
             <node concept="37vLTw" id="rF" role="37wK5m">
-              <ref role="3cqZAo" node="oG" resolve="myConceptIPL_ReturnTypes" />
+              <ref role="3cqZAo" node="oG" resolve="myConceptIReturnTypes" />
             </node>
             <node concept="37vLTw" id="rG" role="37wK5m">
               <ref role="3cqZAo" node="oH" resolve="myConceptMathExpression" />
@@ -5168,12 +5168,12 @@
             <node concept="3clFbS" id="t4" role="3Kbo56">
               <node concept="3cpWs6" id="t6" role="3cqZAp">
                 <node concept="37vLTw" id="t7" role="3cqZAk">
-                  <ref role="3cqZAo" node="oF" resolve="myConceptIPL_AllowedTypes" />
+                  <ref role="3cqZAo" node="oF" resolve="myConceptIAllowedTypes" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="t5" role="3Kbmr1">
-              <ref role="3cqZAo" node="iX" resolve="IPL_AllowedTypes" />
+              <ref role="3cqZAo" node="iX" resolve="IAllowedTypes" />
               <ref role="1PxDUh" node="iQ" resolve="LanguageConceptSwitch" />
             </node>
           </node>
@@ -5181,12 +5181,12 @@
             <node concept="3clFbS" id="t8" role="3Kbo56">
               <node concept="3cpWs6" id="ta" role="3cqZAp">
                 <node concept="37vLTw" id="tb" role="3cqZAk">
-                  <ref role="3cqZAo" node="oG" resolve="myConceptIPL_ReturnTypes" />
+                  <ref role="3cqZAo" node="oG" resolve="myConceptIReturnTypes" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="t9" role="3Kbmr1">
-              <ref role="3cqZAo" node="iY" resolve="IPL_ReturnTypes" />
+              <ref role="3cqZAo" node="iY" resolve="IReturnTypes" />
               <ref role="1PxDUh" node="iQ" resolve="LanguageConceptSwitch" />
             </node>
           </node>
@@ -6578,7 +6578,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForIPL_AllowedTypes" />
+      <property role="TrG5h" value="createDescriptorForIAllowedTypes" />
       <node concept="3clFbS" id="$Y" role="3clF47">
         <node concept="3cpWs8" id="_1" role="3cqZAp">
           <node concept="3cpWsn" id="_8" role="3cpWs9">
@@ -6593,7 +6593,7 @@
                   <property role="Xl_RC" value="mePLanG" />
                 </node>
                 <node concept="Xl_RD" id="_d" role="37wK5m">
-                  <property role="Xl_RC" value="IPL_AllowedTypes" />
+                  <property role="Xl_RC" value="IAllowedTypes" />
                 </node>
                 <node concept="1adDum" id="_e" role="37wK5m">
                   <property role="1adDun" value="0x4516c44b8ee54276L" />
@@ -6702,7 +6702,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForIPL_ReturnTypes" />
+      <property role="TrG5h" value="createDescriptorForIReturnTypes" />
       <node concept="3clFbS" id="_F" role="3clF47">
         <node concept="3cpWs8" id="_I" role="3cqZAp">
           <node concept="3cpWsn" id="_P" role="3cpWs9">
@@ -6717,7 +6717,7 @@
                   <property role="Xl_RC" value="mePLanG" />
                 </node>
                 <node concept="Xl_RD" id="_U" role="37wK5m">
-                  <property role="Xl_RC" value="IPL_ReturnTypes" />
+                  <property role="Xl_RC" value="IReturnTypes" />
                 </node>
                 <node concept="1adDum" id="_V" role="37wK5m">
                   <property role="1adDun" value="0x4516c44b8ee54276L" />

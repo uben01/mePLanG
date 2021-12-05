@@ -14,8 +14,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_BreakLineExpression;
   private ConceptPresentation props_EmptyLineStatement;
   private ConceptPresentation props_ExponentialOperator;
-  private ConceptPresentation props_IPL_AllowedTypes;
-  private ConceptPresentation props_IPL_ReturnTypes;
+  private ConceptPresentation props_IAllowedTypes;
+  private ConceptPresentation props_IReturnTypes;
   private ConceptPresentation props_MathExpression;
   private ConceptPresentation props_ModuloOperator;
   private ConceptPresentation props_NegateOperator;
@@ -86,18 +86,18 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ExponentialOperator = cpb.create();
         }
         return props_ExponentialOperator;
-      case LanguageConceptSwitch.IPL_AllowedTypes:
-        if (props_IPL_AllowedTypes == null) {
+      case LanguageConceptSwitch.IAllowedTypes:
+        if (props_IAllowedTypes == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          props_IPL_AllowedTypes = cpb.create();
+          props_IAllowedTypes = cpb.create();
         }
-        return props_IPL_AllowedTypes;
-      case LanguageConceptSwitch.IPL_ReturnTypes:
-        if (props_IPL_ReturnTypes == null) {
+        return props_IAllowedTypes;
+      case LanguageConceptSwitch.IReturnTypes:
+        if (props_IReturnTypes == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          props_IPL_ReturnTypes = cpb.create();
+          props_IReturnTypes = cpb.create();
         }
-        return props_IPL_ReturnTypes;
+        return props_IReturnTypes;
       case LanguageConceptSwitch.MathExpression:
         if (props_MathExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

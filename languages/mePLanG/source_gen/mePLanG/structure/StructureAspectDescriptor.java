@@ -23,8 +23,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBreakLineExpression = createDescriptorForBreakLineExpression();
   /*package*/ final ConceptDescriptor myConceptEmptyLineStatement = createDescriptorForEmptyLineStatement();
   /*package*/ final ConceptDescriptor myConceptExponentialOperator = createDescriptorForExponentialOperator();
-  /*package*/ final ConceptDescriptor myConceptIPL_AllowedTypes = createDescriptorForIPL_AllowedTypes();
-  /*package*/ final ConceptDescriptor myConceptIPL_ReturnTypes = createDescriptorForIPL_ReturnTypes();
+  /*package*/ final ConceptDescriptor myConceptIAllowedTypes = createDescriptorForIAllowedTypes();
+  /*package*/ final ConceptDescriptor myConceptIReturnTypes = createDescriptorForIReturnTypes();
   /*package*/ final ConceptDescriptor myConceptMathExpression = createDescriptorForMathExpression();
   /*package*/ final ConceptDescriptor myConceptModuloOperator = createDescriptorForModuloOperator();
   /*package*/ final ConceptDescriptor myConceptNegateOperator = createDescriptorForNegateOperator();
@@ -67,7 +67,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbsoluteValueOperator, myConceptAndOperator, myConceptBreakLineExpression, myConceptEmptyLineStatement, myConceptExponentialOperator, myConceptIPL_AllowedTypes, myConceptIPL_ReturnTypes, myConceptMathExpression, myConceptModuloOperator, myConceptNegateOperator, myConceptNthRoot, myConceptOrOperator, myConceptPL_BooleanType, myConceptPL_Boolean_Constant, myConceptPL_Boolean_Constant_False, myConceptPL_Boolean_Constant_True, myConceptPL_CharacterType, myConceptPL_DoWhileStatement, myConceptPL_DoubleType, myConceptPL_ElifClause, myConceptPL_IfStatement, myConceptPL_IntegerType, myConceptPL_StatementList, myConceptPL_StringType, myConceptPL_VoidType, myConceptPL_WhileStatement, myConceptPrintStatement, myConceptProgram, myConceptReadStatement, myConceptReturnStatement, myConceptRoutineCallExpression, myConceptRoutineDefinition);
+    return Arrays.asList(myConceptAbsoluteValueOperator, myConceptAndOperator, myConceptBreakLineExpression, myConceptEmptyLineStatement, myConceptExponentialOperator, myConceptIAllowedTypes, myConceptIReturnTypes, myConceptMathExpression, myConceptModuloOperator, myConceptNegateOperator, myConceptNthRoot, myConceptOrOperator, myConceptPL_BooleanType, myConceptPL_Boolean_Constant, myConceptPL_Boolean_Constant_False, myConceptPL_Boolean_Constant_True, myConceptPL_CharacterType, myConceptPL_DoWhileStatement, myConceptPL_DoubleType, myConceptPL_ElifClause, myConceptPL_IfStatement, myConceptPL_IntegerType, myConceptPL_StatementList, myConceptPL_StringType, myConceptPL_VoidType, myConceptPL_WhileStatement, myConceptPrintStatement, myConceptProgram, myConceptReadStatement, myConceptReturnStatement, myConceptRoutineCallExpression, myConceptRoutineDefinition);
   }
 
   @Override
@@ -84,10 +84,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptEmptyLineStatement;
       case LanguageConceptSwitch.ExponentialOperator:
         return myConceptExponentialOperator;
-      case LanguageConceptSwitch.IPL_AllowedTypes:
-        return myConceptIPL_AllowedTypes;
-      case LanguageConceptSwitch.IPL_ReturnTypes:
-        return myConceptIPL_ReturnTypes;
+      case LanguageConceptSwitch.IAllowedTypes:
+        return myConceptIAllowedTypes;
+      case LanguageConceptSwitch.IReturnTypes:
+        return myConceptIReturnTypes;
       case LanguageConceptSwitch.MathExpression:
         return myConceptMathExpression;
       case LanguageConceptSwitch.ModuloOperator:
@@ -204,8 +204,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("Hatvány");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForIPL_AllowedTypes() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "IPL_AllowedTypes", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L);
+  private static ConceptDescriptor createDescriptorForIAllowedTypes() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "IAllowedTypes", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x31a7bceb8d57ae68L);
     b.interface_();
     b.parent(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x38ff5220e0ac710dL);
     b.parent(0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce2d0L);
@@ -213,8 +213,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForIPL_ReturnTypes() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "IPL_ReturnTypes", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce2d0L);
+  private static ConceptDescriptor createDescriptorForIReturnTypes() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("mePLanG", "IReturnTypes", 0x4516c44b8ee54276L, 0xbb7f7414c1a20bd0L, 0x78692a4c9ebce2d0L);
     b.interface_();
     b.parent(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x38ff5220e0ac710dL);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x11f8a0774f2L);

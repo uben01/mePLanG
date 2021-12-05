@@ -1647,7 +1647,7 @@
         <node concept="3cpWs6" id="78" role="3cqZAp">
           <uo k="s:originTrace" v="n:7571753819085325279" />
           <node concept="35c_gC" id="79" role="3cqZAk">
-            <ref role="35c_gD" to="b47h:36BJeIdlUTC" resolve="IPL_AllowedTypes" />
+            <ref role="35c_gD" to="b47h:36BJeIdlUTC" resolve="IAllowedTypes" />
             <uo k="s:originTrace" v="n:7571753819085325279" />
           </node>
         </node>
